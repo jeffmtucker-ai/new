@@ -3,25 +3,22 @@ import { serviceCategories, areas, industries } from "@/lib/siteData";
 
 const BASE = "https://consortiumnyc.com";
 
-// Each industry = 15 services × 81 areas = 1,215 URLs
-// 50,000 / 1,215 ≈ 41 industries per sitemap chunk
-const INDUSTRIES_PER_CHUNK = 41;
+// 105 industries split across sitemaps 1 and 2 (53 + 52)
+const SPLIT = 53;
 
 /**
- * Next.js calls this to build a sitemap index.
- * Returns [{id: 0}, {id: 1}, {id: 2}, {id: 3}]
- * → /sitemap/0.xml, /sitemap/1.xml, etc.
+ * 3 sitemaps:
+ *  /sitemap/0.xml — static, services, areas, industry index, blog (~1,437 URLs)
+ *  /sitemap/1.xml — programmatic industries 0–52 (53 × 15 × 81 = 64,395 URLs)
+ *  /sitemap/2.xml — programmatic industries 53–104 (52 × 15 × 81 = 63,180 URLs)
  */
 export async function generateSitemaps() {
-  const programmaticChunks = Math.ceil(industries.length / INDUSTRIES_PER_CHUNK);
-  // id 0 = static/service/area pages, id 1+ = programmatic chunks
-  return Array.from({ length: 1 + programmaticChunks }, (_, i) => ({ id: i }));
+  return [{ id: 0 }, { id: 1 }, { id: 2 }];
 }
 
 export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
 
-  // Chunk 0: all non-programmatic pages
   if (id === 0) {
     const staticPages: MetadataRoute.Sitemap = [
       { url: BASE, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
@@ -90,10 +87,9 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     ];
   }
 
-  // Chunks 1+: programmatic industry × service × area pages
-  const chunkIndex = id - 1;
-  const start = chunkIndex * INDUSTRIES_PER_CHUNK;
-  const end = Math.min(start + INDUSTRIES_PER_CHUNK, industries.length);
+  // Sitemap 1: industries 0–52, Sitemap 2: industries 53–104
+  const start = id === 1 ? 0 : SPLIT;
+  const end = id === 1 ? SPLIT : industries.length;
   const chunk = industries.slice(start, end);
 
   return chunk.flatMap((i) =>
