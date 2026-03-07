@@ -12,21 +12,10 @@ import ServiceIndustryAreaClient from "./ServiceIndustryAreaClient";
 
 const PHONE = "212.202.9220";
 
-// Pre-generate top 20 industries x all services x all areas at build time.
-// Remaining combinations render on-demand via dynamicParams (default true).
-const TOP_INDUSTRIES = 5;
-
+// All 127K+ combinations render on-demand (ISR) to stay under Vercel deploy limits.
+// generateStaticParams returns empty — pages are built on first request and cached.
 export function generateStaticParams() {
-  const params: { slug: string; service: string; area: string }[] = [];
-  const topIndustries = industries.slice(0, TOP_INDUSTRIES);
-  for (const ind of topIndustries) {
-    for (const svc of services) {
-      for (const a of areas) {
-        params.push({ slug: ind.slug, service: svc.slug, area: a.slug });
-      }
-    }
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({
