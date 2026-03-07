@@ -14,7 +14,7 @@ const PHONE = "212.202.9220";
 
 // Pre-generate top 20 industries x all services x all areas at build time.
 // Remaining combinations render on-demand via dynamicParams (default true).
-const TOP_INDUSTRIES = 20;
+const TOP_INDUSTRIES = 5;
 
 export function generateStaticParams() {
   const params: { slug: string; service: string; area: string }[] = [];
