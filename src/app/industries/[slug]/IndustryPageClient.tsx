@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import type { ServiceCategory } from "@/lib/siteData";
+import TipBlurb from "@/components/TipBlurb";
 
 interface Industry { name: string; slug: string; badge: string; desc: string; }
 interface Area { name: string; slug: string; region: string; type: string; }
@@ -79,6 +80,10 @@ export default function IndustryPageClient({
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Your industry has <strong>specific keywords, specific competitors, and specific customers</strong>. Generic marketing won&apos;t cut it. You need a strategy built for <strong>exactly what you do</strong> and exactly where you do it.</>}
+      />
 
       {/* ── STATS BAR ── */}
       <section className="py-10 bg-teal-600">

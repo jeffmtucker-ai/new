@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Inner link helper ───────────────────────────────────────── */
 const L = ({ href, children }: { href: string; children: ReactNode }) => (
@@ -742,6 +743,10 @@ export default function Marketing101Client() {
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>If you&apos;re <strong>new to marketing</strong> or feel like you&apos;ve been burned before, start here. No jargon, no fluff. Just the stuff that <strong>actually works</strong> for real businesses in New York City.</>}
+      />
 
       {/* ── PHASE FILTER ────────────────────────────────────── */}
       <section className="py-6 bg-slate-50 border-b border-slate-100 sticky top-[72px] z-30">

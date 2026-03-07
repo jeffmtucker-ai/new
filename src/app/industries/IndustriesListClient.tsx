@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { industries } from "@/lib/siteData";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Animated counter ────────────────────────────────────────── */
 function CountUp({ value, prefix, suffix, inView }: { value: number; prefix?: string; suffix?: string; inView: boolean }) {
@@ -221,6 +222,10 @@ export default function IndustriesListClient() {
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>A dentist and a plumber both need SEO, but <strong>the strategy is completely different</strong>. The keywords, the competition, the customer intent — it all changes by industry. That&apos;s why <strong>we don&apos;t use templates</strong>.</>}
+      />
 
       {/* ── STATS TICKER ─────────────────────────────────────── */}
       <section ref={statsRef} className="py-10 sm:py-12 bg-teal-600">

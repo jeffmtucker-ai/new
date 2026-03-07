@@ -5,7 +5,6 @@ import {
   breadcrumbSchema,
   faqSchema,
 } from "@/lib/schema";
-import TipBlurb from "@/components/TipBlurb";
 import AIPageClient from "./AIPageClient";
 
 const PHONE = "212.202.9220";
@@ -66,9 +65,6 @@ export default function AIPage() {
       <JsonLd data={webPageSchema("AI Automation for Local Businesses | Consortium NYC", "Custom AI text bots, lead follow-up automation, review requests, and CRM.", pageUrl, breadcrumbs)} />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={faqSchema(faqs)} />
-      <TipBlurb
-        tip={<>Most businesses are <strong>sleeping on AI</strong> while their competitors automate follow-ups, booking, and reviews. The businesses using AI right now aren&apos;t replacing people — they&apos;re <strong>freeing them up</strong> to do the work that actually matters.</>}
-      />
       <AIPageClient faqs={faqs} />
     </>
   );

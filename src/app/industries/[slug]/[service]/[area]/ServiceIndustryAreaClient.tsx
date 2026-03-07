@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import TipBlurb from "@/components/TipBlurb";
 
 interface Service { name: string; slug: string; tagline: string; shortDesc: string; description: string; icon: string; features: string[]; }
 interface Industry { name: string; slug: string; badge: string; desc: string; }
@@ -84,6 +85,10 @@ export default function ServiceIndustryAreaClient({
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>This page exists because someone in your area is searching for <strong>exactly this service</strong> in exactly this industry. If your business isn&apos;t showing up here, <strong>your competitor is</strong>.</>}
+      />
 
       {/* ── DEEP DIVE CONTENT ── */}
       <section className="py-20 bg-white">

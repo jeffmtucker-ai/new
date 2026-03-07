@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Types ───────────────────────────────────────────────────── */
 interface Service { name: string; slug: string; tagline: string; shortDesc: string; description: string; icon: string; features: string[] }
@@ -101,6 +102,10 @@ export default function ServiceAreaPageClient({
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<><strong>Local SEO isn&apos;t one-size-fits-all.</strong> What works in one neighborhood doesn&apos;t always work in the next. We build strategies <strong>block by block</strong> because that&apos;s how New York works.</>}
+      />
 
       {/* ── DEEP DIVE CONTENT ────────────────────────────────── */}
       <section className="py-20 sm:py-28 bg-white">

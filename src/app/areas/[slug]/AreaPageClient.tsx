@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Types ───────────────────────────────────────────────────── */
 interface Area { name: string; slug: string; region: string; type: string }
@@ -110,6 +111,10 @@ export default function AreaPageClient({
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Every borough has its own personality, its own search patterns, and its own competition. We don&apos;t just &ldquo;target NYC&rdquo; — we target <strong>your neighborhood</strong>, your blocks, <strong>your customers</strong>.</>}
+      />
 
       {/* ── WHY {AREA} BUSINESSES NEED LOCAL SEO ─────────────── */}
       <section className="py-20 sm:py-28 bg-white">

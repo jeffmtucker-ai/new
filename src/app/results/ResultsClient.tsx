@@ -3,6 +3,7 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ------------------------------------------------------------------ */
 /*  Animated counter                                                   */
@@ -241,6 +242,10 @@ export default function ResultsClient() {
           </motion.p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<><strong>Numbers don&apos;t lie.</strong> Every metric you see here came from real Google Analytics, real Search Console data, and real client dashboards. We don&apos;t <strong>photoshop results</strong>.</>}
+      />
 
       {/* ============================================================ */}
       {/*  STATS BAR                                                   */}

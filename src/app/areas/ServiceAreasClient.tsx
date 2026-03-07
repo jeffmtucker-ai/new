@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { areas } from "@/lib/siteData";
+import TipBlurb from "@/components/TipBlurb";
 import dynamic from "next/dynamic";
 
 const TriStateMap = dynamic(() => import("./TriStateMap"), {
@@ -150,6 +151,10 @@ export default function ServiceAreasClient() {
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Marketing in <strong>Midtown Manhattan</strong> is a completely different game than marketing in <strong>Bay Ridge or Astoria</strong>. Cookie-cutter strategies don&apos;t work here. Every neighborhood has its own search behavior, competition, and customer mindset.</>}
+      />
 
       {/* ── STATS TICKER ─────────────────────────────────────── */}
       <section ref={statsRef} className="py-10 sm:py-12 bg-teal-600">

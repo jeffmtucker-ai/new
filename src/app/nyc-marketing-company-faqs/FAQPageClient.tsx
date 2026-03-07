@@ -3,6 +3,7 @@
 import { useState, useRef, type ReactNode } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import Link from "next/link";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Inner link helper ───────────────────────────────────────── */
 const L = ({ href, children }: { href: string; children: ReactNode }) => (
@@ -679,6 +680,10 @@ export default function FAQPageClient() {
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>The best question you can ask a marketing company is <strong>&ldquo;show me the data.&rdquo;</strong> If they can&apos;t tell you exactly how many leads they generated last month, <strong>that tells you everything</strong>.</>}
+      />
 
       {/* ── STATS TICKER ────────────────────────────────────── */}
       <section ref={statsRef} className="bg-teal-600 py-5">

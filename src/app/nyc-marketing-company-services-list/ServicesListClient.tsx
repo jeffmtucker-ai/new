@@ -4,6 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import { serviceCategories } from "@/lib/siteData";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Animated counter ────────────────────────────────────────── */
 function CountUp({ value, prefix, suffix, inView }: { value: number; prefix?: string; suffix?: string; inView: boolean }) {
@@ -158,6 +159,10 @@ export default function ServicesListClient() {
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>You don&apos;t need every service on this list. Most businesses need <strong>two or three things done really well</strong>. The trick is knowing which ones <strong>move the needle</strong> for your specific situation.</>}
+      />
 
       {/* ── STATS TICKER ─────────────────────────────────────── */}
       <section ref={statsRef} className="py-10 sm:py-12 bg-teal-600">

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { JsonLd, breadcrumbSchema } from "@/lib/schema";
-import TipBlurb from "@/components/TipBlurb";
 import IndustriesListClient from "./IndustriesListClient";
 
 export const metadata: Metadata = {
@@ -18,9 +17,6 @@ export default function IndustriesPage() {
   return (
     <>
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
-      <TipBlurb
-        tip={<>A dentist and a plumber both need SEO, but <strong>the strategy is completely different</strong>. The keywords, the competition, the customer intent — it all changes by industry. That&apos;s why <strong>we don&apos;t use templates</strong>.</>}
-      />
       <IndustriesListClient />
     </>
   );

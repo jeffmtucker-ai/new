@@ -8,7 +8,6 @@ import {
   faqSchema,
   serviceSchema,
 } from "@/lib/schema";
-import TipBlurb from "@/components/TipBlurb";
 import AreaPageClient from "./AreaPageClient";
 
 export function generateStaticParams() {
@@ -70,9 +69,6 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       {services.slice(0, 6).map((s) => (
         <JsonLd key={s.slug} data={serviceSchema(s.name, s.slug, s.description, area.name)} />
       ))}
-      <TipBlurb
-        tip={<>Every borough has its own personality, its own search patterns, and its own competition. We don&apos;t just &ldquo;target NYC&rdquo; — we target <strong>your neighborhood</strong>, your blocks, <strong>your customers</strong>.</>}
-      />
       <AreaPageClient area={area} siblings={siblings} areaFaqs={areaFaqs} serviceCategories={serviceCategories} />
     </>
   );

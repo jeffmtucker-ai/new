@@ -8,7 +8,6 @@ import {
   breadcrumbSchema,
   faqSchema,
 } from "@/lib/schema";
-import TipBlurb from "@/components/TipBlurb";
 import ServiceAreaPageClient from "./ServiceAreaPageClient";
 
 export function generateStaticParams() {
@@ -84,9 +83,6 @@ export default async function ServiceAreaPage({
       <JsonLd data={webPageSchema(`${service.name} in ${area.name} | Consortium NYC`, `${service.name} for ${area.name} businesses.`, pageUrl, breadcrumbs)} />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={faqSchema(pageFaqs)} />
-      <TipBlurb
-        tip={<><strong>Local SEO isn&apos;t one-size-fits-all.</strong> What works in one neighborhood doesn&apos;t always work in the next. We build strategies <strong>block by block</strong> because that&apos;s how New York works.</>}
-      />
       <ServiceAreaPageClient
         service={service}
         area={area}

@@ -9,7 +9,6 @@ import {
   breadcrumbSchema,
   faqSchema,
 } from "@/lib/schema";
-import TipBlurb from "@/components/TipBlurb";
 import IndustryPageClient from "./IndustryPageClient";
 
 const PHONE = "212.202.9220";
@@ -97,9 +96,6 @@ export default async function IndustryPage({ params }: Props) {
       {services.slice(0, 6).map((s) => (
         <JsonLd key={s.slug} data={serviceSchema(s.name, s.slug, `${s.name} for ${ind.badge.toLowerCase()} businesses.`, "New York City")} />
       ))}
-      <TipBlurb
-        tip={<>Your industry has <strong>specific keywords, specific competitors, and specific customers</strong>. Generic marketing won&apos;t cut it. You need a strategy built for <strong>exactly what you do</strong> and exactly where you do it.</>}
-      />
       <IndustryPageClient
         industry={ind}
         label={h1Label(ind.badge)}

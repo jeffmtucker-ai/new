@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import type { ServiceCategory, SubService } from "@/lib/siteData";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ── Animated number counter ─────────────────────────────────── */
 function CountUp({ value, prefix, suffix, inView }: { value: number; prefix?: string; suffix?: string; inView: boolean }) {
@@ -245,6 +246,10 @@ export default function ServicePageClient({
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>The businesses that <strong>dominate their market</strong> don&apos;t just &ldquo;do marketing.&rdquo; They invest in the right service at the right time. If this is the service you need, <strong>do it properly</strong> — half-measures waste money.</>}
+      />
 
       {/* ── STATS TICKER BAR ─────────────────────────────────── */}
       <section ref={statsRef} className="py-10 sm:py-12 bg-teal-600">

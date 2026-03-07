@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import TipBlurb from "@/components/TipBlurb";
 
 const PHONE = "212.202.9220";
 const PHONE_HREF = "tel:+12122029220";
@@ -147,6 +148,10 @@ export default function AIPageClient({ faqs }: { faqs: { question: string; answe
           </motion.div>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most businesses are <strong>sleeping on AI</strong> while their competitors automate follow-ups, booking, and reviews. The businesses using AI right now aren&apos;t replacing people — they&apos;re <strong>freeing them up</strong> to do the work that actually matters.</>}
+      />
 
       {/* ── MEET SELENA ── */}
       <section className="py-20 bg-white">
