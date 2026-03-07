@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
 export const metadata: Metadata = {
@@ -50,6 +51,10 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most marketing blogs exist to <strong>sell you something</strong>. Ours exist to <strong>teach you something</strong>. If you can do it yourself after reading, good. If you want help, we&apos;re here.</>}
+      />
 
       {/* Sidebar + Content */}
       <section className="py-16 bg-white">

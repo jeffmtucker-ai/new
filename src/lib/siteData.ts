@@ -1077,7 +1077,7 @@ export const faqs = {
   general: [
     {
       question:
-        "What makes Consortium NYC different from other digital marketing agencies?",
+        "What makes Consortium NYC different from other marketing companies?",
       answer:
         "We're a local business marketing agency — built specifically for plumbers, dentists, restaurants, HVAC companies, law firms, and other small businesses in NYC, Long Island, and Westchester. We combine SEO, custom web design, and marketing automation into one integrated system that generates real leads and revenue. Every decision is backed by data, not guesswork.",
     },
@@ -1105,6 +1105,107 @@ export const faqs = {
       question: "How much do your services cost?",
       answer:
         "We keep it simple and transparent. A custom website built for your business starts at $4,600. Monthly SEO to keep you ranking and generating leads is $950/month. No hidden fees, no surprise invoices. We'll walk you through exactly what you get during your free consultation.",
+    },
+  ],
+  /** All homepage FAQs — general + ExpandedFAQ (plain-text for schema) */
+  homepageAll: [
+    // ── general (6) ──
+    {
+      question: "What makes Consortium NYC different from other marketing companies?",
+      answer: "We're a local business marketing agency — built specifically for plumbers, dentists, restaurants, HVAC companies, law firms, and other small businesses in NYC, Long Island, and Westchester. We combine SEO, custom web design, and marketing automation into one integrated system that generates real leads and revenue. Every decision is backed by data, not guesswork.",
+    },
+    {
+      question: "What areas do you serve?",
+      answer: "We serve businesses throughout New York City (Manhattan, Brooklyn, Queens, The Bronx, Staten Island), Long Island (Nassau County, Suffolk County), and Westchester County. Our entire focus is the greater NYC metro area — we know these neighborhoods, these customers, and what it takes to win here.",
+    },
+    {
+      question: "How long does it take to see SEO results?",
+      answer: "Most clients begin seeing meaningful improvements in organic traffic within 3-6 months. However, the timeline depends on your industry competitiveness, current website authority, and the scope of optimization needed. We provide monthly reports so you can track progress from day one.",
+    },
+    {
+      question: "Do you offer free consultations?",
+      answer: "Yes. We offer a free 30-minute strategy consultation where we'll review your current digital presence, identify opportunities, and outline a customized plan for your business. No obligation, no pressure.",
+    },
+    {
+      question: "What industries do you specialize in?",
+      answer: "We work with a wide range of industries including law firms, medical practices, restaurants, home services (plumbing, HVAC, electrical), real estate, fitness, and professional services. Our data-driven approach adapts to any industry — we've driven results in over 25 different verticals.",
+    },
+    {
+      question: "How much do your services cost?",
+      answer: "We keep it simple and transparent. A custom website built for your business starts at $4,600. Monthly SEO to keep you ranking and generating leads is $950/month. No hidden fees, no surprise invoices. We'll walk you through exactly what you get during your free consultation.",
+    },
+    // ── ExpandedFAQ (18) ──
+    {
+      question: "How much does a marketing company in NYC cost?",
+      answer: "Our pricing is transparent and built for real small businesses. Custom websites start at $4,600. Monthly SEO is $950/month. Hourly consulting ranges from $100–$250/hr depending on scope. No hidden fees, no surprise invoices. We walk you through exactly what you get during your free strategy session. Every dollar has a reason behind it.",
+    },
+    {
+      question: "How long does SEO take to work for NYC businesses?",
+      answer: "Honestly, 3–6 months for meaningful results. Competitive industries in Manhattan or personal injury law can take longer. Less competitive niches in Staten Island or Westchester often see faster wins. We provide monthly reporting from day one so you can track every improvement. Anyone promising page 1 in 30 days is lying.",
+    },
+    {
+      question: "Do you require long-term contracts?",
+      answer: "No. We never lock you into contracts — because that only benefits the one trying to lock you in. Most SEO clients stay 12+ months because the results compound over time, not because they're trapped. We earn your business every single month. If we're not delivering, you should leave.",
+    },
+    {
+      question: "What areas in NYC do you serve?",
+      answer: "All five boroughs — Manhattan, Brooklyn, Queens, The Bronx, Staten Island — plus Long Island (Nassau & Suffolk), Westchester County, and Northern New Jersey. We serve 80+ neighborhoods with hyper-local strategies built for each market's specific competition and search behavior.",
+    },
+    {
+      question: "What industries do you work with?",
+      answer: "We've served 100+ industries over 25 years. Our biggest verticals are home services, law firms, dental practices, restaurants, real estate, HVAC, roofing, and contractors. But if people search for it on Google, we can rank it. Our data-driven approach works across verticals because we build from actual market data, not templates.",
+    },
+    {
+      question: "What makes Consortium NYC different from other marketing companies?",
+      answer: "You work directly with someone who has 25 years of experience in the exact seat they sit in. No junior account managers, no layers, no runaround. We pick up the phone. We respond same-day. We don't outsource your work overseas. We don't lock you into contracts. And we show you real results from real businesses — not stock photo case studies.",
+    },
+    {
+      question: "Do you build websites or just do SEO?",
+      answer: "Both — and they're built to work together. Our custom websites start at $4,600 and are engineered for speed, SEO, and conversion from day one. Every site scores 90+ on Core Web Vitals, is mobile-first, and includes SEO architecture baked in. We also redesign existing sites that look good but don't generate leads.",
+    },
+    {
+      question: "What is local SEO and why does my NYC business need it?",
+      answer: "Local SEO optimizes your visibility for searches like 'plumber near me' or 'best dentist in Brooklyn.' It includes Google Business Profile optimization, local citations, review management, and geo-targeted content. If your customers come from a specific area — and in NYC they absolutely do — local SEO is how they find you instead of your competitor.",
+    },
+    {
+      question: "How do you measure success and report results?",
+      answer: "We track what matters: organic traffic, keyword rankings, lead volume, conversion rates, and revenue impact. You get a transparent monthly report with real data. No vanity metrics, no fluff — just numbers tied to your bottom line. We also show you exactly what we did that month and what we're doing next.",
+    },
+    {
+      question: "Can you help with Google Business Profile optimization?",
+      answer: "Yes — it's one of the most impactful things we do for local service businesses. Your Google Business Profile is often the first thing customers see. We optimize every field, manage your reviews, post updates, and build local citations that strengthen your map pack rankings. For restaurants, plumbers, dentists, and any business with a physical location — GBP optimization is non-negotiable.",
+    },
+    {
+      question: "Do you offer AI automation and chatbots for businesses?",
+      answer: "Yes. Our AI automation services handle lead follow-up, appointment scheduling, review requests, and customer communication 24/7. We build custom chatbots and AI agents that qualify leads, answer questions, and book appointments while you sleep. This is how small businesses compete with big chains without hiring a big staff.",
+    },
+    {
+      question: "What does your onboarding process look like?",
+      answer: "After your free strategy session, onboarding takes less than a week. We conduct a full audit of your digital presence, perform competitive research, and deliver a strategic roadmap within the first two weeks. Implementation starts immediately — no wasted time. You'll have direct access to your strategist from day one. No layers, no handoffs.",
+    },
+    {
+      question: "Can you help my business rank on Google Maps?",
+      answer: "That's one of our specialties. Google Maps (the local map pack) is where most home service and local business leads come from. We optimize your Google Business Profile, build local citations across 80+ directories, manage your reviews, and create hyper-local content targeting every neighborhood you serve. The result: your business showing up in the map pack when customers search nearby.",
+    },
+    {
+      question: "How do I know if my current marketing company is doing a good job?",
+      answer: "Ask them three questions: What keywords am I ranking for? How many leads did marketing generate last month? What's my cost per lead? If they can't answer with specific numbers, that's your answer. We offer a free honest audit — we'll tell you exactly where you stand, what's working, what's not, and what your competitors are doing. No obligation, no pitch.",
+    },
+    {
+      question: "What is the ROI of SEO for a local NYC business?",
+      answer: "It varies by industry, but here's reality: our clients typically see 5–8% compounding growth year over year. By years 3–5, most spend under 10% of revenue on marketing. A plumber investing $950/month in SEO who gets 30 leads/month at a $500 average job value is generating $15K/month from a $950 investment. That's a 15:1 ROI.",
+    },
+    {
+      question: "Do you work with startups or only established businesses?",
+      answer: "Both. We've launched multiple startups from zero — Moodap hit 2,000 page 1 rankings in 2 months. The NYC Classifieds got 10+ page 1 rankings in under 10 days. Startups need smart SEO architecture from day one so they're not rebuilding later. We build the foundation right the first time.",
+    },
+    {
+      question: "What CMS or technology do you build websites on?",
+      answer: "We build on Next.js, React, and Tailwind CSS — hosted on Vercel with Supabase for databases and Resend for email. No WordPress, no page builders, no bloat. Our sites load in under 2 seconds and score 90+ on Core Web Vitals because they're custom-coded, not dragged and dropped. This is the same tech stack used by Fortune 500 companies — and we bring it to local businesses.",
+    },
+    {
+      question: "How do I get started with Consortium NYC?",
+      answer: "Schedule a free strategy session. We'll review your current situation, audit your competitors, and give you a clear roadmap — whether you hire us or not. No pitch decks, no pressure. Just a real conversation about what it takes to win in your market. You can also call us directly at (212) 202-9220. We pick up the phone.",
     },
   ],
   seo: [

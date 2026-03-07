@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { services } from "@/lib/siteData";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ------------------------------------------------------------------ */
 /*  Service icon mapping                                              */
@@ -98,6 +99,10 @@ export default function ServicesPage() {
           </motion.p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>You don&apos;t need every service on this list. Most businesses need <strong>two or three things done really well</strong>. The trick is knowing which ones <strong>move the needle</strong> for your specific situation.</>}
+      />
 
       {/* ============================================================ */}
       {/*  SERVICES GRID                                               */}

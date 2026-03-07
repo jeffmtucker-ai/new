@@ -8,6 +8,7 @@ import {
   breadcrumbSchema,
   faqSchema,
 } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 import ServiceIndustryAreaClient from "./ServiceIndustryAreaClient";
 
 const PHONE = "212.202.9220";
@@ -111,6 +112,9 @@ export default async function ServiceIndustryAreaPage({
       <JsonLd data={webPageSchema(h1, `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}. Call ${PHONE}.`, pageUrl, breadcrumbs)} />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={faqSchema(pageFaqs)} />
+      <TipBlurb
+        tip={<>This page exists because someone in your area is searching for <strong>exactly this service</strong> in exactly this industry. If your business isn&apos;t showing up here, <strong>your competitor is</strong>.</>}
+      />
       <ServiceIndustryAreaClient
         service={svc}
         industry={ind}

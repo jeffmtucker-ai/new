@@ -48,7 +48,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              A creative digital marketing agency helping brands dominate the
+              A NYC marketing company helping brands dominate the
               digital landscape across New York City and beyond.
             </p>
             {/* Social Links */}

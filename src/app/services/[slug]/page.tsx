@@ -13,6 +13,7 @@ import {
   breadcrumbSchema,
   faqSchema,
 } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 import ServicePageClient from "./ServicePageClient";
 
 export function generateStaticParams() {
@@ -127,6 +128,9 @@ export default async function ServicePage({
       <JsonLd data={webPageSchema(`${name} Services in NYC | Consortium NYC`, desc, pageUrl, breadcrumbs)} />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       {serviceFaqs.length > 0 && <JsonLd data={faqSchema(serviceFaqs)} />}
+      <TipBlurb
+        tip={<>The businesses that <strong>dominate their market</strong> don&apos;t just &ldquo;do marketing.&rdquo; They invest in the right service at the right time. If this is the service you need, <strong>do it properly</strong> — half-measures waste money.</>}
+      />
       <ServicePageClient
         category={category}
         subService={subService}

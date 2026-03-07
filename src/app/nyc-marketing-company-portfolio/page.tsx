@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 
 export const metadata: Metadata = {
   title: "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | Consortium NYC",
@@ -116,6 +117,10 @@ export default function PortfolioPage() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Every result you see here is from a <strong>real business with a real budget</strong>. No Fortune 500 logos we can&apos;t talk about. No &ldquo;confidential&rdquo; case studies. Just <strong>honest work and honest numbers</strong>.</>}
+      />
 
       {/* Clients */}
       <section className="py-16 bg-white">

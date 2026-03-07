@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
@@ -25,6 +26,10 @@ export default function Post() {
           <p className="text-white/50 text-sm">By Consortium NYC</p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>The best marketing company is the one that <strong>tells you what you need to hear</strong>, not what you want to hear. If they promise page 1 in 30 days, <strong>run</strong>.</>}
+      />
 
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-12">

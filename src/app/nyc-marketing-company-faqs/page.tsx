@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 import FAQPageClient from "./FAQPageClient";
 
 export const metadata: Metadata = {
@@ -52,6 +53,9 @@ export default function FAQPage() {
       />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={faqSchema(schemaFaqs)} />
+      <TipBlurb
+        tip={<>The best question you can ask a marketing company is <strong>&ldquo;show me the data.&rdquo;</strong> If they can&apos;t tell you exactly how many leads they generated last month, <strong>that tells you everything</strong>.</>}
+      />
       <FAQPageClient />
     </>
   );

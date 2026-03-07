@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 import ResultsClient from "./ResultsClient";
 
 /* ------------------------------------------------------------------ */
@@ -35,6 +36,9 @@ export default function ResultsPage() {
           { name: "Home", url: "https://consortiumnyc.com" },
           { name: "Results", url: "https://consortiumnyc.com/results" },
         ])}
+      />
+      <TipBlurb
+        tip={<><strong>Numbers don&apos;t lie.</strong> Every metric you see here came from real Google Analytics, real Search Console data, and real client dashboards. We don&apos;t <strong>photoshop results</strong>.</>}
       />
       <ResultsClient />
     </>

@@ -92,6 +92,7 @@ const nextConfig: NextConfig = {
       // ── Old misc pages ──
       { source: "/nyc-digital-marketing-agency", destination: "/", permanent: true },
       { source: "/nyc-digital-marketing-agency/:path*", destination: "/", permanent: true },
+      { source: "/nyc-digital-marketing-agency-faqs", destination: "/nyc-marketing-company-faqs", permanent: true },
       { source: "/about-digital-marketing-agency", destination: "/about", permanent: true },
       { source: "/pricing", destination: "/nyc-marketing-pricing-guide", permanent: true },
       { source: "/faq", destination: "/nyc-marketing-company-faqs", permanent: true },

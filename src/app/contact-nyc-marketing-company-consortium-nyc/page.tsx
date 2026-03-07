@@ -5,7 +5,7 @@ import ContactLandingClient from "./ContactLandingClient";
 export const metadata: Metadata = {
   title: "Contact NYC Marketing Company — Free Strategy Session",
   description:
-    "Schedule a free strategy session with Consortium NYC, New York's top-rated digital marketing agency. SEO, web design, branding, and automation. Call (212) 202-9220.",
+    "Schedule a free strategy session with Consortium NYC, New York's top-rated marketing company. SEO, web design, branding, and automation. Call (212) 202-9220.",
   alternates: { canonical: "https://consortiumnyc.com/contact-nyc-marketing-company-consortium-nyc" },
   keywords: [
     "contact nyc marketing company",

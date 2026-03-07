@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 
 export const metadata: Metadata = {
   title: "What's Working in Marketing Right Now | Consortium NYC",
@@ -269,6 +270,10 @@ export default function WhatsWorking() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>What worked in marketing two years ago <strong>might be hurting you today</strong>. The businesses winning right now adapted. The ones struggling didn&apos;t. Here&apos;s <strong>what&apos;s actually working</strong>.</>}
+      />
 
       {/* Updates feed */}
       <section className="py-16 bg-white">

@@ -14,7 +14,7 @@ export const organizationSchema = {
   },
   image: "https://consortiumnyc.com/og-image.jpg",
   description:
-    "Consortium NYC is a full-service digital marketing agency in New York City specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
+    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "New York",
@@ -76,7 +76,7 @@ export const websiteSchema = {
   "@id": "https://consortiumnyc.com/#website",
   url: "https://consortiumnyc.com",
   name: "Consortium NYC",
-  description: "NYC Digital Marketing Agency | SEO, Branding, Web Design & Automation",
+  description: "NYC Marketing Company | SEO, Branding, Web Design & Automation",
   publisher: {
     "@id": "https://consortiumnyc.com/#organization",
   },

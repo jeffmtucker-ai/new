@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { JsonLd, webPageSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 
 export const metadata: Metadata = {
   title: "Transparent Pricing | Consortium NYC",
@@ -89,6 +90,10 @@ export default function PricingPage() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>A cheap website <strong>costs you more in the long run</strong>. If it&apos;s slow, doesn&apos;t rank, and doesn&apos;t convert — you&apos;ll pay twice to fix it. <strong>Do it right the first time.</strong></>}
+      />
 
       {/* PRICING CARDS */}
       <section className="bg-teal-50 py-20 sm:py-28 px-6">

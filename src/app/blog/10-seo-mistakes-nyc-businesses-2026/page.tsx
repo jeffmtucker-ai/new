@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
@@ -25,6 +26,10 @@ export default function Post() {
           <p className="text-white/50 text-sm">By Consortium NYC</p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>The most expensive SEO mistake isn&apos;t doing it wrong — it&apos;s <strong>doing nothing</strong> while your competitors get <strong>further ahead every single month</strong>.</>}
+      />
 
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-12">

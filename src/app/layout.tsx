@@ -32,13 +32,13 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://consortiumnyc.com"),
   title: {
-    default: "Consortium NYC | Digital Marketing Agency in New York City",
+    default: "NYC Marketing Company | Consortium NYC",
     template: "%s | Consortium NYC",
   },
   description:
-    "Consortium NYC is a full-service digital marketing agency specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester.",
+    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester.",
   keywords: [
-    "digital marketing agency nyc",
+    "nyc marketing company",
     "seo agency new york",
     "web design nyc",
     "branding agency new york city",
@@ -62,23 +62,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://consortiumnyc.com",
     siteName: "Consortium NYC",
-    title: "Consortium NYC | Digital Marketing Agency in New York City",
+    title: "NYC Marketing Company | Consortium NYC",
     description:
-      "Full-service digital marketing agency for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation.",
+      "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Consortium NYC - Digital Marketing Agency",
+        alt: "Consortium NYC - NYC Marketing Company",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Consortium NYC | Digital Marketing Agency in NYC",
+    title: "NYC Marketing Company | Consortium NYC",
     description:
-      "Full-service digital marketing agency for local businesses. SEO, web design, branding, and automation.",
+      "Full-service NYC marketing company for local businesses. SEO, web design, branding, and automation.",
     images: ["/og-image.jpg"],
     creator: "@consortiumnyc",
   },

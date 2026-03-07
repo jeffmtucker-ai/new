@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import TipBlurb from "@/components/TipBlurb";
 
 export default function ROICalculator() {
   const [monthlyBudget, setMonthlyBudget] = useState(950);
@@ -34,6 +35,10 @@ export default function ROICalculator() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most businesses have <strong>no idea what a lead actually costs them</strong>. Once you know that number, every marketing decision gets easier. That&apos;s <strong>what this calculator is for</strong>.</>}
+      />
 
       {/* Calculator */}
       <section className="py-20 bg-white">

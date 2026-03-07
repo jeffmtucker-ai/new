@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import TipBlurb from "@/components/TipBlurb";
 
 export default function FreeSEOAudit() {
   const [url, setUrl] = useState("");
@@ -41,6 +42,10 @@ export default function FreeSEOAudit() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most &ldquo;free audits&rdquo; are just <strong>sales pitches in disguise</strong>. Ours isn&apos;t. We&apos;ll show you exactly what&apos;s broken, what&apos;s working, and what your competitors are doing — <strong>whether you hire us or not</strong>.</>}
+      />
 
       {/* Form */}
       <section className="py-20 bg-white">

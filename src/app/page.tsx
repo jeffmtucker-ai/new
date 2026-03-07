@@ -39,6 +39,7 @@ import Guarantees from "@/components/home/Guarantees";
 import WhatIsDigitalMarketing from "@/components/home/WhatIsDigitalMarketing";
 import FreeResources from "@/components/home/FreeResources";
 import VideoSection from "@/components/home/VideoSection";
+import QuickTips from "@/components/home/QuickTips";
 import ExpandedFAQ from "@/components/home/ExpandedFAQ";
 import BlogPreview from "@/components/home/BlogPreview";
 import FinalCTA from "@/components/home/FinalCTA";
@@ -52,21 +53,24 @@ export default function Home() {
       {/* Schema Markup */}
       <JsonLd
         data={webPageSchema(
-          "Consortium NYC | Digital Marketing Agency in New York City",
-          "Full-service digital marketing agency specializing in SEO, branding, web design, business development, and automation for businesses in NYC, Long Island, and Westchester.",
+          "NYC Marketing Company | Consortium NYC",
+          "Full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses in NYC, Long Island, and Westchester.",
           "https://consortiumnyc.com",
           breadcrumbs
         )}
       />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={aggregateRatingSchema()} />
-      <JsonLd data={faqSchema(faqs.general)} />
+      <JsonLd data={faqSchema(faqs.homepageAll)} />
 
       {/* Sticky bottom CTA bar */}
       <StickyBar />
 
       {/* 1. Hero */}
       <Hero />
+
+      {/* 1b. Quick marketing tips */}
+      <QuickTips />
 
       {/* 2. Welcome / About */}
       <Welcome />
@@ -155,7 +159,7 @@ export default function Home() {
       {/* 26. Video section — removed */}
       {/* <VideoSection /> */}
 
-      {/* 27. Expanded FAQ (18 questions) */}
+      {/* 28. Expanded FAQ (18 questions) */}
       <ExpandedFAQ />
 
       {/* 28. Blog preview */}

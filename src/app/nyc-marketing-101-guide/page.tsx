@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 import Marketing101Client from "./Marketing101Client";
 
 export const metadata: Metadata = {
@@ -37,6 +38,9 @@ export default function Marketing101Page() {
         )}
       />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
+      <TipBlurb
+        tip={<>If you&apos;re <strong>new to marketing</strong> or feel like you&apos;ve been burned before, start here. No jargon, no fluff. Just the stuff that <strong>actually works</strong> for real businesses in New York City.</>}
+      />
       <Marketing101Client />
     </>
   );

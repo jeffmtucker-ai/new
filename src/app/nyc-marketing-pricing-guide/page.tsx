@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TipBlurb from "@/components/TipBlurb";
 
 export const metadata: Metadata = {
   title: "NYC Marketing Company Pricing Guide | Honest Costs, No Hidden Fees | Consortium NYC",
@@ -111,6 +112,10 @@ export default function PricingGuidePage() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>If a marketing company <strong>won&apos;t tell you what things cost upfront</strong>, that&apos;s a red flag. We publish our pricing because we believe you deserve to know <strong>what you&apos;re paying for</strong> before you ever get on a call.</>}
+      />
 
       {/* The Problem — 85% stat */}
       <section className="py-16 bg-white">

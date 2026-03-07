@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import TipBlurb from "@/components/TipBlurb";
 
 const sections = [
   {
@@ -108,6 +109,10 @@ export default function MarketingChecklist() {
           </p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most businesses skip the basics and <strong>jump straight to the shiny stuff</strong>. The ones winning right now nailed the <strong>fundamentals first</strong> — then built on top. This checklist is the foundation.</>}
+      />
 
       {/* Progress bar */}
       <section className="bg-white border-b border-slate-200 sticky top-0 z-30">

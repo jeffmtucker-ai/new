@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+import TipBlurb from "@/components/TipBlurb";
 
 /* ------------------------------------------------------------------ */
 /*  Values data                                                        */
@@ -91,7 +92,7 @@ export default function AboutPage() {
       <JsonLd
         data={webPageSchema(
           "About Consortium NYC",
-          "Learn about Consortium NYC, a data-driven digital marketing agency based in New York City. We help businesses across NYC, Long Island, and Westchester grow with SEO, branding, web design, and automation.",
+          "Learn about Consortium NYC, a data-driven NYC marketing company. We help businesses across NYC, Long Island, and Westchester grow with SEO, branding, web design, and automation.",
           "https://consortiumnyc.com/about"
         )}
       />
@@ -127,11 +128,15 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="mt-6 text-lg sm:text-xl text-warm-gray max-w-2xl mx-auto"
           >
-            A data-driven digital marketing agency born in New York City.
+            A data-driven NYC marketing company born in New York City.
             We don&apos;t follow playbooks -- we write them.
           </motion.p>
         </div>
       </section>
+
+      <TipBlurb
+        tip={<>Most agencies hide behind <strong>layers of account managers</strong> and you never talk to the person doing the work. Here, you talk directly to the person with <strong>25 years of experience</strong>. No middlemen. No runaround.</>}
+      />
 
       {/* ============================================================ */}
       {/*  OUR STORY                                                   */}
