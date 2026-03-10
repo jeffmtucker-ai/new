@@ -1,19 +1,20 @@
 import type { MetadataRoute } from "next";
 import { serviceCategories, areas, industries } from "@/lib/siteData";
 
-const BASE = "https://consortiumnyc.com";
+const BASE = "https://www.consortiumnyc.com";
 
-// 105 industries split across sitemaps 1 and 2 (53 + 52)
-const SPLIT = 53;
+// Max 41 industries per sitemap → 41 × 15 × 81 = 49,815 URLs (under 50k limit)
+const CHUNK = 41;
 
 /**
- * 3 sitemaps:
- *  /sitemap/0.xml — static, services, areas, industry index, blog (~1,437 URLs)
- *  /sitemap/1.xml — programmatic industries 0–52 (53 × 15 × 81 = 64,395 URLs)
- *  /sitemap/2.xml — programmatic industries 53–104 (52 × 15 × 81 = 63,180 URLs)
+ * 4 sitemaps (all under 50k URLs):
+ *  /sitemap/0.xml — static, services, areas, industry index, blog
+ *  /sitemap/1.xml — programmatic industries 0–40  (49,815 URLs)
+ *  /sitemap/2.xml — programmatic industries 41–81 (49,815 URLs)
+ *  /sitemap/3.xml — programmatic industries 82–104 (27,945 URLs)
  */
 export async function generateSitemaps() {
-  return [{ id: 0 }, { id: 1 }, { id: 2 }];
+  return [{ id: 0 }, { id: 1 }, { id: 2 }, { id: 3 }];
 }
 
 export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
@@ -25,17 +26,17 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
       { url: `${BASE}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
       { url: `${BASE}/contact-nyc-marketing-company-consortium-nyc`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
       { url: `${BASE}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-      { url: `${BASE}/industries`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-      { url: `${BASE}/areas`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-      { url: `${BASE}/ai`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-      { url: `${BASE}/free-seo-audit`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-      { url: `${BASE}/roi-calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+      { url: `${BASE}/industries-we-offer-marketing-services-for`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+      { url: `${BASE}/services-areas-we-offer-marketing-services-in`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+      { url: `${BASE}/artificial-intelligence-marketing-services-offered`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+      { url: `${BASE}/the-free-human+ai-seo-marketing-review`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+      { url: `${BASE}/annual-marketing-spend-roi-calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/nyc-marketing-pricing-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/nyc-marketing-company-faqs`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/nyc-marketing-company-services-list`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/nyc-marketing-company-portfolio`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
       { url: `${BASE}/nyc-marketing-101-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-      { url: `${BASE}/marketing-checklist-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+      { url: `${BASE}/master-marketing-checklist-last-updated-2026`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
       { url: `${BASE}/whats-working-in-marketing`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
       { url: `${BASE}/privacy-policy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
       { url: `${BASE}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
@@ -59,22 +60,22 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     );
 
     const areaPages: MetadataRoute.Sitemap = areas.map((a) => ({
-      url: `${BASE}/areas/${a.slug}`,
+      url: `${BASE}/services-areas-we-offer-marketing-services-in/${a.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }));
 
     const industryPages: MetadataRoute.Sitemap = industries.map((i) => ({
-      url: `${BASE}/industries/${i.slug}`,
+      url: `${BASE}/industries-we-offer-marketing-services-for/${i.slug}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.7,
     }));
 
     const blogPages: MetadataRoute.Sitemap = [
-      { url: `${BASE}/blog/how-to-choose-digital-marketing-agency`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-      { url: `${BASE}/blog/local-seo-vs-national-seo`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+      { url: `${BASE}/the-marketing-blog/how-to-choose-digital-marketing-agency`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+      { url: `${BASE}/the-marketing-blog/local-seo-vs-national-seo`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
     ];
 
     return [
@@ -87,15 +88,14 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     ];
   }
 
-  // Sitemap 1: industries 0–52, Sitemap 2: industries 53–104
-  const start = id === 1 ? 0 : SPLIT;
-  const end = id === 1 ? SPLIT : industries.length;
+  const start = (id - 1) * CHUNK;
+  const end = Math.min(start + CHUNK, industries.length);
   const chunk = industries.slice(start, end);
 
   return chunk.flatMap((i) =>
     serviceCategories.flatMap((s) =>
       areas.map((a) => ({
-        url: `${BASE}/industries/${i.slug}/${s.slug}/${a.slug}`,
+        url: `${BASE}/industries-we-offer-marketing-services-for/${i.slug}/${s.slug}/${a.slug}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.5,
