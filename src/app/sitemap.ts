@@ -17,7 +17,9 @@ export async function generateSitemaps() {
   return [{ id: 0 }, { id: 1 }, { id: 2 }, { id: 3 }];
 }
 
-export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+export default async function sitemap(props: { id: number }): Promise<MetadataRoute.Sitemap> {
+  // Next.js 16 passes params as Promise — id is actually Promise<number>
+  const id = Number(await (props.id as unknown as Promise<number>));
   const now = new Date().toISOString();
 
   if (id === 0) {
