@@ -6,7 +6,7 @@ import TipBlurb from "@/components/TipBlurb";
 export const metadata: Metadata = {
   title: "What's Working in Marketing Right Now | Consortium NYC",
   description:
-    "Real-time notes, updates, and observations from the team at Consortium NYC. What's actually working in SEO, web design, and digital marketing — no fluff, no theory.",
+    "Real-time notes, updates, and observations from the team at Consortium NYC. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.",
 };
 
 const updates = [
@@ -87,7 +87,7 @@ const updates = [
           One of our startup clients, <a href="https://www.thenycmaid.com/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">The NYC Maid</a>, just crossed 500 page 1 rankings in 6 months from launch. 60 leads/month. $68K in revenue. From zero.
         </p>
         <p>
-          What worked: hyper-local neighborhood pages for every area they serve across <Link href="/areas/manhattan-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Manhattan</Link>, <Link href="/areas/brooklyn-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Brooklyn</Link>, and <Link href="/areas/queens-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Queens</Link>. Service-specific pages for every cleaning type. Internal linking between everything. Fast site on our custom stack. And a Google Business Profile managed like it matters — because it does.
+          What worked: hyper-local neighborhood pages for every area they serve across <Link href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Manhattan</Link>, <Link href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Brooklyn</Link>, and <Link href="/services-areas-we-offer-marketing-services-in/queens-marketing-company" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">Queens</Link>. Service-specific pages for every cleaning type. Internal linking between everything. Fast site on our custom stack. And a Google Business Profile managed like it matters — because it does.
         </p>
         <p>
           No ads. No social media. Just SEO done right.
@@ -135,7 +135,7 @@ const updates = [
           Full Loop combines lead tracking, automated follow-up, AI-powered text bots (like Selena), appointment scheduling, review management, and reporting — all in one platform. Built on the same stack we use for everything: <strong>Next.js</strong>, <strong>Supabase</strong>, <strong>Resend</strong>, and <strong>Telnyx</strong>.
         </p>
         <p>
-          This isn&apos;t a white-labeled version of someone else&apos;s software. We built it from scratch because every CRM we tried was either too bloated, too expensive, or missing the <Link href="/ai" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> features our clients actually need. Now our clients get it bundled into their <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">marketing packages</Link>.
+          This isn&apos;t a white-labeled version of someone else&apos;s software. We built it from scratch because every CRM we tried was either too bloated, too expensive, or missing the <Link href="/artificial-intelligence-marketing-services-offered" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> features our clients actually need. Now our clients get it bundled into their <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">marketing packages</Link>.
         </p>
         <p>
           Full loop: marketing drives the lead, AI qualifies and books it, CRM tracks it, automation follows up, review system closes the loop. That&apos;s why it&apos;s called Full Loop.
@@ -199,10 +199,10 @@ const updates = [
     content: (
       <>
         <p>
-          We&apos;re seeing a clear trend across our <Link href="/industries/home-service-business-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">home service</Link> and <Link href="/industries/dental-practice-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">dental</Link> clients: AI chatbots are converting 2-3x better than traditional contact forms.
+          We&apos;re seeing a clear trend across our <Link href="/industries-we-offer-marketing-services-for/home-service-business-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">home service</Link> and <Link href="/industries-we-offer-marketing-services-for/dental-practice-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">dental</Link> clients: AI chatbots are converting 2-3x better than traditional contact forms.
         </p>
         <p>
-          Why? Because people don&apos;t want to fill out a form and wait. They want to ask a question and get an answer. Our <Link href="/ai" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> agents qualify leads, answer FAQs, book appointments, and hand off to the business owner — all in real time, 24/7.
+          Why? Because people don&apos;t want to fill out a form and wait. They want to ask a question and get an answer. Our <Link href="/artificial-intelligence-marketing-services-offered" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> agents qualify leads, answer FAQs, book appointments, and hand off to the business owner — all in real time, 24/7.
         </p>
         <p>
           The businesses that adopt this now have a massive advantage. The ones that wait will be playing catch-up in 12 months.
@@ -217,7 +217,7 @@ const updates = [
     content: (
       <>
         <p>
-          We just rolled out <Link href="/industries" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">105 industry-specific pages</Link> on this site. Not generic &ldquo;we serve restaurants&rdquo; pages — deep, long-tail pages like <Link href="/industries/personal-injury-law-firm-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">personal injury law firm marketing</Link> and <Link href="/industries/hvac-company-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">HVAC company marketing</Link>.
+          We just rolled out <Link href="/industries-we-offer-marketing-services-for" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">105 industry-specific pages</Link> on this site. Not generic &ldquo;we serve restaurants&rdquo; pages — deep, long-tail pages like <Link href="/industries-we-offer-marketing-services-for/personal-injury-law-firm-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">personal injury law firm marketing</Link> and <Link href="/industries-we-offer-marketing-services-for/hvac-company-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">HVAC company marketing</Link>.
         </p>
         <p>
           Within 2 weeks, we&apos;re already seeing indexation and early ranking signals for dozens of these pages. The strategy is simple: every industry someone searches for + &ldquo;marketing company&rdquo; should land on a dedicated, optimized page on your site. Not a blog post. Not a generic services page. A real page built for that exact search.
@@ -238,7 +238,7 @@ const updates = [
           We&apos;re tracking a strong correlation between review velocity (how fast you get new Google reviews) and map pack rankings. Businesses that get 5+ new reviews per month are consistently outranking competitors with more total reviews but slower growth.
         </p>
         <p>
-          Our automated review request system — triggered after service completion via <Link href="/ai" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> — is generating 3-5x more reviews than manual ask-for-a-review approaches. The key is timing: ask within 2 hours of service, make it one tap, and follow up once if they don&apos;t respond.
+          Our automated review request system — triggered after service completion via <Link href="/artificial-intelligence-marketing-services-offered" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> — is generating 3-5x more reviews than manual ask-for-a-review approaches. The key is timing: ask within 2 hours of service, make it one tap, and follow up once if they don&apos;t respond.
         </p>
         <p>
           If you&apos;re not actively managing your review pipeline, you&apos;re losing to competitors who are.
@@ -263,7 +263,7 @@ export default function WhatsWorking() {
             <span className="text-teal-400">Marketing Right Now</span>
           </h1>
           <p className="text-white/70 text-lg mb-6">
-            We believe in helping each other. This page exists because too many business owners get bad advice from people who don&apos;t do the work. We do the work — every day, for real businesses across <Link href="/areas" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">NYC, Long Island, and beyond</Link>.
+            We believe in helping each other. This page exists because too many business owners get bad advice from people who don&apos;t do the work. We do the work — every day, for real businesses across <Link href="/services-areas-we-offer-marketing-services-in" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">NYC, Long Island, and beyond</Link>.
           </p>
           <p className="text-white/50 text-base">
             These are our real-time notes from the field — what we&apos;re testing, what&apos;s moving the needle, and what we&apos;re seeing across our <Link href="/nyc-marketing-company-portfolio" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">client portfolio</Link>. No gatekeeping. No paywalls. Just honest observations from 25 years of doing this, shared so every business owner can make smarter decisions — whether they hire us or not.
@@ -341,7 +341,7 @@ export default function WhatsWorking() {
                 Schedule a Free Strategy Session
               </Link>
               <Link
-                href="/free-seo-audit"
+                href="/the-free-human+ai-seo-marketing-review"
                 className="inline-block px-8 py-4 text-base font-bold text-teal-600 rounded-lg bg-white border-2 border-teal-600 hover:bg-teal-50 transition-colors shadow-lg font-cta"
               >
                 Get a Free SEO Audit

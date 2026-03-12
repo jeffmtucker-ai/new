@@ -5,7 +5,7 @@ import TipBlurb from "@/components/TipBlurb";
 export const metadata: Metadata = {
   title: "NYC Marketing Company Pricing Guide | Honest Costs, No Hidden Fees | Consortium NYC",
   description:
-    "How much does a marketing company in NYC actually cost? Real pricing for SEO, web design, branding, and AI automation. Plus the mistakes 85% of business owners make that cost them thousands.",
+    "How much does a marketing company in NYC actually cost? Real pricing for SEO, web design, branding, and AI automation. Plus the mistakes 85% of business owners make that cost them thousands. Call/text (212) 202-9220.",
 };
 
 /* ------------------------------------------------------------------ */
@@ -162,7 +162,7 @@ export default function PricingGuidePage() {
           </div>
 
           <p className="text-slate-500 text-xs text-center mt-6">
-            Read more in our blog: <Link href="/blog/how-to-choose-digital-marketing-agency" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">How to Choose a Marketing Company (Without Getting Burned)</Link>
+            Read more in our blog: <Link href="/the-marketing-blog/how-to-choose-digital-marketing-agency" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">How to Choose a Marketing Company (Without Getting Burned)</Link>
           </p>
         </div>
       </section>
@@ -349,7 +349,7 @@ export default function PricingGuidePage() {
               <span className="font-bold text-teal-400 font-mono">$950/month</span>
             </p>
             <p className="text-white/40 text-xs mb-6">
-              Most popular for <Link href="/industries/home-service-business-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">home service businesses</Link>, <Link href="/industries/dental-practice-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">dental practices</Link>, <Link href="/industries/personal-injury-law-firm-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">law firms</Link>, and <Link href="/industries/restaurant-food-service-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">restaurants</Link> across <Link href="/areas" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">all five boroughs</Link>.
+              Most popular for <Link href="/industries-we-offer-marketing-services-for/home-service-business-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">home service businesses</Link>, <Link href="/industries-we-offer-marketing-services-for/dental-practice-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">dental practices</Link>, <Link href="/industries-we-offer-marketing-services-for/personal-injury-law-firm-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">law firms</Link>, and <Link href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">restaurants</Link> across <Link href="/services-areas-we-offer-marketing-services-in" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">all five boroughs</Link>.
             </p>
             <Link
               href="/contact-nyc-marketing-company-consortium-nyc"
@@ -417,10 +417,10 @@ export default function PricingGuidePage() {
 
           <div className="text-center">
             <p className="text-slate-600 text-sm mb-4">
-              A <Link href="/industries/plumber-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">plumber</Link> investing $950/month who gets 30 leads/month at a $500 average job value is generating <strong className="text-slate-900">$15K/month</strong> from a <strong className="text-slate-900">$950 investment</strong>. That&apos;s a <strong className="text-teal-600">15:1 ROI</strong>.
+              A <Link href="/industries-we-offer-marketing-services-for/plumber-marketing" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">plumber</Link> investing $950/month who gets 30 leads/month at a $500 average job value is generating <strong className="text-slate-900">$15K/month</strong> from a <strong className="text-slate-900">$950 investment</strong>. That&apos;s a <strong className="text-teal-600">15:1 ROI</strong>.
             </p>
             <Link
-              href="/roi-calculator"
+              href="/annual-marketing-spend-roi-calculator"
               className="inline-block px-6 py-3 text-sm font-bold text-teal-600 rounded-lg border-2 border-teal-600 hover:bg-teal-50 transition-colors font-cta"
             >
               Calculate Your ROI
@@ -472,7 +472,7 @@ export default function PricingGuidePage() {
             Not Sure What You Need?
           </h2>
           <p className="text-slate-600 text-base max-w-xl mx-auto mb-8">
-            Book a free strategy session. We&apos;ll look at your current setup, audit your competitors, and recommend exactly what will move the needle — whether you hire us or not. See <Link href="/nyc-marketing-company-portfolio" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">real results from real businesses</Link> or get a <Link href="/free-seo-audit" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">free SEO audit</Link> first.
+            Book a free strategy session. We&apos;ll look at your current setup, audit your competitors, and recommend exactly what will move the needle — whether you hire us or not. See <Link href="/nyc-marketing-company-portfolio" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">real results from real businesses</Link> or get a <Link href="/the-free-human+ai-seo-marketing-review" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">free SEO audit</Link> first.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

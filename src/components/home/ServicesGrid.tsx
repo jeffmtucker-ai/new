@@ -57,7 +57,7 @@ export default function ServicesGrid() {
             <span className="text-teal-600">New York City Businesses</span>
           </h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-            From <Link href="/nyc-marketing-company-services-list" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">SEO and web design</Link> to branding, social media, and <Link href="/ai" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> — every service integrated into one strategy that drives leads, revenue, and compounding growth for your business.
+            From <Link href="/nyc-marketing-company-services-list" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">SEO and web design</Link> to branding, social media, and <Link href="/artificial-intelligence-marketing-services-offered" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">AI automation</Link> — every service integrated into one strategy that drives leads, revenue, and compounding growth for your business.
           </p>
         </motion.div>
 

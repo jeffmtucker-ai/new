@@ -519,7 +519,7 @@ export default function ServicesListClient() {
                 Let&apos;s Figure It Out Together
               </h2>
               <p className="text-white/60 text-base mb-10 max-w-2xl mx-auto">
-                Book a free strategy session. We&apos;ll audit your current situation, analyze your competitors, and tell you exactly which services will move the needle — whether you hire us or not. Check our <Link href="/nyc-marketing-pricing-guide" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">pricing guide</Link>, see <Link href="/nyc-marketing-company-portfolio" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">real results</Link>, or explore <Link href="/industries" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">100+ industries we serve</Link>.
+                Book a free strategy session. We&apos;ll audit your current situation, analyze your competitors, and tell you exactly which services will move the needle — whether you hire us or not. Check our <Link href="/nyc-marketing-pricing-guide" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">pricing guide</Link>, see <Link href="/nyc-marketing-company-portfolio" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">real results</Link>, or explore <Link href="/industries-we-offer-marketing-services-for" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">100+ industries we serve</Link>.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link

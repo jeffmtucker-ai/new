@@ -51,32 +51,32 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "seo",
     question: "What is the difference between local SEO and national SEO for NYC businesses?",
-    answer: <span>Local SEO targets geographic searches like &ldquo;<L href="/industries/plumber-marketing">plumber in Brooklyn</L>&rdquo; through Google Business Profile, local citations, and neighborhood content. National SEO targets broader terms without geographic intent. For most <L href="/industries">NYC service businesses</L>, local SEO delivers a higher ROI because your customers search by neighborhood. Read our <L href="/blog/local-seo-vs-national-seo">local vs. national SEO guide</L>.</span>,
+    answer: <span>Local SEO targets geographic searches like &ldquo;<L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber in Brooklyn</L>&rdquo; through Google Business Profile, local citations, and neighborhood content. National SEO targets broader terms without geographic intent. For most <L href="/industries-we-offer-marketing-services-for">NYC service businesses</L>, local SEO delivers a higher ROI because your customers search by neighborhood. Read our <L href="/the-marketing-blog/local-seo-vs-national-seo">local vs. national SEO guide</L>.</span>,
   },
   {
     category: "seo",
     question: "How do backlinks affect SEO rankings for NYC businesses?",
-    answer: <span>Backlinks are one of Google&apos;s top three ranking factors. For <L href="/areas">NYC businesses</L>, local backlinks from industry directories, local news sites, neighborhood blogs, and business associations carry extra weight. We build authority through strategic link acquisition — not spammy link farms. Quality always beats quantity.</span>,
+    answer: <span>Backlinks are one of Google&apos;s top three ranking factors. For <L href="/services-areas-we-offer-marketing-services-in">NYC businesses</L>, local backlinks from industry directories, local news sites, neighborhood blogs, and business associations carry extra weight. We build authority through strategic link acquisition — not spammy link farms. Quality always beats quantity.</span>,
   },
   {
     category: "seo",
     question: "What keywords should a plumber in Brooklyn target for SEO?",
-    answer: <span>A <L href="/industries/plumber-marketing">Brooklyn plumber</L> should target hyper-local terms: &ldquo;emergency plumber <L href="/areas/brooklyn-marketing-company">Brooklyn</L>,&rdquo; &ldquo;plumber near me Brooklyn,&rdquo; &ldquo;drain cleaning <L href="/areas/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;water heater repair <L href="/areas/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and service-specific long-tails. We perform full keyword research mapping every service to every neighborhood you serve.</span>,
+    answer: <span>A <L href="/industries-we-offer-marketing-services-for/plumber-marketing">Brooklyn plumber</L> should target hyper-local terms: &ldquo;emergency plumber <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L>,&rdquo; &ldquo;plumber near me Brooklyn,&rdquo; &ldquo;drain cleaning <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;water heater repair <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and service-specific long-tails. We perform full keyword research mapping every service to every neighborhood you serve.</span>,
   },
   {
     category: "seo",
     question: "Can SEO help my restaurant get more customers in NYC?",
-    answer: <span>Absolutely. <L href="/industries/restaurant-food-service-marketing">Restaurant SEO</L> targets searches like &ldquo;best Italian restaurant <L href="/areas/astoria-marketing-company">Astoria</L>&rdquo; and &ldquo;brunch near me <L href="/areas/williamsburg-marketing-company">Williamsburg</L>.&rdquo; Combined with <L href="/nyc-marketing-company-services-list">Google Business Profile optimization</L>, menu schema markup, and review management, SEO drives consistent reservations and foot traffic without paying for ads.</span>,
+    answer: <span>Absolutely. <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">Restaurant SEO</L> targets searches like &ldquo;best Italian restaurant <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>&rdquo; and &ldquo;brunch near me <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>.&rdquo; Combined with <L href="/nyc-marketing-company-services-list">Google Business Profile optimization</L>, menu schema markup, and review management, SEO drives consistent reservations and foot traffic without paying for ads.</span>,
   },
   {
     category: "seo",
     question: "What is programmatic SEO and is it right for my business?",
-    answer: <span>Programmatic SEO creates hundreds of optimized pages at scale — like a service page for every neighborhood you serve. A <L href="/industries/hvac-company-marketing">Queens HVAC company</L> could have dedicated landing pages for <L href="/areas/astoria-marketing-company">Astoria</L>, <L href="/areas/flushing-marketing-company">Flushing</L>, <L href="/areas/jamaica-queens-marketing-company">Jamaica</L>, and every neighborhood. We build these with <L href="/nyc-marketing-company-services-list">custom templates and real local data</L> — not thin, duplicate content.</span>,
+    answer: <span>Programmatic SEO creates hundreds of optimized pages at scale — like a service page for every neighborhood you serve. A <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">Queens HVAC company</L> could have dedicated landing pages for <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>, <L href="/services-areas-we-offer-marketing-services-in/flushing-marketing-company">Flushing</L>, <L href="/services-areas-we-offer-marketing-services-in/jamaica-queens-marketing-company">Jamaica</L>, and every neighborhood. We build these with <L href="/nyc-marketing-company-services-list">custom templates and real local data</L> — not thin, duplicate content.</span>,
   },
   {
     category: "seo",
     question: "How does content marketing support SEO for NYC businesses?",
-    answer: <span>Content establishes topical authority and captures long-tail searches your competitors miss. A <L href="/industries/dental-practice-marketing">dentist in Queens</L> publishing &ldquo;best toothpaste for sensitive teeth&rdquo; or &ldquo;what to expect at a dental cleaning&rdquo; attracts patients who are actively researching. We tie every content piece to <L href="/nyc-marketing-company-services-list">your service pages</L> and local landing pages for maximum SEO impact.</span>,
+    answer: <span>Content establishes topical authority and captures long-tail searches your competitors miss. A <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist in Queens</L> publishing &ldquo;best toothpaste for sensitive teeth&rdquo; or &ldquo;what to expect at a dental cleaning&rdquo; attracts patients who are actively researching. We tie every content piece to <L href="/nyc-marketing-company-services-list">your service pages</L> and local landing pages for maximum SEO impact.</span>,
   },
   {
     category: "seo",
@@ -91,7 +91,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "seo",
     question: "Is SEO worth it for a brand new NYC business with no online presence?",
-    answer: <span>Yes — starting SEO from day one is actually easier and cheaper than fixing a poorly built site later. We&apos;ve launched startups from zero to <L href="/nyc-marketing-company-portfolio">2,000+ page 1 rankings in 2 months</L>. The key is building the right SEO architecture from the start: proper site structure, keyword mapping, technical foundation, and local optimization from <L href="/areas">every area you serve</L>.</span>,
+    answer: <span>Yes — starting SEO from day one is actually easier and cheaper than fixing a poorly built site later. We&apos;ve launched startups from zero to <L href="/nyc-marketing-company-portfolio">2,000+ page 1 rankings in 2 months</L>. The key is building the right SEO architecture from the start: proper site structure, keyword mapping, technical foundation, and local optimization from <L href="/services-areas-we-offer-marketing-services-in">every area you serve</L>.</span>,
   },
 
   // ─── Pricing & Costs (11–20) ───
@@ -123,7 +123,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "pricing",
     question: "What ROI should I expect from a $950/month SEO investment?",
-    answer: <span>It depends on your industry, but our clients typically see 5–8% compounding traffic growth month over month. A <L href="/industries/plumber-marketing">plumber</L> getting 30 leads/month at $500 average job value generates $15K/month from a $950 investment — a 15:1 ROI. See <L href="/nyc-marketing-company-portfolio">real results</L> from businesses we work with across <L href="/areas">80+ neighborhoods</L>.</span>,
+    answer: <span>It depends on your industry, but our clients typically see 5–8% compounding traffic growth month over month. A <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L> getting 30 leads/month at $500 average job value generates $15K/month from a $950 investment — a 15:1 ROI. See <L href="/nyc-marketing-company-portfolio">real results</L> from businesses we work with across <L href="/services-areas-we-offer-marketing-services-in">80+ neighborhoods</L>.</span>,
   },
   {
     category: "pricing",
@@ -150,12 +150,12 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "web",
     question: "What technology stack do you use to build websites?",
-    answer: <span>We build on Next.js, React, and Tailwind CSS — hosted on Vercel with edge-optimized delivery. For databases we use Supabase, for email Resend. No WordPress, no page builders, no bloat. This is the same tech used by Vercel, Netflix, and Fortune 500 companies — and we bring it to <L href="/industries">local businesses</L> at a fraction of the cost.</span>,
+    answer: <span>We build on Next.js, React, and Tailwind CSS — hosted on Vercel with edge-optimized delivery. For databases we use Supabase, for email Resend. No WordPress, no page builders, no bloat. This is the same tech used by Vercel, Netflix, and Fortune 500 companies — and we bring it to <L href="/industries-we-offer-marketing-services-for">local businesses</L> at a fraction of the cost.</span>,
   },
   {
     category: "web",
     question: "Why don't you use WordPress for business websites?",
-    answer: <span>WordPress sites are slow, vulnerable to security exploits, and require constant plugin updates. Our <L href="/nyc-marketing-company-services-list">Next.js websites</L> load in under 2 seconds, are virtually unhackable (no admin login to exploit), and require zero plugin maintenance. For <L href="/industries">local businesses</L> that depend on their website for leads, reliability and speed aren&apos;t optional.</span>,
+    answer: <span>WordPress sites are slow, vulnerable to security exploits, and require constant plugin updates. Our <L href="/nyc-marketing-company-services-list">Next.js websites</L> load in under 2 seconds, are virtually unhackable (no admin login to exploit), and require zero plugin maintenance. For <L href="/industries-we-offer-marketing-services-for">local businesses</L> that depend on their website for leads, reliability and speed aren&apos;t optional.</span>,
   },
   {
     category: "web",
@@ -165,17 +165,17 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "web",
     question: "Will my website work well on phones and tablets?",
-    answer: <span>Every site we build is mobile-first — designed for phones first, then scaled up. We test across iPhones, Android devices, iPads, and every major browser. With 70%+ of <L href="/areas">NYC searches</L> happening on mobile, your site must load fast and convert on small screens. Our sites score 90+ on mobile Core Web Vitals.</span>,
+    answer: <span>Every site we build is mobile-first — designed for phones first, then scaled up. We test across iPhones, Android devices, iPads, and every major browser. With 70%+ of <L href="/services-areas-we-offer-marketing-services-in">NYC searches</L> happening on mobile, your site must load fast and convert on small screens. Our sites score 90+ on mobile Core Web Vitals.</span>,
   },
   {
     category: "web",
     question: "Can you redesign my existing website without losing SEO rankings?",
-    answer: <span>Yes — and this is where most agencies mess up. We map every existing URL, set up proper 301 redirects, preserve your meta data, and maintain your <L href="/nyc-marketing-company-services-list">SEO architecture</L>. A redesign done right actually improves your rankings because of better speed, structure, and user experience. We&apos;ve done this for businesses across <L href="/industries">dozens of industries</L>.</span>,
+    answer: <span>Yes — and this is where most agencies mess up. We map every existing URL, set up proper 301 redirects, preserve your meta data, and maintain your <L href="/nyc-marketing-company-services-list">SEO architecture</L>. A redesign done right actually improves your rankings because of better speed, structure, and user experience. We&apos;ve done this for businesses across <L href="/industries-we-offer-marketing-services-for">dozens of industries</L>.</span>,
   },
   {
     category: "web",
     question: "Do you build e-commerce websites for NYC businesses?",
-    answer: <span>Yes. We build custom e-commerce solutions for <L href="/industries/retail-store-marketing">retail businesses</L> and product companies. Our stack supports inventory management, payment processing, and <L href="/nyc-marketing-company-services-list">SEO-optimized product pages</L>. For local NYC retailers, we also integrate local pickup, delivery zones, and Google Shopping feeds.</span>,
+    answer: <span>Yes. We build custom e-commerce solutions for <L href="/industries-we-offer-marketing-services-for/retail-store-marketing">retail businesses</L> and product companies. Our stack supports inventory management, payment processing, and <L href="/nyc-marketing-company-services-list">SEO-optimized product pages</L>. For local NYC retailers, we also integrate local pickup, delivery zones, and Google Shopping feeds.</span>,
   },
   {
     category: "web",
@@ -185,7 +185,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "web",
     question: "Can you add online booking or appointment scheduling to my website?",
-    answer: <span>Yes. We integrate booking systems directly into your <L href="/nyc-marketing-company-services-list">website</L> — whether it&apos;s Calendly, Acuity, or a custom solution. For <L href="/industries/dental-practice-marketing">dental practices</L>, <L href="/industries/personal-trainer-marketing">personal trainers</L>, <L href="/industries/salon-marketing">salons</L>, and <L href="/industries/home-service-business-marketing">home service businesses</L>, online booking reduces friction and captures leads 24/7.</span>,
+    answer: <span>Yes. We integrate booking systems directly into your <L href="/nyc-marketing-company-services-list">website</L> — whether it&apos;s Calendly, Acuity, or a custom solution. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, <L href="/industries-we-offer-marketing-services-for/personal-trainer-marketing">personal trainers</L>, <L href="/industries-we-offer-marketing-services-for/salon-marketing">salons</L>, and <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, online booking reduces friction and captures leads 24/7.</span>,
   },
   {
     category: "web",
@@ -202,37 +202,37 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "local",
     question: "How do I rank in the Google Map Pack for my NYC neighborhood?",
-    answer: <span>Map Pack rankings depend on three factors: relevance, distance, and prominence. We optimize all three through <L href="/nyc-marketing-company-services-list">Google Business Profile optimization</L>, local citation building, review generation, and geo-targeted content for every <L href="/areas">neighborhood you serve</L>. Most businesses only optimize for one — we attack all three simultaneously.</span>,
+    answer: <span>Map Pack rankings depend on three factors: relevance, distance, and prominence. We optimize all three through <L href="/nyc-marketing-company-services-list">Google Business Profile optimization</L>, local citation building, review generation, and geo-targeted content for every <L href="/services-areas-we-offer-marketing-services-in">neighborhood you serve</L>. Most businesses only optimize for one — we attack all three simultaneously.</span>,
   },
   {
     category: "local",
     question: "What are local citations and why do they matter for SEO?",
-    answer: <span>Local citations are mentions of your business name, address, and phone number (NAP) across the web — Yelp, BBB, industry directories, local chambers of commerce. Consistent citations across 80+ directories tell Google your business is legitimate and located where you say. We build and manage citations for every <L href="/areas">service area</L> you target.</span>,
+    answer: <span>Local citations are mentions of your business name, address, and phone number (NAP) across the web — Yelp, BBB, industry directories, local chambers of commerce. Consistent citations across 80+ directories tell Google your business is legitimate and located where you say. We build and manage citations for every <L href="/services-areas-we-offer-marketing-services-in">service area</L> you target.</span>,
   },
   {
     category: "local",
     question: "How do online reviews affect my local SEO rankings in NYC?",
-    answer: <span>Reviews are a direct ranking factor for local SEO. Businesses with more positive reviews rank higher in the map pack and get higher click-through rates. We implement review generation systems for <L href="/industries/home-service-business-marketing">home service businesses</L>, <L href="/industries/dental-practice-marketing">dental practices</L>, and <L href="/industries/restaurant-food-service-marketing">restaurants</L> that systematically build your review count on Google, Yelp, and industry-specific platforms.</span>,
+    answer: <span>Reviews are a direct ranking factor for local SEO. Businesses with more positive reviews rank higher in the map pack and get higher click-through rates. We implement review generation systems for <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, and <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L> that systematically build your review count on Google, Yelp, and industry-specific platforms.</span>,
   },
   {
     category: "local",
     question: "Can I rank in multiple NYC neighborhoods at the same time?",
-    answer: <span>Yes — that&apos;s one of our specialties. We create dedicated landing pages for each neighborhood with unique, locally-relevant content. A <L href="/industries/plumber-marketing">plumber</L> in <L href="/areas/brooklyn-marketing-company">Brooklyn</L> can rank in <L href="/areas/park-slope-marketing-company">Park Slope</L>, <L href="/areas/williamsburg-marketing-company">Williamsburg</L>, <L href="/areas/bushwick-marketing-company">Bushwick</L>, <L href="/areas/bed-stuy-marketing-company">Bed-Stuy</L>, and every neighborhood they serve — each with its own optimized page.</span>,
+    answer: <span>Yes — that&apos;s one of our specialties. We create dedicated landing pages for each neighborhood with unique, locally-relevant content. A <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L> in <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L> can rank in <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L>, <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>, <L href="/services-areas-we-offer-marketing-services-in/bushwick-marketing-company">Bushwick</L>, <L href="/services-areas-we-offer-marketing-services-in/bed-stuy-marketing-company">Bed-Stuy</L>, and every neighborhood they serve — each with its own optimized page.</span>,
   },
   {
     category: "local",
     question: "How do I compete with bigger companies in NYC search results?",
-    answer: <span>Local SEO is the great equalizer. A <L href="/industries/hvac-company-marketing">solo HVAC tech</L> can outrank a national chain in <L href="/areas/queens-marketing-company">Queens</L> with the right <L href="/nyc-marketing-company-services-list">local SEO strategy</L>. We focus on hyper-local content, neighborhood-level targeting, and Google Business Profile dominance — areas where big companies are too slow to compete. See our <L href="/nyc-marketing-company-portfolio">portfolio</L> for proof.</span>,
+    answer: <span>Local SEO is the great equalizer. A <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">solo HVAC tech</L> can outrank a national chain in <L href="/services-areas-we-offer-marketing-services-in/queens-marketing-company">Queens</L> with the right <L href="/nyc-marketing-company-services-list">local SEO strategy</L>. We focus on hyper-local content, neighborhood-level targeting, and Google Business Profile dominance — areas where big companies are too slow to compete. See our <L href="/nyc-marketing-company-portfolio">portfolio</L> for proof.</span>,
   },
   {
     category: "local",
     question: "Should my business have separate pages for each service area?",
-    answer: <span>Yes — if done right. Each <L href="/areas">service area page</L> needs unique content, local references, area-specific testimonials, and genuine value. Thin, templated pages with just the city name swapped out can hurt you. We build programmatic landing pages with real local data, neighborhood-specific keywords, and unique content for each area.</span>,
+    answer: <span>Yes — if done right. Each <L href="/services-areas-we-offer-marketing-services-in">service area page</L> needs unique content, local references, area-specific testimonials, and genuine value. Thin, templated pages with just the city name swapped out can hurt you. We build programmatic landing pages with real local data, neighborhood-specific keywords, and unique content for each area.</span>,
   },
   {
     category: "local",
     question: "What is 'near me' SEO and how do I optimize for it?",
-    answer: <span>&ldquo;Near me&rdquo; searches have grown 500%+ in five years. Google determines &ldquo;near me&rdquo; results based on your Google Business Profile location, local citations, and on-page signals. We optimize all three for <L href="/industries">every industry</L> across <L href="/areas">every neighborhood</L>. A strong <L href="/nyc-marketing-company-services-list">local SEO foundation</L> means you show up for &ldquo;near me&rdquo; automatically.</span>,
+    answer: <span>&ldquo;Near me&rdquo; searches have grown 500%+ in five years. Google determines &ldquo;near me&rdquo; results based on your Google Business Profile location, local citations, and on-page signals. We optimize all three for <L href="/industries-we-offer-marketing-services-for">every industry</L> across <L href="/services-areas-we-offer-marketing-services-in">every neighborhood</L>. A strong <L href="/nyc-marketing-company-services-list">local SEO foundation</L> means you show up for &ldquo;near me&rdquo; automatically.</span>,
   },
   {
     category: "local",
@@ -242,24 +242,24 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "local",
     question: "Can you help a business without a physical storefront rank locally?",
-    answer: <span>Yes. Service-area businesses (SABs) like <L href="/industries/plumber-marketing">plumbers</L>, <L href="/industries/electrician-marketing">electricians</L>, <L href="/industries/landscaping-company-marketing">landscapers</L>, and <L href="/industries/cleaning-service-marketing">cleaning services</L> can rank in the map pack by setting service areas in Google Business Profile instead of a storefront address. We optimize SAB profiles across <L href="/areas">every neighborhood</L> you serve.</span>,
+    answer: <span>Yes. Service-area businesses (SABs) like <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumbers</L>, <L href="/industries-we-offer-marketing-services-for/electrician-marketing">electricians</L>, <L href="/industries-we-offer-marketing-services-for/landscaping-company-marketing">landscapers</L>, and <L href="/industries-we-offer-marketing-services-for/cleaning-service-marketing">cleaning services</L> can rank in the map pack by setting service areas in Google Business Profile instead of a storefront address. We optimize SAB profiles across <L href="/services-areas-we-offer-marketing-services-in">every neighborhood</L> you serve.</span>,
   },
   {
     category: "local",
     question: "What is geo-targeted content and how does it help local SEO?",
-    answer: <span>Geo-targeted content includes neighborhood names, local landmarks, and area-specific information in your <L href="/nyc-marketing-company-services-list">website pages</L>. A <L href="/industries/roofing-company-marketing">roofer in Long Island</L> would reference specific neighborhoods like <L href="/areas/huntington-marketing-company">Huntington</L> or <L href="/areas/babylon-marketing-company">Babylon</L> with locally relevant details. This signals to Google that your business genuinely serves these areas.</span>,
+    answer: <span>Geo-targeted content includes neighborhood names, local landmarks, and area-specific information in your <L href="/nyc-marketing-company-services-list">website pages</L>. A <L href="/industries-we-offer-marketing-services-for/roofing-company-marketing">roofer in Long Island</L> would reference specific neighborhoods like <L href="/services-areas-we-offer-marketing-services-in/huntington-marketing-company">Huntington</L> or <L href="/services-areas-we-offer-marketing-services-in/babylon-marketing-company">Babylon</L> with locally relevant details. This signals to Google that your business genuinely serves these areas.</span>,
   },
 
   // ─── Google Business Profile (41–48) ───
   {
     category: "gbp",
     question: "How often should I post on Google Business Profile?",
-    answer: <span>We recommend 2–4 posts per week for active <L href="/industries">local businesses</L>. Posts keep your profile fresh, signal activity to Google, and provide additional content for potential customers. We handle GBP posting as part of our <L href="/nyc-marketing-pricing-guide">monthly SEO service</L> — including photos, offers, updates, and event posts.</span>,
+    answer: <span>We recommend 2–4 posts per week for active <L href="/industries-we-offer-marketing-services-for">local businesses</L>. Posts keep your profile fresh, signal activity to Google, and provide additional content for potential customers. We handle GBP posting as part of our <L href="/nyc-marketing-pricing-guide">monthly SEO service</L> — including photos, offers, updates, and event posts.</span>,
   },
   {
     category: "gbp",
     question: "How do I get more Google reviews for my NYC business?",
-    answer: <span>We implement automated review request systems that trigger after service completion. For <L href="/industries/home-service-business-marketing">home service businesses</L>, we send SMS follow-ups. For <L href="/industries/dental-practice-marketing">dental practices</L>, we use email sequences. For <L href="/industries/restaurant-food-service-marketing">restaurants</L>, we use QR codes. The key is making it frictionless — one click to leave a review. Our clients see 3–5x more reviews within the first 3 months.</span>,
+    answer: <span>We implement automated review request systems that trigger after service completion. For <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, we send SMS follow-ups. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, we use email sequences. For <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, we use QR codes. The key is making it frictionless — one click to leave a review. Our clients see 3–5x more reviews within the first 3 months.</span>,
   },
   {
     category: "gbp",
@@ -269,17 +269,17 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "gbp",
     question: "Can I have multiple Google Business Profiles for different locations?",
-    answer: <span>If you have genuine physical locations in multiple <L href="/areas">neighborhoods</L>, yes. Each location gets its own GBP. But creating fake listings violates Google&apos;s terms and can get all your profiles suspended. Service-area businesses should have one profile with multiple service areas listed. We manage multi-location GBP strategies for businesses across <L href="/areas">NYC, Long Island, and Westchester</L>.</span>,
+    answer: <span>If you have genuine physical locations in multiple <L href="/services-areas-we-offer-marketing-services-in">neighborhoods</L>, yes. Each location gets its own GBP. But creating fake listings violates Google&apos;s terms and can get all your profiles suspended. Service-area businesses should have one profile with multiple service areas listed. We manage multi-location GBP strategies for businesses across <L href="/services-areas-we-offer-marketing-services-in">NYC, Long Island, and Westchester</L>.</span>,
   },
   {
     category: "gbp",
     question: "What Google Business Profile categories should my business use?",
-    answer: <span>Your primary category is the most important ranking factor for map pack results. We research which categories drive the most visibility for your <L href="/industries">industry</L> and location. A <L href="/industries/plumber-marketing">plumber</L> might use &ldquo;Plumber&rdquo; as primary with &ldquo;Water Heater Installation Service&rdquo; and &ldquo;Drain Cleaning Service&rdquo; as secondary. Getting this wrong costs rankings.</span>,
+    answer: <span>Your primary category is the most important ranking factor for map pack results. We research which categories drive the most visibility for your <L href="/industries-we-offer-marketing-services-for">industry</L> and location. A <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L> might use &ldquo;Plumber&rdquo; as primary with &ldquo;Water Heater Installation Service&rdquo; and &ldquo;Drain Cleaning Service&rdquo; as secondary. Getting this wrong costs rankings.</span>,
   },
   {
     category: "gbp",
     question: "How do Google Business Profile photos affect local rankings?",
-    answer: <span>Businesses with 100+ photos get 520% more calls than average. Photos signal an active, legitimate business. We recommend uploading team photos, project photos, before/after shots, and storefront images weekly. For <L href="/industries/restaurant-food-service-marketing">restaurants</L>, food photos are critical. For <L href="/industries/contractor-marketing">contractors</L>, project portfolios. We manage photo uploads as part of our <L href="/nyc-marketing-pricing-guide">SEO service</L>.</span>,
+    answer: <span>Businesses with 100+ photos get 520% more calls than average. Photos signal an active, legitimate business. We recommend uploading team photos, project photos, before/after shots, and storefront images weekly. For <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, food photos are critical. For <L href="/industries-we-offer-marketing-services-for/contractor-marketing">contractors</L>, project portfolios. We manage photo uploads as part of our <L href="/nyc-marketing-pricing-guide">SEO service</L>.</span>,
   },
   {
     category: "gbp",
@@ -296,101 +296,101 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "industries",
     question: "What marketing strategies work best for plumbers in NYC?",
-    answer: <span><L href="/industries/plumber-marketing">Plumber marketing</L> in NYC requires aggressive local SEO targeting every neighborhood you serve, a fast-loading <L href="/nyc-marketing-company-services-list">website</L> with click-to-call, strong <L href="/nyc-marketing-company-services-list">Google Business Profile</L> optimization, and review generation. Emergency plumbing searches have the highest conversion rates — we make sure you own those terms in <L href="/areas/brooklyn-marketing-company">Brooklyn</L>, <L href="/areas/queens-marketing-company">Queens</L>, and wherever you operate.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/plumber-marketing">Plumber marketing</L> in NYC requires aggressive local SEO targeting every neighborhood you serve, a fast-loading <L href="/nyc-marketing-company-services-list">website</L> with click-to-call, strong <L href="/nyc-marketing-company-services-list">Google Business Profile</L> optimization, and review generation. Emergency plumbing searches have the highest conversion rates — we make sure you own those terms in <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L>, <L href="/services-areas-we-offer-marketing-services-in/queens-marketing-company">Queens</L>, and wherever you operate.</span>,
   },
   {
     category: "industries",
     question: "How can a dental practice get more patients through SEO in NYC?",
-    answer: <span><L href="/industries/dental-practice-marketing">Dental SEO</L> targets searches like &ldquo;dentist near me,&rdquo; &ldquo;teeth whitening <L href="/areas/manhattan-marketing-company">Manhattan</L>,&rdquo; and &ldquo;emergency dentist <L href="/areas/astoria-marketing-company">Astoria</L>.&rdquo; We build service-specific pages for each procedure (implants, cleanings, cosmetic dentistry), optimize your GBP with before/after photos, and implement patient review systems. <L href="/nyc-marketing-company-portfolio">See our dental marketing results</L>.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">Dental SEO</L> targets searches like &ldquo;dentist near me,&rdquo; &ldquo;teeth whitening <L href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company">Manhattan</L>,&rdquo; and &ldquo;emergency dentist <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>.&rdquo; We build service-specific pages for each procedure (implants, cleanings, cosmetic dentistry), optimize your GBP with before/after photos, and implement patient review systems. <L href="/nyc-marketing-company-portfolio">See our dental marketing results</L>.</span>,
   },
   {
     category: "industries",
     question: "What digital marketing do HVAC companies in NYC need?",
-    answer: <span><L href="/industries/hvac-company-marketing">HVAC companies</L> need seasonal SEO strategies — AC repair content dominates summer searches, heating repair in winter. We build landing pages for every service and <L href="/areas">neighborhood</L>, optimize your GBP for emergency searches, and implement <L href="/ai">AI automation</L> for after-hours lead capture. The businesses that pick up the phone first win the job.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC companies</L> need seasonal SEO strategies — AC repair content dominates summer searches, heating repair in winter. We build landing pages for every service and <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L>, optimize your GBP for emergency searches, and implement <L href="/artificial-intelligence-marketing-services-offered">AI automation</L> for after-hours lead capture. The businesses that pick up the phone first win the job.</span>,
   },
   {
     category: "industries",
     question: "How should a law firm in NYC approach digital marketing?",
-    answer: <span><L href="/industries/law-firm-marketing">Law firm marketing</L> requires EEAT-focused content (Experience, Expertise, Authoritativeness, Trustworthiness), practice area landing pages, attorney bio optimization, and local SEO for each <L href="/areas">borough</L> you serve. <L href="/industries/personal-injury-law-firm-marketing">Personal injury</L>, <L href="/industries/criminal-defense-law-firm-marketing">criminal defense</L>, and <L href="/industries/family-law-firm-marketing">family law</L> are the most competitive — and where we specialize.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/law-firm-marketing">Law firm marketing</L> requires EEAT-focused content (Experience, Expertise, Authoritativeness, Trustworthiness), practice area landing pages, attorney bio optimization, and local SEO for each <L href="/services-areas-we-offer-marketing-services-in">borough</L> you serve. <L href="/industries-we-offer-marketing-services-for/personal-injury-law-firm-marketing">Personal injury</L>, <L href="/industries-we-offer-marketing-services-for/criminal-defense-law-firm-marketing">criminal defense</L>, and <L href="/industries-we-offer-marketing-services-for/family-law-firm-marketing">family law</L> are the most competitive — and where we specialize.</span>,
   },
   {
     category: "industries",
     question: "What marketing does a landscaping company need in the NYC area?",
-    answer: <span><L href="/industries/landscaping-company-marketing">Landscaping SEO</L> targets seasonal searches across <L href="/areas/long-island-marketing-company">Long Island</L>, <L href="/areas/westchester-marketing-company">Westchester</L>, and the outer boroughs. We build service pages for lawn care, hardscaping, tree removal, and snow removal with neighborhood-specific content. Your <L href="/nyc-marketing-company-services-list">Google Business Profile</L> needs project photos updated regularly — before/after shots drive calls.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/landscaping-company-marketing">Landscaping SEO</L> targets seasonal searches across <L href="/services-areas-we-offer-marketing-services-in/long-island-marketing-company">Long Island</L>, <L href="/services-areas-we-offer-marketing-services-in/westchester-marketing-company">Westchester</L>, and the outer boroughs. We build service pages for lawn care, hardscaping, tree removal, and snow removal with neighborhood-specific content. Your <L href="/nyc-marketing-company-services-list">Google Business Profile</L> needs project photos updated regularly — before/after shots drive calls.</span>,
   },
   {
     category: "industries",
     question: "How can a real estate agent in NYC use SEO to get more listings?",
-    answer: <span><L href="/industries/real-estate-agent-marketing">Real estate SEO</L> targets neighborhood-specific searches: &ldquo;homes for sale in <L href="/areas/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;condos <L href="/areas/long-island-city-marketing-company">Long Island City</L>,&rdquo; &ldquo;<L href="/areas/scarsdale-marketing-company">Scarsdale</L> real estate agent.&rdquo; We build neighborhood guides, market report content, and property-focused landing pages that position you as the local expert.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/real-estate-agent-marketing">Real estate SEO</L> targets neighborhood-specific searches: &ldquo;homes for sale in <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;condos <L href="/services-areas-we-offer-marketing-services-in/long-island-city-marketing-company">Long Island City</L>,&rdquo; &ldquo;<L href="/services-areas-we-offer-marketing-services-in/scarsdale-marketing-company">Scarsdale</L> real estate agent.&rdquo; We build neighborhood guides, market report content, and property-focused landing pages that position you as the local expert.</span>,
   },
   {
     category: "industries",
     question: "What marketing works for auto repair shops in NYC?",
-    answer: <span><L href="/industries/auto-repair-shop-marketing">Auto repair marketing</L> depends on &ldquo;near me&rdquo; searches and emergency queries. We optimize for &ldquo;oil change near me,&rdquo; &ldquo;brake repair <L href="/areas/bay-ridge-marketing-company">Bay Ridge</L>,&rdquo; &ldquo;auto mechanic <L href="/areas/astoria-marketing-company">Astoria</L>,&rdquo; and every service you offer in every neighborhood. <L href="/nyc-marketing-company-services-list">Google Business Profile</L> with regular photo updates and review management is critical.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/auto-repair-shop-marketing">Auto repair marketing</L> depends on &ldquo;near me&rdquo; searches and emergency queries. We optimize for &ldquo;oil change near me,&rdquo; &ldquo;brake repair <L href="/services-areas-we-offer-marketing-services-in/bay-ridge-marketing-company">Bay Ridge</L>,&rdquo; &ldquo;auto mechanic <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>,&rdquo; and every service you offer in every neighborhood. <L href="/nyc-marketing-company-services-list">Google Business Profile</L> with regular photo updates and review management is critical.</span>,
   },
   {
     category: "industries",
     question: "How should a gym or fitness studio market itself in NYC?",
-    answer: <span><L href="/industries/gym-fitness-studio-marketing">Gym and fitness marketing</L> targets hyper-local searches since people won&apos;t commute far to work out. We optimize for &ldquo;gym near me <L href="/areas/chelsea-marketing-company">Chelsea</L>,&rdquo; &ldquo;CrossFit <L href="/areas/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and class-specific terms. Review management, Instagram integration, class schedule schema markup, and <L href="/nyc-marketing-company-services-list">local SEO</L> drive consistent new memberships.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/gym-fitness-studio-marketing">Gym and fitness marketing</L> targets hyper-local searches since people won&apos;t commute far to work out. We optimize for &ldquo;gym near me <L href="/services-areas-we-offer-marketing-services-in/chelsea-marketing-company">Chelsea</L>,&rdquo; &ldquo;CrossFit <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and class-specific terms. Review management, Instagram integration, class schedule schema markup, and <L href="/nyc-marketing-company-services-list">local SEO</L> drive consistent new memberships.</span>,
   },
   {
     category: "industries",
     question: "Do you work with medical practices and healthcare providers?",
-    answer: <span>Yes. We serve <L href="/industries/medical-practice-marketing">medical practices</L>, <L href="/industries/dental-practice-marketing">dental offices</L>, <L href="/industries/physical-therapy-practice-marketing">physical therapy clinics</L>, <L href="/industries/mental-health-practice-marketing">mental health practices</L>, <L href="/industries/veterinary-practice-marketing">veterinary clinics</L>, and other healthcare providers. Medical SEO requires EEAT compliance, HIPAA-aware content strategies, and patient review management — we know the nuances.</span>,
+    answer: <span>Yes. We serve <L href="/industries-we-offer-marketing-services-for/medical-practice-marketing">medical practices</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental offices</L>, <L href="/industries-we-offer-marketing-services-for/physical-therapy-practice-marketing">physical therapy clinics</L>, <L href="/industries-we-offer-marketing-services-for/mental-health-practice-marketing">mental health practices</L>, <L href="/industries-we-offer-marketing-services-for/veterinary-practice-marketing">veterinary clinics</L>, and other healthcare providers. Medical SEO requires EEAT compliance, HIPAA-aware content strategies, and patient review management — we know the nuances.</span>,
   },
   {
     category: "industries",
     question: "What marketing strategies work for contractors and construction companies?",
-    answer: <span><L href="/industries/contractor-marketing">Contractor marketing</L> relies on project portfolio content, service-area landing pages, and <L href="/nyc-marketing-company-services-list">strong Google Business Profile presence</L>. We build pages for every service (kitchen remodeling, bathroom renovation, additions) and every <L href="/areas">neighborhood</L> you serve. Before/after project galleries and video testimonials convert better than any ad.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/contractor-marketing">Contractor marketing</L> relies on project portfolio content, service-area landing pages, and <L href="/nyc-marketing-company-services-list">strong Google Business Profile presence</L>. We build pages for every service (kitchen remodeling, bathroom renovation, additions) and every <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L> you serve. Before/after project galleries and video testimonials convert better than any ad.</span>,
   },
 
   // ─── Service Areas (59–66) ───
   {
     category: "areas",
     question: "Do you serve businesses in Westchester County?",
-    answer: <span>Yes. We work with businesses throughout <L href="/areas/westchester-marketing-company">Westchester County</L> including <L href="/areas/white-plains-marketing-company">White Plains</L>, <L href="/areas/yonkers-marketing-company">Yonkers</L>, <L href="/areas/new-rochelle-marketing-company">New Rochelle</L>, <L href="/areas/scarsdale-marketing-company">Scarsdale</L>, <L href="/areas/rye-marketing-company">Rye</L>, <L href="/areas/mamaroneck-marketing-company">Mamaroneck</L>, <L href="/areas/tarrytown-marketing-company">Tarrytown</L>, <L href="/areas/dobbs-ferry-marketing-company">Dobbs Ferry</L>, and <L href="/areas/larchmont-marketing-company">Larchmont</L>. Each Westchester market has different competition — we build strategies specific to each town.</span>,
+    answer: <span>Yes. We work with businesses throughout <L href="/services-areas-we-offer-marketing-services-in/westchester-marketing-company">Westchester County</L> including <L href="/services-areas-we-offer-marketing-services-in/white-plains-marketing-company">White Plains</L>, <L href="/services-areas-we-offer-marketing-services-in/yonkers-marketing-company">Yonkers</L>, <L href="/services-areas-we-offer-marketing-services-in/new-rochelle-marketing-company">New Rochelle</L>, <L href="/services-areas-we-offer-marketing-services-in/scarsdale-marketing-company">Scarsdale</L>, <L href="/services-areas-we-offer-marketing-services-in/rye-marketing-company">Rye</L>, <L href="/services-areas-we-offer-marketing-services-in/mamaroneck-marketing-company">Mamaroneck</L>, <L href="/services-areas-we-offer-marketing-services-in/tarrytown-marketing-company">Tarrytown</L>, <L href="/services-areas-we-offer-marketing-services-in/dobbs-ferry-marketing-company">Dobbs Ferry</L>, and <L href="/services-areas-we-offer-marketing-services-in/larchmont-marketing-company">Larchmont</L>. Each Westchester market has different competition — we build strategies specific to each town.</span>,
   },
   {
     category: "areas",
     question: "Can you help businesses in Northern New Jersey?",
-    answer: <span>Yes. We serve businesses in <L href="/areas/jersey-city-marketing-company">Jersey City</L>, <L href="/areas/hoboken-marketing-company">Hoboken</L>, <L href="/areas/newark-marketing-company">Newark</L>, <L href="/areas/fort-lee-marketing-company">Fort Lee</L>, and <L href="/areas/edgewater-marketing-company">Edgewater</L>. Northern NJ businesses often compete with NYC businesses for the same searches — we know how to position you effectively in both markets.</span>,
+    answer: <span>Yes. We serve businesses in <L href="/services-areas-we-offer-marketing-services-in/jersey-city-marketing-company">Jersey City</L>, <L href="/services-areas-we-offer-marketing-services-in/hoboken-marketing-company">Hoboken</L>, <L href="/services-areas-we-offer-marketing-services-in/newark-marketing-company">Newark</L>, <L href="/services-areas-we-offer-marketing-services-in/fort-lee-marketing-company">Fort Lee</L>, and <L href="/services-areas-we-offer-marketing-services-in/edgewater-marketing-company">Edgewater</L>. Northern NJ businesses often compete with NYC businesses for the same searches — we know how to position you effectively in both markets.</span>,
   },
   {
     category: "areas",
     question: "What neighborhoods in Brooklyn do you serve?",
-    answer: <span>All of them. <L href="/areas/brooklyn-marketing-company">Brooklyn</L> including <L href="/areas/williamsburg-marketing-company">Williamsburg</L>, <L href="/areas/bushwick-marketing-company">Bushwick</L>, <L href="/areas/park-slope-marketing-company">Park Slope</L>, <L href="/areas/dumbo-marketing-company">DUMBO</L>, <L href="/areas/downtown-brooklyn-marketing-company">Downtown Brooklyn</L>, <L href="/areas/bay-ridge-marketing-company">Bay Ridge</L>, <L href="/areas/flatbush-marketing-company">Flatbush</L>, <L href="/areas/bensonhurst-marketing-company">Bensonhurst</L>, <L href="/areas/sunset-park-marketing-company">Sunset Park</L>, <L href="/areas/crown-heights-marketing-company">Crown Heights</L>, <L href="/areas/bed-stuy-marketing-company">Bed-Stuy</L>, and <L href="/areas/greenpoint-marketing-company">Greenpoint</L>. Each Brooklyn neighborhood has unique search patterns and competition.</span>,
+    answer: <span>All of them. <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L> including <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>, <L href="/services-areas-we-offer-marketing-services-in/bushwick-marketing-company">Bushwick</L>, <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L>, <L href="/services-areas-we-offer-marketing-services-in/dumbo-marketing-company">DUMBO</L>, <L href="/services-areas-we-offer-marketing-services-in/downtown-brooklyn-marketing-company">Downtown Brooklyn</L>, <L href="/services-areas-we-offer-marketing-services-in/bay-ridge-marketing-company">Bay Ridge</L>, <L href="/services-areas-we-offer-marketing-services-in/flatbush-marketing-company">Flatbush</L>, <L href="/services-areas-we-offer-marketing-services-in/bensonhurst-marketing-company">Bensonhurst</L>, <L href="/services-areas-we-offer-marketing-services-in/sunset-park-marketing-company">Sunset Park</L>, <L href="/services-areas-we-offer-marketing-services-in/crown-heights-marketing-company">Crown Heights</L>, <L href="/services-areas-we-offer-marketing-services-in/bed-stuy-marketing-company">Bed-Stuy</L>, and <L href="/services-areas-we-offer-marketing-services-in/greenpoint-marketing-company">Greenpoint</L>. Each Brooklyn neighborhood has unique search patterns and competition.</span>,
   },
   {
     category: "areas",
     question: "Do you work with businesses in Queens?",
-    answer: <span>Yes — <L href="/areas/queens-marketing-company">Queens</L> is one of our strongest markets. We serve businesses in <L href="/areas/astoria-marketing-company">Astoria</L>, <L href="/areas/flushing-marketing-company">Flushing</L>, <L href="/areas/long-island-city-marketing-company">Long Island City</L>, <L href="/areas/forest-hills-marketing-company">Forest Hills</L>, <L href="/areas/jamaica-queens-marketing-company">Jamaica</L>, <L href="/areas/bayside-marketing-company">Bayside</L>, <L href="/areas/jackson-heights-marketing-company">Jackson Heights</L>, <L href="/areas/ridgewood-marketing-company">Ridgewood</L>, <L href="/areas/woodside-marketing-company">Woodside</L>, and more. Queens&apos; diversity means multilingual SEO strategies deliver huge advantages.</span>,
+    answer: <span>Yes — <L href="/services-areas-we-offer-marketing-services-in/queens-marketing-company">Queens</L> is one of our strongest markets. We serve businesses in <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>, <L href="/services-areas-we-offer-marketing-services-in/flushing-marketing-company">Flushing</L>, <L href="/services-areas-we-offer-marketing-services-in/long-island-city-marketing-company">Long Island City</L>, <L href="/services-areas-we-offer-marketing-services-in/forest-hills-marketing-company">Forest Hills</L>, <L href="/services-areas-we-offer-marketing-services-in/jamaica-queens-marketing-company">Jamaica</L>, <L href="/services-areas-we-offer-marketing-services-in/bayside-marketing-company">Bayside</L>, <L href="/services-areas-we-offer-marketing-services-in/jackson-heights-marketing-company">Jackson Heights</L>, <L href="/services-areas-we-offer-marketing-services-in/ridgewood-marketing-company">Ridgewood</L>, <L href="/services-areas-we-offer-marketing-services-in/woodside-marketing-company">Woodside</L>, and more. Queens&apos; diversity means multilingual SEO strategies deliver huge advantages.</span>,
   },
   {
     category: "areas",
     question: "How is marketing different for businesses on Long Island vs NYC?",
-    answer: <span><L href="/areas/long-island-marketing-company">Long Island</L> customers search differently — more suburban, more car-based, more &ldquo;best [service] near me&rdquo; than specific neighborhood searches. Competition is often lighter than Manhattan or Brooklyn, meaning faster SEO results. We serve <L href="/areas/nassau-county-marketing-company">Nassau</L> and <L href="/areas/suffolk-county-marketing-company">Suffolk County</L> with strategies built for suburban search behavior.</span>,
+    answer: <span><L href="/services-areas-we-offer-marketing-services-in/long-island-marketing-company">Long Island</L> customers search differently — more suburban, more car-based, more &ldquo;best [service] near me&rdquo; than specific neighborhood searches. Competition is often lighter than Manhattan or Brooklyn, meaning faster SEO results. We serve <L href="/services-areas-we-offer-marketing-services-in/nassau-county-marketing-company">Nassau</L> and <L href="/services-areas-we-offer-marketing-services-in/suffolk-county-marketing-company">Suffolk County</L> with strategies built for suburban search behavior.</span>,
   },
   {
     category: "areas",
     question: "Can you target specific Manhattan neighborhoods for my business?",
-    answer: <span>Absolutely. We build dedicated pages for <L href="/areas/midtown-manhattan-marketing-company">Midtown</L>, <L href="/areas/lower-manhattan-marketing-company">Lower Manhattan</L>, <L href="/areas/upper-east-side-marketing-company">Upper East Side</L>, <L href="/areas/upper-west-side-marketing-company">Upper West Side</L>, <L href="/areas/harlem-marketing-company">Harlem</L>, <L href="/areas/soho-marketing-company">SoHo</L>, <L href="/areas/chelsea-marketing-company">Chelsea</L>, <L href="/areas/east-village-marketing-company">East Village</L>, <L href="/areas/tribeca-marketing-company">Tribeca</L>, and more. Manhattan is the most competitive market in the country — but with the right <L href="/nyc-marketing-company-services-list">strategy</L>, we get results.</span>,
+    answer: <span>Absolutely. We build dedicated pages for <L href="/services-areas-we-offer-marketing-services-in/midtown-manhattan-marketing-company">Midtown</L>, <L href="/services-areas-we-offer-marketing-services-in/lower-manhattan-marketing-company">Lower Manhattan</L>, <L href="/services-areas-we-offer-marketing-services-in/upper-east-side-marketing-company">Upper East Side</L>, <L href="/services-areas-we-offer-marketing-services-in/upper-west-side-marketing-company">Upper West Side</L>, <L href="/services-areas-we-offer-marketing-services-in/harlem-marketing-company">Harlem</L>, <L href="/services-areas-we-offer-marketing-services-in/soho-marketing-company">SoHo</L>, <L href="/services-areas-we-offer-marketing-services-in/chelsea-marketing-company">Chelsea</L>, <L href="/services-areas-we-offer-marketing-services-in/east-village-marketing-company">East Village</L>, <L href="/services-areas-we-offer-marketing-services-in/tribeca-marketing-company">Tribeca</L>, and more. Manhattan is the most competitive market in the country — but with the right <L href="/nyc-marketing-company-services-list">strategy</L>, we get results.</span>,
   },
   {
     category: "areas",
     question: "Do you offer marketing services for Staten Island businesses?",
-    answer: <span>Yes. <L href="/areas/staten-island-marketing-company">Staten Island</L> is often overlooked by NYC agencies, which means less SEO competition and faster results. We serve businesses in <L href="/areas/st-george-marketing-company">St. George</L>, <L href="/areas/tottenville-marketing-company">Tottenville</L>, <L href="/areas/new-dorp-marketing-company">New Dorp</L>, and <L href="/areas/great-kills-marketing-company">Great Kills</L>. Staten Island businesses can dominate local search with the right <L href="/nyc-marketing-pricing-guide">investment</L>.</span>,
+    answer: <span>Yes. <L href="/services-areas-we-offer-marketing-services-in/staten-island-marketing-company">Staten Island</L> is often overlooked by NYC agencies, which means less SEO competition and faster results. We serve businesses in <L href="/services-areas-we-offer-marketing-services-in/st-george-marketing-company">St. George</L>, <L href="/services-areas-we-offer-marketing-services-in/tottenville-marketing-company">Tottenville</L>, <L href="/services-areas-we-offer-marketing-services-in/new-dorp-marketing-company">New Dorp</L>, and <L href="/services-areas-we-offer-marketing-services-in/great-kills-marketing-company">Great Kills</L>. Staten Island businesses can dominate local search with the right <L href="/nyc-marketing-pricing-guide">investment</L>.</span>,
   },
   {
     category: "areas",
     question: "What about businesses in the Bronx — do you serve that market?",
-    answer: <span>Yes. <L href="/areas/bronx-marketing-company">The Bronx</L> is a growing market with increasing search demand. We serve businesses in <L href="/areas/riverdale-marketing-company">Riverdale</L>, <L href="/areas/fordham-marketing-company">Fordham</L>, <L href="/areas/pelham-bay-marketing-company">Pelham Bay</L>, <L href="/areas/mott-haven-marketing-company">Mott Haven</L>, <L href="/areas/kingsbridge-marketing-company">Kingsbridge</L>, and <L href="/areas/throgs-neck-marketing-company">Throgs Neck</L>. Bronx SEO competition is often 50% lower than Brooklyn or Manhattan — making it an incredible opportunity for local businesses.</span>,
+    answer: <span>Yes. <L href="/services-areas-we-offer-marketing-services-in/bronx-marketing-company">The Bronx</L> is a growing market with increasing search demand. We serve businesses in <L href="/services-areas-we-offer-marketing-services-in/riverdale-marketing-company">Riverdale</L>, <L href="/services-areas-we-offer-marketing-services-in/fordham-marketing-company">Fordham</L>, <L href="/services-areas-we-offer-marketing-services-in/pelham-bay-marketing-company">Pelham Bay</L>, <L href="/services-areas-we-offer-marketing-services-in/mott-haven-marketing-company">Mott Haven</L>, <L href="/services-areas-we-offer-marketing-services-in/kingsbridge-marketing-company">Kingsbridge</L>, and <L href="/services-areas-we-offer-marketing-services-in/throgs-neck-marketing-company">Throgs Neck</L>. Bronx SEO competition is often 50% lower than Brooklyn or Manhattan — making it an incredible opportunity for local businesses.</span>,
   },
 
   // ─── Branding (67–72) ───
   {
     category: "branding",
     question: "Why does my small business need professional branding?",
-    answer: <span>Your brand is why someone picks you over the competitor down the block. When a homeowner needs a <L href="/industries/plumber-marketing">plumber</L> or a patient needs a <L href="/industries/dental-practice-marketing">dentist</L>, they pick the business that looks the most trustworthy and professional. <L href="/nyc-marketing-company-services-list">Professional branding</L> increases click-through rates, boosts conversions, and makes every other marketing effort more effective.</span>,
+    answer: <span>Your brand is why someone picks you over the competitor down the block. When a homeowner needs a <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L> or a patient needs a <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist</L>, they pick the business that looks the most trustworthy and professional. <L href="/nyc-marketing-company-services-list">Professional branding</L> increases click-through rates, boosts conversions, and makes every other marketing effort more effective.</span>,
   },
   {
     category: "branding",
@@ -405,7 +405,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "branding",
     question: "Can you rebrand an existing business without losing customer recognition?",
-    answer: <span>Yes. A strategic rebrand evolves your identity rather than abandoning it. We keep elements your customers recognize while modernizing the look and feel. For businesses across <L href="/areas">NYC</L> that have outgrown their original DIY branding, a professional refresh signals growth and credibility to both existing and new customers.</span>,
+    answer: <span>Yes. A strategic rebrand evolves your identity rather than abandoning it. We keep elements your customers recognize while modernizing the look and feel. For businesses across <L href="/services-areas-we-offer-marketing-services-in">NYC</L> that have outgrown their original DIY branding, a professional refresh signals growth and credibility to both existing and new customers.</span>,
   },
   {
     category: "branding",
@@ -415,39 +415,39 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "branding",
     question: "Do you design truck wraps, signage, and print materials?",
-    answer: <span>Yes. Your brand should be consistent everywhere — <L href="/nyc-marketing-company-services-list">website</L>, Google Business Profile, truck wraps, business cards, signage, uniforms, and social media. We design all print and physical materials using your brand guidelines. For <L href="/industries/home-service-business-marketing">home service businesses</L>, a branded truck is one of the best local marketing investments you can make.</span>,
+    answer: <span>Yes. Your brand should be consistent everywhere — <L href="/nyc-marketing-company-services-list">website</L>, Google Business Profile, truck wraps, business cards, signage, uniforms, and social media. We design all print and physical materials using your brand guidelines. For <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, a branded truck is one of the best local marketing investments you can make.</span>,
   },
 
   // ─── AI & Automation (73–80) ───
   {
     category: "ai",
     question: "What is AI automation for small businesses?",
-    answer: <span><L href="/ai">AI automation</L> handles repetitive tasks — lead follow-up, appointment scheduling, review requests, customer communication — 24/7 without human intervention. For <L href="/industries">local business owners</L> who can&apos;t be glued to their phone all day, automation ensures no lead falls through the cracks and every customer gets a timely response.</span>,
+    answer: <span><L href="/artificial-intelligence-marketing-services-offered">AI automation</L> handles repetitive tasks — lead follow-up, appointment scheduling, review requests, customer communication — 24/7 without human intervention. For <L href="/industries-we-offer-marketing-services-for">local business owners</L> who can&apos;t be glued to their phone all day, automation ensures no lead falls through the cracks and every customer gets a timely response.</span>,
   },
   {
     category: "ai",
     question: "Can AI chatbots really help my NYC business get more leads?",
-    answer: <span>Yes. We build custom <L href="/ai">AI chatbots</L> that qualify leads, answer common questions, and book appointments while you&apos;re on a job site, with a patient, or sleeping. For <L href="/industries/home-service-business-marketing">home service businesses</L>, an AI agent that responds in 30 seconds vs. a competitor who takes 2 hours means you win the job. Speed to lead is everything.</span>,
+    answer: <span>Yes. We build custom <L href="/artificial-intelligence-marketing-services-offered">AI chatbots</L> that qualify leads, answer common questions, and book appointments while you&apos;re on a job site, with a patient, or sleeping. For <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, an AI agent that responds in 30 seconds vs. a competitor who takes 2 hours means you win the job. Speed to lead is everything.</span>,
   },
   {
     category: "ai",
     question: "How does automated lead follow-up work?",
-    answer: <span>When someone fills out your <L href="/nyc-marketing-company-services-list">website</L> contact form, our system instantly sends a personalized confirmation, notifies your team via text/email, and starts a follow-up sequence if they don&apos;t respond. For <L href="/industries/plumber-marketing">plumbers</L>, <L href="/industries/hvac-company-marketing">HVAC techs</L>, and other busy owners, this means never losing a lead because you were on a job. It&apos;s included in our <L href="/ai">AI automation packages</L>.</span>,
+    answer: <span>When someone fills out your <L href="/nyc-marketing-company-services-list">website</L> contact form, our system instantly sends a personalized confirmation, notifies your team via text/email, and starts a follow-up sequence if they don&apos;t respond. For <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumbers</L>, <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC techs</L>, and other busy owners, this means never losing a lead because you were on a job. It&apos;s included in our <L href="/artificial-intelligence-marketing-services-offered">AI automation packages</L>.</span>,
   },
   {
     category: "ai",
     question: "Can you automate review requests for my business?",
-    answer: <span>Yes. Our <L href="/ai">automated review system</L> sends review requests via SMS or email after service completion. It times requests perfectly — not too soon, not too late. For <L href="/industries/dental-practice-marketing">dental practices</L> and <L href="/industries/restaurant-food-service-marketing">restaurants</L>, we can trigger requests based on appointment completion or check-out. Clients typically see review counts triple within 3 months.</span>,
+    answer: <span>Yes. Our <L href="/artificial-intelligence-marketing-services-offered">automated review system</L> sends review requests via SMS or email after service completion. It times requests perfectly — not too soon, not too late. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L> and <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, we can trigger requests based on appointment completion or check-out. Clients typically see review counts triple within 3 months.</span>,
   },
   {
     category: "ai",
     question: "What is a CRM and does my small business need one?",
-    answer: <span>A CRM (Customer Relationship Management) system tracks every lead, customer interaction, and deal in one place. For businesses generating 20+ leads/month, a CRM prevents leads from falling through cracks. We build lightweight, <L href="/nyc-marketing-company-services-list">custom CRM solutions</L> that integrate with your website and <L href="/ai">automation systems</L> — not bloated enterprise software you&apos;ll never use.</span>,
+    answer: <span>A CRM (Customer Relationship Management) system tracks every lead, customer interaction, and deal in one place. For businesses generating 20+ leads/month, a CRM prevents leads from falling through cracks. We build lightweight, <L href="/nyc-marketing-company-services-list">custom CRM solutions</L> that integrate with your website and <L href="/artificial-intelligence-marketing-services-offered">automation systems</L> — not bloated enterprise software you&apos;ll never use.</span>,
   },
   {
     category: "ai",
     question: "How much time can AI automation save my business?",
-    answer: <span>Our <L href="/ai">AI automation clients</L> save an average of 15–20 hours per week on manual tasks — lead follow-up, appointment reminders, review requests, and customer communications. For a busy <L href="/industries/contractor-marketing">contractor</L> or <L href="/industries/dental-practice-marketing">practice owner</L>, that&apos;s half a work week back. The systems run 24/7, including nights and weekends when you&apos;re off the clock.</span>,
+    answer: <span>Our <L href="/artificial-intelligence-marketing-services-offered">AI automation clients</L> save an average of 15–20 hours per week on manual tasks — lead follow-up, appointment reminders, review requests, and customer communications. For a busy <L href="/industries-we-offer-marketing-services-for/contractor-marketing">contractor</L> or <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">practice owner</L>, that&apos;s half a work week back. The systems run 24/7, including nights and weekends when you&apos;re off the clock.</span>,
   },
   {
     category: "ai",
@@ -457,14 +457,14 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "ai",
     question: "Do you integrate with existing business tools and software?",
-    answer: <span>Yes. Our <L href="/ai">automation systems</L> integrate with popular tools — Google Calendar, QuickBooks, Mailchimp, Twilio, Slack, and custom APIs. For <L href="/industries/dental-practice-marketing">dental practices</L> on Dentrix, <L href="/industries/law-firm-marketing">law firms</L> on Clio, or <L href="/industries/restaurant-food-service-marketing">restaurants</L> on Toast — we build integrations that connect your marketing to your operations.</span>,
+    answer: <span>Yes. Our <L href="/artificial-intelligence-marketing-services-offered">automation systems</L> integrate with popular tools — Google Calendar, QuickBooks, Mailchimp, Twilio, Slack, and custom APIs. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L> on Dentrix, <L href="/industries-we-offer-marketing-services-for/law-firm-marketing">law firms</L> on Clio, or <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L> on Toast — we build integrations that connect your marketing to your operations.</span>,
   },
 
   // ─── Process & Reporting (81–90) ───
   {
     category: "process",
     question: "What does the onboarding process look like at Consortium NYC?",
-    answer: <span>After your <L href="/contact-nyc-marketing-company-consortium-nyc">free strategy session</L>, onboarding takes less than a week. We conduct a full digital audit, perform competitive research in your <L href="/areas">local market</L>, and deliver a strategic roadmap within two weeks. Implementation starts immediately. You&apos;ll have direct access to your strategist from day one — no layers, no handoffs.</span>,
+    answer: <span>After your <L href="/contact-nyc-marketing-company-consortium-nyc">free strategy session</L>, onboarding takes less than a week. We conduct a full digital audit, perform competitive research in your <L href="/services-areas-we-offer-marketing-services-in">local market</L>, and deliver a strategic roadmap within two weeks. Implementation starts immediately. You&apos;ll have direct access to your strategist from day one — no layers, no handoffs.</span>,
   },
   {
     category: "process",
@@ -489,7 +489,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "process",
     question: "Do you provide competitor analysis reports?",
-    answer: <span>Yes — detailed competitor analysis is included in every engagement. We analyze your top 5–10 <L href="/industries">local competitors</L>: their keyword rankings, backlink profiles, content strategies, GBP presence, and website performance. This reveals gaps we can exploit and strategies we can beat. Your initial audit includes this at no extra cost.</span>,
+    answer: <span>Yes — detailed competitor analysis is included in every engagement. We analyze your top 5–10 <L href="/industries-we-offer-marketing-services-for">local competitors</L>: their keyword rankings, backlink profiles, content strategies, GBP presence, and website performance. This reveals gaps we can exploit and strategies we can beat. Your initial audit includes this at no extra cost.</span>,
   },
   {
     category: "process",
@@ -499,17 +499,17 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "process",
     question: "Can I see examples of your work before hiring you?",
-    answer: <span>Yes. Our <L href="/nyc-marketing-company-portfolio">portfolio</L> shows real results from real businesses — rankings gained, traffic growth, revenue attributed. We don&apos;t use stock photo case studies or anonymized data. We show you actual businesses we&apos;ve helped across <L href="/industries">100+ industries</L> in <L href="/areas">80+ neighborhoods</L>.</span>,
+    answer: <span>Yes. Our <L href="/nyc-marketing-company-portfolio">portfolio</L> shows real results from real businesses — rankings gained, traffic growth, revenue attributed. We don&apos;t use stock photo case studies or anonymized data. We show you actual businesses we&apos;ve helped across <L href="/industries-we-offer-marketing-services-for">100+ industries</L> in <L href="/services-areas-we-offer-marketing-services-in">80+ neighborhoods</L>.</span>,
   },
   {
     category: "process",
     question: "What metrics do you track for local businesses?",
-    answer: <span>We track metrics that matter: keyword rankings by <L href="/areas">neighborhood</L>, organic traffic, phone calls from Google, form submissions, direction requests, GBP impressions, conversion rates, and cost per lead. Vanity metrics like social media followers don&apos;t pay your bills — we focus on the numbers that do.</span>,
+    answer: <span>We track metrics that matter: keyword rankings by <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L>, organic traffic, phone calls from Google, form submissions, direction requests, GBP impressions, conversion rates, and cost per lead. Vanity metrics like social media followers don&apos;t pay your bills — we focus on the numbers that do.</span>,
   },
   {
     category: "process",
     question: "Do you offer a free SEO audit?",
-    answer: <span>Yes. Our <L href="/contact-nyc-marketing-company-consortium-nyc">free audit</L> covers your current rankings, website technical health, Google Business Profile status, local citation consistency, competitor landscape, and specific opportunities we see in your <L href="/areas">market</L>. It&apos;s a genuine analysis — not a sales pitch disguised as an audit. We&apos;ll tell you the truth even if it means you don&apos;t need us.</span>,
+    answer: <span>Yes. Our <L href="/contact-nyc-marketing-company-consortium-nyc">free audit</L> covers your current rankings, website technical health, Google Business Profile status, local citation consistency, competitor landscape, and specific opportunities we see in your <L href="/services-areas-we-offer-marketing-services-in">market</L>. It&apos;s a genuine analysis — not a sales pitch disguised as an audit. We&apos;ll tell you the truth even if it means you don&apos;t need us.</span>,
   },
 
   // ─── Technical (91–95) ───
@@ -521,7 +521,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "technical",
     question: "How important is website speed for SEO and conversions?",
-    answer: <span>A 1-second delay in page load reduces conversions by 7%. Google uses page speed as a ranking factor. Our <L href="/nyc-marketing-company-services-list">Next.js websites</L> load in under 2 seconds — compared to the 4–6 second average for WordPress sites. For <L href="/industries">local businesses</L> where a customer&apos;s next option is one click away, speed isn&apos;t optional.</span>,
+    answer: <span>A 1-second delay in page load reduces conversions by 7%. Google uses page speed as a ranking factor. Our <L href="/nyc-marketing-company-services-list">Next.js websites</L> load in under 2 seconds — compared to the 4–6 second average for WordPress sites. For <L href="/industries-we-offer-marketing-services-for">local businesses</L> where a customer&apos;s next option is one click away, speed isn&apos;t optional.</span>,
   },
   {
     category: "technical",
@@ -531,7 +531,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "technical",
     question: "What is a sitemap and why does my website need one?",
-    answer: <span>A sitemap is an XML file that tells Google every page on your website and how they&apos;re connected. It helps Google discover and index your content faster — especially important for sites with <L href="/areas">dozens of service area pages</L> and <L href="/industries">industry pages</L>. We auto-generate sitemaps on every site we build and submit them to Google Search Console.</span>,
+    answer: <span>A sitemap is an XML file that tells Google every page on your website and how they&apos;re connected. It helps Google discover and index your content faster — especially important for sites with <L href="/services-areas-we-offer-marketing-services-in">dozens of service area pages</L> and <L href="/industries-we-offer-marketing-services-for">industry pages</L>. We auto-generate sitemaps on every site we build and submit them to Google Search Console.</span>,
   },
   {
     category: "technical",
@@ -543,7 +543,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "general",
     question: "What is the best marketing strategy for a new NYC business?",
-    answer: <span>Start with three things: a fast, conversion-focused <L href="/nyc-marketing-company-services-list">website</L>, <L href="/nyc-marketing-company-services-list">local SEO</L> targeting your immediate <L href="/areas">neighborhood</L>, and an optimized <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. These build a foundation that compounds over time. Skip the paid ads until organic channels are working. See our <L href="/nyc-marketing-pricing-guide">startup pricing</L>.</span>,
+    answer: <span>Start with three things: a fast, conversion-focused <L href="/nyc-marketing-company-services-list">website</L>, <L href="/nyc-marketing-company-services-list">local SEO</L> targeting your immediate <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L>, and an optimized <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. These build a foundation that compounds over time. Skip the paid ads until organic channels are working. See our <L href="/nyc-marketing-pricing-guide">startup pricing</L>.</span>,
   },
   {
     category: "general",
@@ -553,7 +553,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "general",
     question: "Is social media marketing important for NYC local businesses?",
-    answer: <span>It depends on your <L href="/industries">industry</L>. <L href="/industries/restaurant-food-service-marketing">Restaurants</L> and <L href="/industries/salon-marketing">salons</L> get significant business from Instagram. <L href="/industries/plumber-marketing">Plumbers</L> and <L href="/industries/hvac-company-marketing">HVAC companies</L> don&apos;t. We recommend investing in channels with the highest ROI first — usually <L href="/nyc-marketing-company-services-list">SEO</L> and <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. Social media is a supplement, not a foundation.</span>,
+    answer: <span>It depends on your <L href="/industries-we-offer-marketing-services-for">industry</L>. <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">Restaurants</L> and <L href="/industries-we-offer-marketing-services-for/salon-marketing">salons</L> get significant business from Instagram. <L href="/industries-we-offer-marketing-services-for/plumber-marketing">Plumbers</L> and <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC companies</L> don&apos;t. We recommend investing in channels with the highest ROI first — usually <L href="/nyc-marketing-company-services-list">SEO</L> and <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. Social media is a supplement, not a foundation.</span>,
   },
   {
     category: "general",
@@ -563,7 +563,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "general",
     question: "How do I get started with Consortium NYC?",
-    answer: <span><L href="/contact-nyc-marketing-company-consortium-nyc">Schedule a free strategy session</L>. We&apos;ll review your current situation, audit your competitors, and give you a clear roadmap — whether you hire us or not. No pitch decks, no pressure. Just a real conversation about what it takes to win in your <L href="/areas">local market</L>. You can also call us at (212) 202-9220.</span>,
+    answer: <span><L href="/contact-nyc-marketing-company-consortium-nyc">Schedule a free strategy session</L>. We&apos;ll review your current situation, audit your competitors, and give you a clear roadmap — whether you hire us or not. No pitch decks, no pressure. Just a real conversation about what it takes to win in your <L href="/services-areas-we-offer-marketing-services-in">local market</L>. You can also call us at (212) 202-9220.</span>,
   },
 ];
 
@@ -661,7 +661,7 @@ export default function FAQPageClient() {
               <span className="text-teal-400">FAQ</span>
             </h1>
             <p className="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto mb-8">
-              Honest answers to 100 questions about <L href="/nyc-marketing-company-services-list">SEO</L>, <L href="/nyc-marketing-company-services-list">web design</L>, <L href="/nyc-marketing-pricing-guide">pricing</L>, <L href="/ai">AI automation</L>, and hiring a marketing company for your <L href="/areas">NYC</L> business. No fluff. No sales pitch. Just truth.
+              Honest answers to 100 questions about <L href="/nyc-marketing-company-services-list">SEO</L>, <L href="/nyc-marketing-company-services-list">web design</L>, <L href="/nyc-marketing-pricing-guide">pricing</L>, <L href="/artificial-intelligence-marketing-services-offered">AI automation</L>, and hiring a marketing company for your <L href="/services-areas-we-offer-marketing-services-in">NYC</L> business. No fluff. No sales pitch. Just truth.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
@@ -796,8 +796,8 @@ export default function FAQPageClient() {
                 {[
                   { label: "Transparent Pricing Guide", href: "/nyc-marketing-pricing-guide" },
                   { label: "Portfolio & Results", href: "/nyc-marketing-company-portfolio" },
-                  { label: "100+ Industries We Serve", href: "/industries" },
-                  { label: "80+ Service Areas", href: "/areas" },
+                  { label: "100+ Industries We Serve", href: "/industries-we-offer-marketing-services-for" },
+                  { label: "80+ Service Areas", href: "/services-areas-we-offer-marketing-services-in" },
                   { label: "What's Working in Marketing", href: "/whats-working-in-marketing" },
                   { label: "About Consortium NYC", href: "/about-digital-marketing-agency-consortium-nyc" },
                   { label: "Free Strategy Session", href: "/contact-nyc-marketing-company-consortium-nyc" },
@@ -826,7 +826,7 @@ export default function FAQPageClient() {
               <span className="text-teal-600">We Pick Up the Phone.</span>
             </h2>
             <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
-              100 FAQs can&apos;t replace a real conversation about your business. Schedule a free strategy session and get honest answers about your specific <L href="/areas">market</L>, <L href="/industries">industry</L>, and goals.
+              100 FAQs can&apos;t replace a real conversation about your business. Schedule a free strategy session and get honest answers about your specific <L href="/services-areas-we-offer-marketing-services-in">market</L>, <L href="/industries-we-offer-marketing-services-for">industry</L>, and goals.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

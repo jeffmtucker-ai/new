@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/blogData";
 
 export default function BlogNav() {
   const pathname = usePathname();
-  const currentIndex = blogPosts.findIndex((p) => `/blog/${p.slug}` === pathname);
+  const currentIndex = blogPosts.findIndex((p) => `/the-marketing-blog/${p.slug}` === pathname);
 
   if (currentIndex === -1) return null;
 
@@ -18,7 +18,7 @@ export default function BlogNav() {
       <div className="flex items-stretch gap-4">
         {prev ? (
           <Link
-            href={`/blog/${prev.slug}`}
+            href={`/the-marketing-blog/${prev.slug}`}
             className="flex-1 group rounded-xl border border-slate-200 hover:border-teal-300 p-5 transition-all"
           >
             <p className="text-xs text-slate-400 uppercase tracking-wider mb-2 font-cta">&larr; Previous</p>
@@ -32,7 +32,7 @@ export default function BlogNav() {
 
         {next ? (
           <Link
-            href={`/blog/${next.slug}`}
+            href={`/the-marketing-blog/${next.slug}`}
             className="flex-1 group rounded-xl border border-slate-200 hover:border-teal-300 p-5 transition-all text-right"
           >
             <p className="text-xs text-slate-400 uppercase tracking-wider mb-2 font-cta">Next &rarr;</p>

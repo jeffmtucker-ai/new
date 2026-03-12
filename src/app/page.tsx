@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   JsonLd,
   webPageSchema,
@@ -6,6 +7,13 @@ import {
   aggregateRatingSchema,
 } from "@/lib/schema";
 import { faqs } from "@/lib/siteData";
+
+export const metadata: Metadata = {
+  title: "NYC Marketing Company | SEO, Web Design & Branding | Consortium NYC",
+  description:
+    "Full-service NYC marketing company serving 100+ industries across NYC, Long Island, and Westchester. SEO from $950/mo, custom websites from $4,600. 25+ years experience. No contracts. Call/text (212) 202-9220.",
+  alternates: { canonical: "https://www.consortiumnyc.com" },
+};
 
 // Home page sections
 import StickyBar from "@/components/home/StickyBar";
@@ -45,7 +53,7 @@ import BlogPreview from "@/components/home/BlogPreview";
 import FinalCTA from "@/components/home/FinalCTA";
 import ExitIntent from "@/components/home/ExitIntent";
 
-const breadcrumbs = [{ name: "Home", url: "https://consortiumnyc.com" }];
+const breadcrumbs = [{ name: "Home", url: "https://www.consortiumnyc.com" }];
 
 export default function Home() {
   return (
@@ -55,7 +63,7 @@ export default function Home() {
         data={webPageSchema(
           "NYC Marketing Company | Consortium NYC",
           "Full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses in NYC, Long Island, and Westchester.",
-          "https://consortiumnyc.com",
+          "https://www.consortiumnyc.com",
           breadcrumbs
         )}
       />

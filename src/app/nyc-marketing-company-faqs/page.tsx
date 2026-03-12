@@ -5,7 +5,7 @@ import FAQPageClient from "./FAQPageClient";
 export const metadata: Metadata = {
   title: "100 Marketing FAQs for NYC Businesses | SEO, Web Design, Pricing | Consortium NYC",
   description:
-    "100 answers to the most common questions about hiring a marketing company in NYC. SEO pricing, web design costs, local SEO timelines, Google Business Profile, AI automation, and more for businesses in NYC, Long Island, and Westchester.",
+    "100 answers to the most common questions about hiring a marketing company in NYC. SEO pricing, web design costs, local SEO timelines, Google Business Profile, AI automation, and more. Call/text (212) 202-9220.",
   keywords: [
     "NYC marketing company FAQ",
     "how much does SEO cost in NYC",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
 };
 
 const breadcrumbs = [
-  { name: "Home", url: "https://consortiumnyc.com" },
-  { name: "FAQ", url: "https://consortiumnyc.com/nyc-marketing-company-faqs" },
+  { name: "Home", url: "https://www.consortiumnyc.com" },
+  { name: "FAQ", url: "https://www.consortiumnyc.com/nyc-marketing-company-faqs" },
 ];
 
 /* Plain-text versions for structured data (first 50 for schema — Google caps at ~100 anyway) */
@@ -46,7 +46,7 @@ export default function FAQPage() {
         data={webPageSchema(
           "100 Marketing FAQs for NYC Businesses | Consortium NYC",
           "100 answers to the most common questions about hiring a marketing company in NYC.",
-          "https://consortiumnyc.com/nyc-marketing-company-faqs",
+          "https://www.consortiumnyc.com/nyc-marketing-company-faqs",
           breadcrumbs
         )}
       />

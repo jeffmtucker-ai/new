@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Privacy Policy for Consortium NYC. Learn how we collect, use, and protect your personal information. Call (212) 202-9220 with questions.",
-  alternates: { canonical: "https://consortiumnyc.com/privacy-policy" },
+  alternates: { canonical: "https://www.consortiumnyc.com/privacy-policy" },
   robots: { index: true, follow: true },
 };
 
@@ -19,13 +19,13 @@ export default function PrivacyPolicyPage() {
         data={webPageSchema(
           "Privacy Policy",
           "Privacy Policy for Consortium NYC. How we collect, use, and protect your personal information.",
-          "https://consortiumnyc.com/privacy-policy"
+          "https://www.consortiumnyc.com/privacy-policy"
         )}
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", url: "https://consortiumnyc.com" },
-          { name: "Privacy Policy", url: "https://consortiumnyc.com/privacy-policy" },
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Privacy Policy", url: "https://www.consortiumnyc.com/privacy-policy" },
         ])}
       />
 

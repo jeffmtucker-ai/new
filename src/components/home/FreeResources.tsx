@@ -9,21 +9,21 @@ const resources = [
     description:
       "Get a complete analysis of your website's SEO health — technical issues, keyword gaps, backlink profile, and competitor benchmarks. No strings attached. No sales pitch required.",
     cta: "Get It Free",
-    href: "/free-seo-audit",
+    href: "/the-free-human+ai-seo-marketing-review",
   },
   {
     title: "2026 Digital Marketing Checklist",
     description:
       "The 45-point checklist our team uses for every single client. SEO, local search, content, website optimization, and AI automation — every box you need to check to dominate online this year.",
     cta: "Use the Checklist",
-    href: "/marketing-checklist-2026",
+    href: "/master-marketing-checklist-last-updated-2026",
   },
   {
     title: "ROI Calculator",
     description:
       "See exactly what digital marketing can do for your bottom line. Plug in your numbers and get a clear projection of traffic, leads, and revenue. Know before you invest.",
     cta: "Calculate Your ROI",
-    href: "/roi-calculator",
+    href: "/annual-marketing-spend-roi-calculator",
   },
 ];
 

@@ -34,9 +34,9 @@ export async function generateMetadata({
 
   return {
     title: `${service.name} in ${area.name} | ${regionLabel} Marketing Company | Consortium NYC`,
-    description: `${service.name} for ${area.name} businesses. Local SEO from $950/month, custom websites from $4,600. Data-driven ${service.name.toLowerCase()} strategies tailored to the ${area.name} market. No contracts.`,
+    description: `${service.name} for ${area.name} businesses. Local SEO from $950/month, custom websites from $4,600. Data-driven ${service.name.toLowerCase()} strategies tailored to the ${area.name} market. No contracts. Call/text (212) 202-9220.`,
     alternates: {
-      canonical: `https://consortiumnyc.com/services/${service.slug}/${area.slug}`,
+      canonical: `https://www.consortiumnyc.com/services/${service.slug}/${area.slug}`,
     },
   };
 }
@@ -63,13 +63,13 @@ export default async function ServiceAreaPage({
 
   const category = serviceCategories.find((c) => c.slug === slug);
   const pageFaqs = getServiceAreaFaqs(service.name, area.name, area.region);
-  const pageUrl = `https://consortiumnyc.com/services/${service.slug}/${area.slug}`;
+  const pageUrl = `https://www.consortiumnyc.com/services/${service.slug}/${area.slug}`;
   const regionLabel = area.region === area.name ? area.type : area.region;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://consortiumnyc.com" },
-    { name: "Services", url: "https://consortiumnyc.com/nyc-marketing-company-services-list" },
-    { name: service.name, url: `https://consortiumnyc.com/services/${service.slug}` },
+    { name: "Home", url: "https://www.consortiumnyc.com" },
+    { name: "Services", url: "https://www.consortiumnyc.com/nyc-marketing-company-services-list" },
+    { name: service.name, url: `https://www.consortiumnyc.com/services/${service.slug}` },
     { name: area.name, url: pageUrl },
   ];
 

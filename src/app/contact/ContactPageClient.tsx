@@ -271,11 +271,11 @@ export default function ContactPageClient() {
               { label: "Web Design", href: "/services/web-design" },
               { label: "Branding", href: "/services/branding" },
               { label: "Digital Strategy", href: "/services/digital-strategy" },
-              { label: "AI Chatbot", href: "/ai" },
-              { label: "Industries", href: "/industries" },
-              { label: "Areas We Serve", href: "/areas" },
+              { label: "AI Chatbot", href: "/artificial-intelligence-marketing-services-offered" },
+              { label: "Industries", href: "/industries-we-offer-marketing-services-for" },
+              { label: "Areas We Serve", href: "/services-areas-we-offer-marketing-services-in" },
               { label: "Pricing Guide", href: "/nyc-marketing-pricing-guide" },
-              { label: "Free SEO Audit", href: "/free-seo-audit" },
+              { label: "Free SEO Audit", href: "/the-free-human+ai-seo-marketing-review" },
             ].map((link) => (
               <Link
                 key={link.href}

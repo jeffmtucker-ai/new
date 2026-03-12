@@ -6,7 +6,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { areas } from "@/lib/siteData";
 
-const TriStateMap = dynamic(() => import("@/app/areas/TriStateMap"), {
+const TriStateMap = dynamic(() => import("@/app/services-areas-we-offer-marketing-services-in/TriStateMap"), {
   ssr: false,
   loading: () => (
     <div className="w-full h-[420px] sm:h-[500px] rounded-2xl bg-slate-800 animate-pulse flex items-center justify-center">
@@ -48,7 +48,7 @@ export default function AreasServed() {
             <span className="text-teal-600">80+ Neighborhoods &amp; Cities</span>
           </h2>
           <p className="text-slate-600 text-lg max-w-3xl mx-auto">
-            Hyper-local marketing strategies for businesses in every neighborhood across NYC, Long Island, Westchester, and Northern New Jersey. Every location gets its own keyword strategy, competitor analysis, and <Link href="/nyc-marketing-company-services-list" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">local SEO plan</Link>. See our <Link href="/industries" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">100+ industries served</Link> or <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">transparent pricing</Link>.
+            Hyper-local marketing strategies for businesses in every neighborhood across NYC, Long Island, Westchester, and Northern New Jersey. Every location gets its own keyword strategy, competitor analysis, and <Link href="/nyc-marketing-company-services-list" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">local SEO plan</Link>. See our <Link href="/industries-we-offer-marketing-services-for" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">100+ industries served</Link> or <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">transparent pricing</Link>.
           </p>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function AreasServed() {
                   {regionAreas.map((area) => (
                     <Link
                       key={area.slug}
-                      href={`/areas/${area.slug}`}
+                      href={`/services-areas-we-offer-marketing-services-in/${area.slug}`}
                       className="inline-block text-[11px] font-medium px-2.5 py-1 rounded-full bg-teal-50 text-teal-700 border border-teal-200 hover:bg-teal-100 hover:border-teal-400 transition-all font-cta"
                     >
                       {area.name}
@@ -125,7 +125,7 @@ export default function AreasServed() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/areas"
+              href="/services-areas-we-offer-marketing-services-in"
               className="inline-block px-8 py-4 text-base font-bold text-teal-600 rounded-lg bg-white border-2 border-teal-600 hover:bg-teal-50 transition-colors shadow-lg font-cta"
             >
               See All Service Areas

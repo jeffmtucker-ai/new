@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contact Us — Schedule a Free Strategy Session",
   description:
     "Get in touch with Consortium NYC. Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC, Long Island, and Westchester. Call (212) 202-9220.",
-  alternates: { canonical: "https://consortiumnyc.com/contact" },
+  alternates: { canonical: "https://www.consortiumnyc.com/contact" },
   keywords: [
     "contact consortium nyc",
     "nyc marketing agency contact",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Contact Consortium NYC — Free Strategy Session",
     description:
       "Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC. Call (212) 202-9220.",
-    url: "https://consortiumnyc.com/contact",
+    url: "https://www.consortiumnyc.com/contact",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Contact Consortium NYC" }],
   },
   twitter: {
@@ -40,13 +40,13 @@ export default function ContactPage() {
         data={webPageSchema(
           "Contact Us — Schedule a Free Strategy Session",
           "Get in touch with Consortium NYC. Schedule a free strategy consultation for SEO, web design, branding, and digital marketing in NYC, Long Island, and Westchester. Call (212) 202-9220.",
-          "https://consortiumnyc.com/contact"
+          "https://www.consortiumnyc.com/contact"
         )}
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", url: "https://consortiumnyc.com" },
-          { name: "Contact", url: "https://consortiumnyc.com/contact" },
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Contact", url: "https://www.consortiumnyc.com/contact" },
         ])}
       />
       <ContactPageClient />

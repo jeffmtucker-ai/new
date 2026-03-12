@@ -3,16 +3,16 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://consortiumnyc.com/#organization",
+  "@id": "https://www.consortiumnyc.com/#organization",
   name: "Consortium NYC",
-  url: "https://consortiumnyc.com",
+  url: "https://www.consortiumnyc.com",
   logo: {
     "@type": "ImageObject",
-    url: "https://consortiumnyc.com/logo.png",
+    url: "https://www.consortiumnyc.com/logo.png",
     width: 600,
     height: 60,
   },
-  image: "https://consortiumnyc.com/og-image.jpg",
+  image: "https://www.consortiumnyc.com/og-image.jpg",
   description:
     "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
   address: {
@@ -73,18 +73,18 @@ export const organizationSchema = {
 export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://consortiumnyc.com/#website",
-  url: "https://consortiumnyc.com",
+  "@id": "https://www.consortiumnyc.com/#website",
+  url: "https://www.consortiumnyc.com",
   name: "Consortium NYC",
   description: "NYC Marketing Company | SEO, Branding, Web Design & Automation",
   publisher: {
-    "@id": "https://consortiumnyc.com/#organization",
+    "@id": "https://www.consortiumnyc.com/#organization",
   },
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://consortiumnyc.com/search?q={search_term_string}",
+      urlTemplate: "https://www.consortiumnyc.com/search?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -94,10 +94,10 @@ export function localBusinessSchema(area: string, areaType: string = "City") {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "@id": `https://consortiumnyc.com/areas/${area.toLowerCase().replace(/\s+/g, "-")}/#localbusiness`,
+    "@id": `https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}/#localbusiness`,
     name: `Consortium NYC - ${area} Digital Marketing`,
-    image: "https://consortiumnyc.com/og-image.jpg",
-    url: `https://consortiumnyc.com/areas/${area.toLowerCase().replace(/\s+/g, "-")}`,
+    image: "https://www.consortiumnyc.com/og-image.jpg",
+    url: `https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}`,
     telephone: "+1-212-202-9220",
     priceRange: "$$",
     address: {
@@ -111,7 +111,7 @@ export function localBusinessSchema(area: string, areaType: string = "City") {
       name: area,
     },
     parentOrganization: {
-      "@id": "https://consortiumnyc.com/#organization",
+      "@id": "https://www.consortiumnyc.com/#organization",
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -136,14 +136,14 @@ export function serviceSchema(
   const base: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://consortiumnyc.com/services/${serviceSlug}/#service`,
+    "@id": `https://www.consortiumnyc.com/services/${serviceSlug}/#service`,
     name: serviceName,
     description,
     url: area
-      ? `https://consortiumnyc.com/services/${serviceSlug}/${area.toLowerCase().replace(/\s+/g, "-")}`
-      : `https://consortiumnyc.com/services/${serviceSlug}`,
+      ? `https://www.consortiumnyc.com/services/${serviceSlug}/${area.toLowerCase().replace(/\s+/g, "-")}`
+      : `https://www.consortiumnyc.com/services/${serviceSlug}`,
     provider: {
-      "@id": "https://consortiumnyc.com/#organization",
+      "@id": "https://www.consortiumnyc.com/#organization",
     },
     serviceType: serviceName,
     areaServed: area
@@ -199,8 +199,8 @@ export function webPageSchema(
     url,
     name: title,
     description,
-    isPartOf: { "@id": "https://consortiumnyc.com/#website" },
-    about: { "@id": "https://consortiumnyc.com/#organization" },
+    isPartOf: { "@id": "https://www.consortiumnyc.com/#website" },
+    about: { "@id": "https://www.consortiumnyc.com/#organization" },
     datePublished: "2024-01-01",
     dateModified: new Date().toISOString().split("T")[0],
     inLanguage: "en-US",
@@ -227,14 +227,14 @@ export function articleSchema(
     headline: title,
     description,
     url,
-    image: image || "https://consortiumnyc.com/og-image.jpg",
+    image: image || "https://www.consortiumnyc.com/og-image.jpg",
     datePublished,
     dateModified,
     author: {
-      "@id": "https://consortiumnyc.com/#organization",
+      "@id": "https://www.consortiumnyc.com/#organization",
     },
     publisher: {
-      "@id": "https://consortiumnyc.com/#organization",
+      "@id": "https://www.consortiumnyc.com/#organization",
     },
     mainEntityOfPage: {
       "@type": "WebPage",

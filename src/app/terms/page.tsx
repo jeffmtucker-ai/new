@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description:
     "Terms of Service for Consortium NYC. Read our terms governing the use of our website and digital marketing services. Call (212) 202-9220 with questions.",
-  alternates: { canonical: "https://consortiumnyc.com/terms" },
+  alternates: { canonical: "https://www.consortiumnyc.com/terms" },
   robots: { index: true, follow: true },
 };
 
@@ -19,13 +19,13 @@ export default function TermsPage() {
         data={webPageSchema(
           "Terms of Service",
           "Terms of Service for Consortium NYC. Terms governing use of our website and digital marketing services.",
-          "https://consortiumnyc.com/terms"
+          "https://www.consortiumnyc.com/terms"
         )}
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", url: "https://consortiumnyc.com" },
-          { name: "Terms of Service", url: "https://consortiumnyc.com/terms" },
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Terms of Service", url: "https://www.consortiumnyc.com/terms" },
         ])}
       />
 

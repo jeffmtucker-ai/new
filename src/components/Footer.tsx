@@ -95,7 +95,7 @@ export default function Footer() {
               {areas.map((a) => (
                 <li key={a.slug}>
                   <Link
-                    href={`/areas/${a.slug}`}
+                    href={`/services-areas-we-offer-marketing-services-in/${a.slug}`}
                     className="text-sm text-slate-300 transition-colors hover:text-teal-400"
                   >
                     {a.label}

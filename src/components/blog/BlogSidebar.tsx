@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import { blogPosts } from "@/lib/blogData";
 
 const resources = [
-  { title: "Free SEO Audit", href: "/free-seo-audit" },
-  { title: "Marketing Checklist", href: "/marketing-checklist-2026" },
-  { title: "ROI Calculator", href: "/roi-calculator" },
+  { title: "Free SEO Audit", href: "/the-free-human+ai-seo-marketing-review" },
+  { title: "Marketing Checklist", href: "/master-marketing-checklist-last-updated-2026" },
+  { title: "ROI Calculator", href: "/annual-marketing-spend-roi-calculator" },
 ];
 
 export default function BlogSidebar() {
@@ -18,12 +18,12 @@ export default function BlogSidebar() {
       <div className="lg:sticky lg:top-36">
         {/* Blog nav */}
         <div className="mb-8">
-          <Link href="/blog" className="text-xs font-bold uppercase tracking-wider text-teal-600 mb-3 block font-cta">
+          <Link href="/the-marketing-blog" className="text-xs font-bold uppercase tracking-wider text-teal-600 mb-3 block font-cta">
             Blog
           </Link>
           <nav className="space-y-1">
             {blogPosts.map((post) => {
-              const href = `/blog/${post.slug}`;
+              const href = `/the-marketing-blog/${post.slug}`;
               const isActive = pathname === href;
               return (
                 <Link

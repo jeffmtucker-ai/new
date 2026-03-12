@@ -26,7 +26,7 @@ export default function Industries() {
             <span className="text-teal-600">New York &amp; the Tri-State Area</span>
           </h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-            Industry-specific marketing strategies for law firms, restaurants, contractors, medical practices, and more across NYC, Brooklyn, Queens, Long Island, and Westchester. We&apos;ve served over 25 years of businesses across every vertical imaginable. Explore our <Link href="/areas" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">service areas</Link> or see <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">pricing</Link>.
+            Industry-specific marketing strategies for law firms, restaurants, contractors, medical practices, and more across NYC, Brooklyn, Queens, Long Island, and Westchester. We&apos;ve served over 25 years of businesses across every vertical imaginable. Explore our <Link href="/services-areas-we-offer-marketing-services-in" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">service areas</Link> or see <Link href="/nyc-marketing-pricing-guide" className="text-teal-600 underline underline-offset-2 hover:text-teal-700">pricing</Link>.
           </p>
         </motion.div>
 
@@ -41,7 +41,7 @@ export default function Industries() {
               transition={{ duration: 0.4, delay: (i % 8) * 0.05 }}
             >
               <Link
-                href={`/industries/${ind.slug}`}
+                href={`/industries-we-offer-marketing-services-for/${ind.slug}`}
                 className="group block rounded-xl bg-white border border-slate-200 hover:border-teal-400 p-5 h-full transition-all shadow-sm hover:shadow-md"
               >
                 <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-teal-600 font-cta">
@@ -74,7 +74,7 @@ export default function Industries() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/industries"
+              href="/industries-we-offer-marketing-services-for"
               className="inline-block px-8 py-4 text-base font-bold text-teal-600 rounded-lg bg-white border-2 border-teal-600 hover:bg-teal-50 transition-colors shadow-lg font-cta"
             >
               See All Industries We&apos;ve Served

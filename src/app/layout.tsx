@@ -30,13 +30,13 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://consortiumnyc.com"),
+  metadataBase: new URL("https://www.consortiumnyc.com"),
   title: {
     default: "NYC Marketing Company | Consortium NYC",
     template: "%s | Consortium NYC",
   },
   description:
-    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester.",
+    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester. Call/text (212) 202-9220.",
   keywords: [
     "nyc marketing company",
     "seo agency new york",
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://consortiumnyc.com",
+    url: "https://www.consortiumnyc.com",
     siteName: "Consortium NYC",
     title: "NYC Marketing Company | Consortium NYC",
     description:
-      "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation.",
+      "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
     images: [
       {
         url: "/og-image.jpg",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NYC Marketing Company | Consortium NYC",
     description:
-      "Full-service NYC marketing company for local businesses. SEO, web design, branding, and automation.",
+      "Full-service NYC marketing company for local businesses. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
     images: ["/og-image.jpg"],
     creator: "@consortiumnyc",
   },
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://consortiumnyc.com",
+    canonical: "https://www.consortiumnyc.com",
   },
   verification: {
     google: "your-google-verification-code",

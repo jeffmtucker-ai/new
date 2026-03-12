@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Accessibility Statement",
   description:
     "Accessibility Statement for Consortium NYC. Our commitment to making our website accessible to all users. Call (212) 202-9220 with questions.",
-  alternates: { canonical: "https://consortiumnyc.com/accessibility" },
+  alternates: { canonical: "https://www.consortiumnyc.com/accessibility" },
   robots: { index: true, follow: true },
 };
 
@@ -19,13 +19,13 @@ export default function AccessibilityPage() {
         data={webPageSchema(
           "Accessibility Statement",
           "Accessibility Statement for Consortium NYC. Our commitment to digital accessibility for all users.",
-          "https://consortiumnyc.com/accessibility"
+          "https://www.consortiumnyc.com/accessibility"
         )}
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", url: "https://consortiumnyc.com" },
-          { name: "Accessibility", url: "https://consortiumnyc.com/accessibility" },
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Accessibility", url: "https://www.consortiumnyc.com/accessibility" },
         ])}
       />
 

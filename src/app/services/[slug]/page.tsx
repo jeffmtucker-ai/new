@@ -31,17 +31,18 @@ export async function generateMetadata({
   const { category, subService } = result;
   const name = subService ? subService.name : category.name;
   const desc = subService ? subService.shortDesc : category.description;
+  const metaDesc = `${desc} Call/text (212) 202-9220.`;
 
   return {
-    title: `${name} Services in NYC | Consortium NYC`,
-    description: desc,
+    title: `NYC ${name} | Consortium NYC`,
+    description: metaDesc,
     alternates: {
-      canonical: `https://consortiumnyc.com/services/${slug}`,
+      canonical: `https://www.consortiumnyc.com/services/${slug}`,
     },
     openGraph: {
-      title: `${name} Services in NYC | Consortium NYC`,
-      description: desc,
-      url: `https://consortiumnyc.com/services/${slug}`,
+      title: `NYC ${name} | Consortium NYC`,
+      description: metaDesc,
+      url: `https://www.consortiumnyc.com/services/${slug}`,
     },
   };
 }
@@ -106,15 +107,15 @@ export default async function ServicePage({
   const name = subService ? subService.name : category.name;
   const desc = subService ? subService.shortDesc : category.description;
   const serviceFaqs = getServiceFaqs(slug);
-  const pageUrl = `https://consortiumnyc.com/services/${slug}`;
+  const pageUrl = `https://www.consortiumnyc.com/services/${slug}`;
   const breadcrumbs = [
-    { name: "Home", url: "https://consortiumnyc.com" },
-    { name: "Services", url: "https://consortiumnyc.com/nyc-marketing-company-services-list" },
+    { name: "Home", url: "https://www.consortiumnyc.com" },
+    { name: "Services", url: "https://www.consortiumnyc.com/nyc-marketing-company-services-list" },
     ...(subService
       ? [
           {
             name: category.name,
-            url: `https://consortiumnyc.com/services/${category.slug}`,
+            url: `https://www.consortiumnyc.com/services/${category.slug}`,
           },
           { name: subService.name, url: pageUrl },
         ]

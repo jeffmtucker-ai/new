@@ -5,7 +5,7 @@ import TipBlurb from "@/components/TipBlurb";
 export const metadata: Metadata = {
   title: "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | Consortium NYC",
   description:
-    "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies.",
+    "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies. Call/text (212) 202-9220.",
 };
 
 const clients = [
@@ -113,7 +113,7 @@ export default function PortfolioPage() {
             <span className="text-teal-400">Real NYC Businesses</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            No stock photos. No anonymized case studies. Every business below is real — visit their website and <Link href="/whats-working-in-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">Google them right now</Link> to verify. From <Link href="/industries/home-service-business-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">home services</Link> to e-commerce to <Link href="/industries" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">100+ industries</Link> — these are the results our <Link href="/nyc-marketing-company-services-list" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">SEO, web design, and marketing services</Link> deliver. That&apos;s the standard we hold ourselves to.
+            No stock photos. No anonymized case studies. Every business below is real — visit their website and <Link href="/whats-working-in-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">Google them right now</Link> to verify. From <Link href="/industries-we-offer-marketing-services-for/home-service-business-marketing" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">home services</Link> to e-commerce to <Link href="/industries-we-offer-marketing-services-for" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">100+ industries</Link> — these are the results our <Link href="/nyc-marketing-company-services-list" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">SEO, web design, and marketing services</Link> deliver. That&apos;s the standard we hold ourselves to.
           </p>
         </div>
       </section>
@@ -214,7 +214,7 @@ export default function PortfolioPage() {
               Your Business Could Be on This Page
             </h2>
             <p className="text-white/60 text-sm mb-8 max-w-xl mx-auto">
-              Every business above started at zero. No rankings, no traffic, no leads. We built it all from scratch with <Link href="/nyc-marketing-company-services-list" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">SEO, custom web design, and local marketing</Link> — no ads, no shortcuts. Check our <Link href="/nyc-marketing-pricing-guide" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">transparent pricing</Link> or use the <Link href="/roi-calculator" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">ROI calculator</Link> to see what&apos;s possible for your business.
+              Every business above started at zero. No rankings, no traffic, no leads. We built it all from scratch with <Link href="/nyc-marketing-company-services-list" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">SEO, custom web design, and local marketing</Link> — no ads, no shortcuts. Check our <Link href="/nyc-marketing-pricing-guide" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">transparent pricing</Link> or use the <Link href="/annual-marketing-spend-roi-calculator" className="text-teal-400 underline underline-offset-2 hover:text-teal-300">ROI calculator</Link> to see what&apos;s possible for your business.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

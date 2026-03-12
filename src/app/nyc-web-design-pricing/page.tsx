@@ -6,12 +6,12 @@ import TipBlurb from "@/components/TipBlurb";
 export const metadata: Metadata = {
   title: "Transparent Pricing | Consortium NYC",
   description:
-    "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo.",
+    "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text (212) 202-9220.",
   openGraph: {
     title: "Transparent Pricing | Consortium NYC",
     description:
-      "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts.",
-    url: "https://consortiumnyc.com/nyc-web-design-pricing",
+      "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Call/text (212) 202-9220.",
+    url: "https://www.consortiumnyc.com/nyc-web-design-pricing",
   },
 };
 
@@ -68,13 +68,13 @@ export default function PricingPage() {
         data={webPageSchema(
           "Transparent Pricing | Consortium NYC",
           "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts.",
-          "https://consortiumnyc.com/nyc-web-design-pricing"
+          "https://www.consortiumnyc.com/nyc-web-design-pricing"
         )}
       />
       <JsonLd
         data={breadcrumbSchema([
-          { name: "Home", url: "https://consortiumnyc.com" },
-          { name: "Pricing", url: "https://consortiumnyc.com/nyc-web-design-pricing" },
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Pricing", url: "https://www.consortiumnyc.com/nyc-web-design-pricing" },
         ])}
       />
       <JsonLd data={faqSchema(faqs)} />

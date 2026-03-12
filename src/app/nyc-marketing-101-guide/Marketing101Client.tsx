@@ -65,7 +65,7 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Set Up Google Analytics and Search Console",
     issue: <span>You have no idea how people find you, how many visit your site, or what they do when they get there. You&apos;re flying blind.</span>,
-    advice: <span>Install Google Analytics 4 and Google Search Console on day one. These are free and tell you exactly where your traffic comes from, which pages perform, and which <L href="/areas">neighborhoods</L> your visitors are in. You can&apos;t improve what you don&apos;t measure.</span>,
+    advice: <span>Install Google Analytics 4 and Google Search Console on day one. These are free and tell you exactly where your traffic comes from, which pages perform, and which <L href="/services-areas-we-offer-marketing-services-in">neighborhoods</L> your visitors are in. You can&apos;t improve what you don&apos;t measure.</span>,
     secret: <span>Set up &ldquo;Events&rdquo; for phone clicks, form submissions, and direction requests from day one — even if you get zero traffic. When traffic starts flowing, you&apos;ll have clean data instead of scrambling to set up tracking retroactively.</span>,
   },
   {
@@ -79,21 +79,21 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Add Your Business to the Top 20 Directories",
     issue: <span>You only exist on Google. Yelp, BBB, Angi, Thumbtack, and industry directories don&apos;t know you exist. Your local SEO foundation is paper-thin.</span>,
-    advice: <span>Submit your business (with identical NAP) to the top 20 directories for your <L href="/industries">industry</L>: Google, Yelp, Bing Places, Apple Maps, BBB, Facebook, Angi, Thumbtack, Nextdoor, and industry-specific directories. This builds your citation foundation.</span>,
-    secret: <span>The directories that matter most are the ones Google already trusts for your industry. For <L href="/industries/plumber-marketing">plumbers</L>, that&apos;s Angi and HomeAdvisor. For <L href="/industries/restaurant-food-service-marketing">restaurants</L>, it&apos;s Yelp and TripAdvisor. For <L href="/industries/law-firm-marketing">lawyers</L>, it&apos;s Avvo and FindLaw. Industry-specific citations carry 3x the weight of general ones.</span>,
+    advice: <span>Submit your business (with identical NAP) to the top 20 directories for your <L href="/industries-we-offer-marketing-services-for">industry</L>: Google, Yelp, Bing Places, Apple Maps, BBB, Facebook, Angi, Thumbtack, Nextdoor, and industry-specific directories. This builds your citation foundation.</span>,
+    secret: <span>The directories that matter most are the ones Google already trusts for your industry. For <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumbers</L>, that&apos;s Angi and HomeAdvisor. For <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, it&apos;s Yelp and TripAdvisor. For <L href="/industries-we-offer-marketing-services-for/law-firm-marketing">lawyers</L>, it&apos;s Avvo and FindLaw. Industry-specific citations carry 3x the weight of general ones.</span>,
   },
   {
     phase: "foundation",
     step: "Ask Your First 10 Customers for Google Reviews",
     issue: <span>You have zero reviews. Customers see your competitor with 87 reviews and pick them instead. No reviews = no trust = no calls.</span>,
     advice: <span>Personally ask your first 10 satisfied customers to leave a Google review. Make it easy — text them a direct link to your review page. Don&apos;t be shy. People want to help businesses they like, they just need to be asked.</span>,
-    secret: <span>The first 10 reviews matter more than any other 10 you&apos;ll ever get. Google gives new profiles a &ldquo;honeymoon&rdquo; boost when reviews start coming in. Front-load your review requests in the first month. Going from 0 to 10 reviews can move you from invisible to page one in the <L href="/areas">map pack</L>.</span>,
+    secret: <span>The first 10 reviews matter more than any other 10 you&apos;ll ever get. Google gives new profiles a &ldquo;honeymoon&rdquo; boost when reviews start coming in. Front-load your review requests in the first month. Going from 0 to 10 reviews can move you from invisible to page one in the <L href="/services-areas-we-offer-marketing-services-in">map pack</L>.</span>,
   },
   {
     phase: "foundation",
     step: "Write Your Homepage Like a Sales Letter",
     issue: <span>Your homepage says &ldquo;Welcome to our website&rdquo; and has stock photos of handshakes. It says nothing about what you do, who you serve, or why anyone should call.</span>,
-    advice: <span>Your homepage needs: what you do (in 10 words or less), who you serve (<L href="/areas">neighborhoods</L> + <L href="/industries">industries</L>), why you&apos;re different, social proof (reviews, numbers), and a clear call-to-action above the fold. Every element earns its space or gets cut.</span>,
+    advice: <span>Your homepage needs: what you do (in 10 words or less), who you serve (<L href="/services-areas-we-offer-marketing-services-in">neighborhoods</L> + <L href="/industries-we-offer-marketing-services-for">industries</L>), why you&apos;re different, social proof (reviews, numbers), and a clear call-to-action above the fold. Every element earns its space or gets cut.</span>,
     secret: <span>The first 5 seconds decide if someone stays or bounces. Your headline should answer the question in the customer&apos;s head: &ldquo;Can this business solve my problem?&rdquo; Not &ldquo;Welcome&rdquo; — that answers nothing. Lead with the outcome they want.</span>,
   },
   {
@@ -114,15 +114,15 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Know Your One Target Customer",
     issue: <span>You say you serve &ldquo;everyone.&rdquo; So your marketing speaks to no one. You&apos;re a generalist in a market that rewards specialists.</span>,
-    advice: <span>Define your ideal customer: What <L href="/industries">industry</L> or situation are they in? What <L href="/areas">neighborhood</L>? What problem do they have at 2 AM that makes them search Google? Build every page, every ad, every word around that person.</span>,
-    secret: <span>The riches are in the niches. A &ldquo;<L href="/industries/plumber-marketing">plumber in Park Slope who specializes in brownstone pipe repair</L>&rdquo; will outrank, outconvert, and outprice a &ldquo;plumber who does everything everywhere.&rdquo; Specialization is a marketing superpower.</span>,
+    advice: <span>Define your ideal customer: What <L href="/industries-we-offer-marketing-services-for">industry</L> or situation are they in? What <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L>? What problem do they have at 2 AM that makes them search Google? Build every page, every ad, every word around that person.</span>,
+    secret: <span>The riches are in the niches. A &ldquo;<L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber in Park Slope who specializes in brownstone pipe repair</L>&rdquo; will outrank, outconvert, and outprice a &ldquo;plumber who does everything everywhere.&rdquo; Specialization is a marketing superpower.</span>,
   },
   {
     phase: "foundation",
     step: "Learn What Your Competitors Are Doing",
     issue: <span>You have no idea who ranks above you on Google, what their website looks like, or what they charge. You&apos;re competing with blindfolds on.</span>,
     advice: <span>Search every keyword a customer would use to find your business. Note the top 5 results. Study their websites, Google Business Profiles, reviews, and content. This is your competitive landscape. You need to be better than each of them at something specific.</span>,
-    secret: <span>Your competitors&apos; weaknesses are your fastest path to page one. If the top-ranked <L href="/industries/dental-practice-marketing">dentist in Astoria</L> has a slow website and 20 reviews, you can beat them with a fast site and 50 reviews in 3 months. Find the gap and exploit it.</span>,
+    secret: <span>Your competitors&apos; weaknesses are your fastest path to page one. If the top-ranked <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist in Astoria</L> has a slow website and 20 reviews, you can beat them with a fast site and 50 reviews in 3 months. Find the gap and exploit it.</span>,
   },
   {
     phase: "foundation",
@@ -135,8 +135,8 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Write a Killer Business Description",
     issue: <span>Your Google Business Profile description says &ldquo;Best plumber in NYC&rdquo; and nothing else. It doesn&apos;t tell Google or customers what you actually do or where.</span>,
-    advice: <span>Write a 750-character description that includes: your services, your <L href="/areas">service areas</L>, your experience, and what makes you different. Use natural language with your target keywords woven in. This description appears in Google search results.</span>,
-    secret: <span>Front-load your description with your most important keywords and location. Google weighs the first 250 characters most heavily. &ldquo;Licensed plumber serving <L href="/areas/brooklyn-marketing-company">Brooklyn</L>, <L href="/areas/queens-marketing-company">Queens</L>, and <L href="/areas/manhattan-marketing-company">Manhattan</L> for 15 years — specializing in emergency repairs, drain cleaning, and water heater installation&rdquo; beats &ldquo;We are the best plumber in NYC&rdquo; every time.</span>,
+    advice: <span>Write a 750-character description that includes: your services, your <L href="/services-areas-we-offer-marketing-services-in">service areas</L>, your experience, and what makes you different. Use natural language with your target keywords woven in. This description appears in Google search results.</span>,
+    secret: <span>Front-load your description with your most important keywords and location. Google weighs the first 250 characters most heavily. &ldquo;Licensed plumber serving <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L>, <L href="/services-areas-we-offer-marketing-services-in/queens-marketing-company">Queens</L>, and <L href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company">Manhattan</L> for 15 years — specializing in emergency repairs, drain cleaning, and water heater installation&rdquo; beats &ldquo;We are the best plumber in NYC&rdquo; every time.</span>,
   },
   {
     phase: "foundation",
@@ -156,8 +156,8 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Get on Social Media (But Pick One)",
     issue: <span>You created accounts on Facebook, Instagram, Twitter, TikTok, LinkedIn, and Pinterest. You posted twice on each and abandoned them all. Now they look dead.</span>,
-    advice: <span>Pick ONE platform where your customers actually are. <L href="/industries/restaurant-food-service-marketing">Restaurants</L>: Instagram. <L href="/industries/contractor-marketing">Contractors</L>: Facebook. <L href="/industries/law-firm-marketing">Lawyers</L>: LinkedIn. Post 3x/week on that one platform. Consistency on one beats absence on five.</span>,
-    secret: <span>Social media is a trust signal, not a lead channel for most <L href="/industries">local businesses</L>. Customers check your social profiles to see if you&apos;re active and legitimate. An Instagram with weekly project photos says &ldquo;we&apos;re busy and doing good work.&rdquo; An abandoned account says &ldquo;we might be out of business.&rdquo;</span>,
+    advice: <span>Pick ONE platform where your customers actually are. <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">Restaurants</L>: Instagram. <L href="/industries-we-offer-marketing-services-for/contractor-marketing">Contractors</L>: Facebook. <L href="/industries-we-offer-marketing-services-for/law-firm-marketing">Lawyers</L>: LinkedIn. Post 3x/week on that one platform. Consistency on one beats absence on five.</span>,
+    secret: <span>Social media is a trust signal, not a lead channel for most <L href="/industries-we-offer-marketing-services-for">local businesses</L>. Customers check your social profiles to see if you&apos;re active and legitimate. An Instagram with weekly project photos says &ldquo;we&apos;re busy and doing good work.&rdquo; An abandoned account says &ldquo;we might be out of business.&rdquo;</span>,
   },
   {
     phase: "foundation",
@@ -170,7 +170,7 @@ const lessons: Lesson[] = [
     phase: "foundation",
     step: "Don't Try to Do Everything Yourself",
     issue: <span>You&apos;re the plumber, the bookkeeper, the marketer, the customer service rep, and the CEO. Your marketing gets 30 minutes on Sunday night when you&apos;re exhausted.</span>,
-    advice: <span>Marketing is a full-time discipline, not a side project. Either hire someone or <L href="/contact-nyc-marketing-company-consortium-nyc">partner with an agency</L> that specializes in <L href="/industries">your industry</L>. The cost of professional marketing is always less than the cost of missed opportunities from bad DIY marketing.</span>,
+    advice: <span>Marketing is a full-time discipline, not a side project. Either hire someone or <L href="/contact-nyc-marketing-company-consortium-nyc">partner with an agency</L> that specializes in <L href="/industries-we-offer-marketing-services-for">your industry</L>. The cost of professional marketing is always less than the cost of missed opportunities from bad DIY marketing.</span>,
     secret: <span>The math is simple: if your average job is worth $500 and professional <L href="/nyc-marketing-pricing-guide">SEO costs $950/month</L>, you need 2 extra jobs per month to break even. Most clients get 20–30 additional leads per month. That&apos;s not an expense — it&apos;s the best investment in your business.</span>,
   },
 
@@ -181,36 +181,36 @@ const lessons: Lesson[] = [
     phase: "traction",
     step: "Build Location-Specific Landing Pages",
     issue: <span>You serve 10 neighborhoods but only have one homepage. Google shows you for searches in your immediate area and nowhere else.</span>,
-    advice: <span>Create a dedicated landing page for every <L href="/areas">neighborhood</L> you serve. &ldquo;Plumber in Park Slope&rdquo; needs its own page with Park Slope-specific content, not a generic &ldquo;We serve Brooklyn&rdquo; mention. Each page = each ranking opportunity.</span>,
-    secret: <span>Don&apos;t just swap the city name and copy-paste content. Google catches thin, duplicate pages and penalizes them. Each neighborhood page needs unique content: local landmarks, specific challenges in that area, testimonials from local customers. We build <L href="/areas">80+ area pages</L> this way.</span>,
+    advice: <span>Create a dedicated landing page for every <L href="/services-areas-we-offer-marketing-services-in">neighborhood</L> you serve. &ldquo;Plumber in Park Slope&rdquo; needs its own page with Park Slope-specific content, not a generic &ldquo;We serve Brooklyn&rdquo; mention. Each page = each ranking opportunity.</span>,
+    secret: <span>Don&apos;t just swap the city name and copy-paste content. Google catches thin, duplicate pages and penalizes them. Each neighborhood page needs unique content: local landmarks, specific challenges in that area, testimonials from local customers. We build <L href="/services-areas-we-offer-marketing-services-in">80+ area pages</L> this way.</span>,
   },
   {
     phase: "traction",
     step: "Start a Review Generation System",
     issue: <span>You got your first 10 reviews and stopped asking. Your competitor adds 5 reviews/month while yours stays frozen. Momentum is dying.</span>,
-    advice: <span>Systematize review requests. After every job or appointment, an automated text or email asks for a review with a direct link. Make it frictionless — one tap, one click. Use <L href="/ai">automation tools</L> to trigger these without you lifting a finger.</span>,
+    advice: <span>Systematize review requests. After every job or appointment, an automated text or email asks for a review with a direct link. Make it frictionless — one tap, one click. Use <L href="/artificial-intelligence-marketing-services-offered">automation tools</L> to trigger these without you lifting a finger.</span>,
     secret: <span>Timing matters more than the ask. Send the review request 1–2 hours after service completion — the customer is happy, the experience is fresh, and they&apos;re on their phone. Wait a week and the response rate drops 80%. Automate the timing and you&apos;ll never miss the window.</span>,
   },
   {
     phase: "traction",
     step: "Optimize Your Website for Conversions",
     issue: <span>You&apos;re getting some traffic but it&apos;s not turning into calls. People visit and leave. Your bounce rate is 70%+ and you don&apos;t know why.</span>,
-    advice: <span>Add clear CTAs on every page: click-to-call buttons, contact forms above the fold, live chat or <L href="/ai">AI chatbot</L>. Remove distractions. Make the path from &ldquo;I found you&rdquo; to &ldquo;I&apos;m calling you&rdquo; as short as possible. Every click between landing and converting loses 20% of visitors.</span>,
+    advice: <span>Add clear CTAs on every page: click-to-call buttons, contact forms above the fold, live chat or <L href="/artificial-intelligence-marketing-services-offered">AI chatbot</L>. Remove distractions. Make the path from &ldquo;I found you&rdquo; to &ldquo;I&apos;m calling you&rdquo; as short as possible. Every click between landing and converting loses 20% of visitors.</span>,
     secret: <span>The highest-converting element on any local business website is a phone number in the header that&apos;s click-to-call on mobile. Second highest: a contact form with 3 fields or fewer (name, phone, message). Everything else is optimization on top of these two fundamentals.</span>,
   },
   {
     phase: "traction",
     step: "Start Building Backlinks",
     issue: <span>Your website has zero external links pointing to it. Google sees you as a brand-new, untrustworthy site — because no one is vouching for you.</span>,
-    advice: <span>Start with easy wins: your local chamber of commerce, business associations, supplier websites that list partners, local sponsorships, and industry directories. Each backlink is a vote of confidence that tells Google you&apos;re a real, authoritative business in your <L href="/areas">area</L>.</span>,
-    secret: <span>One link from a local news site or your city&apos;s .gov page is worth more than 50 links from random blogs. Focus on relevance and authority over quantity. A <L href="/areas/brooklyn-marketing-company">Brooklyn</L> business getting linked from Brooklyn Daily Eagle is worth 10x a generic directory listing.</span>,
+    advice: <span>Start with easy wins: your local chamber of commerce, business associations, supplier websites that list partners, local sponsorships, and industry directories. Each backlink is a vote of confidence that tells Google you&apos;re a real, authoritative business in your <L href="/services-areas-we-offer-marketing-services-in">area</L>.</span>,
+    secret: <span>One link from a local news site or your city&apos;s .gov page is worth more than 50 links from random blogs. Focus on relevance and authority over quantity. A <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L> business getting linked from Brooklyn Daily Eagle is worth 10x a generic directory listing.</span>,
   },
   {
     phase: "traction",
     step: "Create a Content Calendar",
     issue: <span>You published two blog posts six months ago and haven&apos;t touched your blog since. Inconsistency tells Google your site is stale.</span>,
     advice: <span>Plan 4 pieces of content per month: 2 service-focused pages, 1 local/neighborhood piece, 1 educational blog post. Map each piece to a target keyword. Consistency beats volume — 4 quality pieces/month for 12 months beats 20 posts in January and nothing for the rest of the year.</span>,
-    secret: <span>Write content that answers the exact question a customer types into Google at 11 PM when their pipe bursts or their tooth hurts. &ldquo;How much does emergency plumbing cost in <L href="/areas/brooklyn-marketing-company">Brooklyn</L>?&rdquo; That&apos;s a blog post that generates calls for years. Check <L href="/whats-working-in-marketing">what&apos;s working in marketing</L> right now.</span>,
+    secret: <span>Write content that answers the exact question a customer types into Google at 11 PM when their pipe bursts or their tooth hurts. &ldquo;How much does emergency plumbing cost in <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L>?&rdquo; That&apos;s a blog post that generates calls for years. Check <L href="/whats-working-in-marketing">what&apos;s working in marketing</L> right now.</span>,
   },
   {
     phase: "traction",
@@ -252,7 +252,7 @@ const lessons: Lesson[] = [
     step: "Master Your Google Business Profile Posts",
     issue: <span>Your GBP looks like a ghost town. Last post: 8 months ago. Last photo: your logo from 2019. Google thinks you might be closed.</span>,
     advice: <span>Post 2–4 times per week on your Google Business Profile. Share job photos, tips, promotions, and updates. Use images on every post. This signals to Google that your business is active and engaged, and gives searchers more reasons to click.</span>,
-    secret: <span>GBP posts expire after 7 days, but the engagement signals persist. A business posting 4x/week for 6 months will have a measurably stronger local presence than one that never posts. It&apos;s like compound interest for your <L href="/areas">local visibility</L>.</span>,
+    secret: <span>GBP posts expire after 7 days, but the engagement signals persist. A business posting 4x/week for 6 months will have a measurably stronger local presence than one that never posts. It&apos;s like compound interest for your <L href="/services-areas-we-offer-marketing-services-in">local visibility</L>.</span>,
   },
   {
     phase: "traction",
@@ -286,7 +286,7 @@ const lessons: Lesson[] = [
     phase: "traction",
     step: "Claim and Optimize Your Yelp Profile",
     issue: <span>You have a Yelp page you didn&apos;t create with outdated info and a 3-star rating from someone who wasn&apos;t even your customer. It&apos;s costing you business.</span>,
-    advice: <span>Claim your Yelp business page, update all information, add 20+ photos, respond to every review, and keep it current. For <L href="/industries/restaurant-food-service-marketing">restaurants</L>, <L href="/industries/home-service-business-marketing">home services</L>, and <L href="/industries/dental-practice-marketing">healthcare providers</L>, Yelp is still a significant lead source in NYC. Don&apos;t ignore it.</span>,
+    advice: <span>Claim your Yelp business page, update all information, add 20+ photos, respond to every review, and keep it current. For <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home services</L>, and <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">healthcare providers</L>, Yelp is still a significant lead source in NYC. Don&apos;t ignore it.</span>,
     secret: <span>Yelp&apos;s filter algorithm hides reviews it considers &ldquo;suspicious&rdquo; — especially from new accounts or infrequent reviewers. You can&apos;t control the filter, but you can increase the volume of reviews so more make it through. The filter favors established businesses with steady review flow over time.</span>,
   },
   {
@@ -294,14 +294,14 @@ const lessons: Lesson[] = [
     step: "Implement Click-to-Call on Everything",
     issue: <span>Your phone number on mobile is plain text. Customers have to memorize it, switch to their dialer, and type it in. Most don&apos;t bother.</span>,
     advice: <span>Make every phone number on your <L href="/nyc-marketing-company-services-list">website</L>, Google Business Profile, and directory listings clickable on mobile. Use the tel: link format. Add a floating call button on mobile that follows the user as they scroll.</span>,
-    secret: <span>A sticky mobile call button can increase phone conversions by 30–40%. It&apos;s one line of code and it&apos;s the highest-converting element on any <L href="/industries">local business</L> mobile site. If you implement one thing from this list today, make it this.</span>,
+    secret: <span>A sticky mobile call button can increase phone conversions by 30–40%. It&apos;s one line of code and it&apos;s the highest-converting element on any <L href="/industries-we-offer-marketing-services-for">local business</L> mobile site. If you implement one thing from this list today, make it this.</span>,
   },
   {
     phase: "traction",
     step: "Set Up Google Business Profile Messaging",
     issue: <span>Customers want to text you a question before calling. Your GBP has messaging disabled. They move on to the competitor who responds in 30 seconds.</span>,
-    advice: <span>Enable messaging on your Google Business Profile and respond within 5 minutes. If you can&apos;t monitor it yourself, set up an <L href="/ai">AI chatbot</L> to handle initial responses. Speed to response directly correlates with conversion rate.</span>,
-    secret: <span>Businesses that respond to GBP messages within 5 minutes are 21x more likely to convert than those who respond in 30 minutes. An <L href="/ai">AI automation system</L> that instantly responds, qualifies the lead, and books an appointment while you&apos;re on a job site is the unfair advantage busy owners need.</span>,
+    advice: <span>Enable messaging on your Google Business Profile and respond within 5 minutes. If you can&apos;t monitor it yourself, set up an <L href="/artificial-intelligence-marketing-services-offered">AI chatbot</L> to handle initial responses. Speed to response directly correlates with conversion rate.</span>,
+    secret: <span>Businesses that respond to GBP messages within 5 minutes are 21x more likely to convert than those who respond in 30 minutes. An <L href="/artificial-intelligence-marketing-services-offered">AI automation system</L> that instantly responds, qualifies the lead, and books an appointment while you&apos;re on a job site is the unfair advantage busy owners need.</span>,
   },
   {
     phase: "traction",
@@ -318,7 +318,7 @@ const lessons: Lesson[] = [
     phase: "growth",
     step: "Build Service + Location Pages at Scale",
     issue: <span>You rank in your home neighborhood but nowhere else. Customers in 10 other neighborhoods can&apos;t find you. You&apos;re leaving money on the table.</span>,
-    advice: <span>Build a page for every service + neighborhood combination: &ldquo;drain cleaning <L href="/areas/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;drain cleaning <L href="/areas/williamsburg-marketing-company">Williamsburg</L>,&rdquo; &ldquo;water heater repair <L href="/areas/astoria-marketing-company">Astoria</L>.&rdquo; This is <L href="/nyc-marketing-company-services-list">programmatic SEO</L> — and it&apos;s how you dominate entire markets.</span>,
+    advice: <span>Build a page for every service + neighborhood combination: &ldquo;drain cleaning <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L>,&rdquo; &ldquo;drain cleaning <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>,&rdquo; &ldquo;water heater repair <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L>.&rdquo; This is <L href="/nyc-marketing-company-services-list">programmatic SEO</L> — and it&apos;s how you dominate entire markets.</span>,
     secret: <span>The magic number is unique content. Each page needs at least 40% unique text to avoid duplicate content penalties. Reference local landmarks, neighborhood-specific challenges, and area demographics. &ldquo;Park Slope brownstones have 100-year-old cast iron pipes&rdquo; is local content that ranks and converts.</span>,
   },
   {
@@ -332,21 +332,21 @@ const lessons: Lesson[] = [
     phase: "growth",
     step: "Build a Lead Follow-Up Sequence",
     issue: <span>Someone fills out your contact form and you call them back 4 hours later. They already hired your competitor who called in 10 minutes. You&apos;re losing leads you already earned.</span>,
-    advice: <span>Set up <L href="/ai">automated follow-up</L>: instant confirmation email/text when a form is submitted, notification to your phone within seconds, and a 3-part follow-up sequence if they don&apos;t respond. Speed to lead wins 78% of jobs.</span>,
-    secret: <span>The business that responds first gets the job 78% of the time — regardless of price, reviews, or reputation. An <L href="/ai">AI agent</L> that responds to inquiries in 30 seconds while you&apos;re on a job site isn&apos;t a luxury. It&apos;s the difference between winning and losing every lead your <L href="/nyc-marketing-company-services-list">SEO</L> generates.</span>,
+    advice: <span>Set up <L href="/artificial-intelligence-marketing-services-offered">automated follow-up</L>: instant confirmation email/text when a form is submitted, notification to your phone within seconds, and a 3-part follow-up sequence if they don&apos;t respond. Speed to lead wins 78% of jobs.</span>,
+    secret: <span>The business that responds first gets the job 78% of the time — regardless of price, reviews, or reputation. An <L href="/artificial-intelligence-marketing-services-offered">AI agent</L> that responds to inquiries in 30 seconds while you&apos;re on a job site isn&apos;t a luxury. It&apos;s the difference between winning and losing every lead your <L href="/nyc-marketing-company-services-list">SEO</L> generates.</span>,
   },
   {
     phase: "growth",
     step: "Create Video Content",
     issue: <span>Your competitors are posting project walkthroughs and tip videos on YouTube. You have zero videos. You&apos;re missing the second-largest search engine entirely.</span>,
-    advice: <span>Start with 5 simple videos: introduce yourself, show a project from start to finish, answer your top FAQ, tour your workspace, and share a customer success story. You don&apos;t need Hollywood production — authenticity beats polish for <L href="/industries">local businesses</L>.</span>,
-    secret: <span>Embed YouTube videos on your <L href="/nyc-marketing-company-services-list">website</L> service pages. Google owns YouTube and rewards websites that include video content with higher engagement metrics. A 2-minute video of a kitchen remodel on your &ldquo;Kitchen Remodeling <L href="/areas/brooklyn-marketing-company">Brooklyn</L>&rdquo; page dramatically increases time-on-page and conversion rates.</span>,
+    advice: <span>Start with 5 simple videos: introduce yourself, show a project from start to finish, answer your top FAQ, tour your workspace, and share a customer success story. You don&apos;t need Hollywood production — authenticity beats polish for <L href="/industries-we-offer-marketing-services-for">local businesses</L>.</span>,
+    secret: <span>Embed YouTube videos on your <L href="/nyc-marketing-company-services-list">website</L> service pages. Google owns YouTube and rewards websites that include video content with higher engagement metrics. A 2-minute video of a kitchen remodel on your &ldquo;Kitchen Remodeling <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L>&rdquo; page dramatically increases time-on-page and conversion rates.</span>,
   },
   {
     phase: "growth",
     step: "Implement Structured Internal Linking",
     issue: <span>Your website pages are islands — no links between them. Google can&apos;t understand your site structure, and visitors can&apos;t navigate to related content.</span>,
-    advice: <span>Link every service page to related services, relevant <L href="/areas">area pages</L>, your <L href="/nyc-marketing-pricing-guide">pricing page</L>, and <L href="/nyc-marketing-company-portfolio">portfolio</L>. Link area pages to the services available there. Create a web of connections that tells Google your topical authority and keeps visitors engaged longer.</span>,
+    advice: <span>Link every service page to related services, relevant <L href="/services-areas-we-offer-marketing-services-in">area pages</L>, your <L href="/nyc-marketing-pricing-guide">pricing page</L>, and <L href="/nyc-marketing-company-portfolio">portfolio</L>. Link area pages to the services available there. Create a web of connections that tells Google your topical authority and keeps visitors engaged longer.</span>,
     secret: <span>Internal link anchor text is a powerful ranking signal that most businesses ignore. Linking &ldquo;plumber in Brooklyn&rdquo; to your Brooklyn plumbing page tells Google exactly what that page is about. We build 50–100 internal links across every site — it&apos;s one of the highest-leverage SEO tactics that costs nothing.</span>,
   },
   {
@@ -368,7 +368,7 @@ const lessons: Lesson[] = [
     step: "Start A/B Testing Your Website",
     issue: <span>You built your website once and never changed it. You don&apos;t know if your headline, button color, or form length is costing you leads.</span>,
     advice: <span>Test one element at a time: your headline, your CTA button text, your form fields, your hero image. Run each test for 2–4 weeks with enough traffic to reach statistical significance. Small changes can yield 20–50% conversion improvements.</span>,
-    secret: <span>The #1 A/B test that wins almost universally for <L href="/industries">local business</L> websites: changing the CTA from &ldquo;Contact Us&rdquo; to something specific like &ldquo;Get a Free Quote&rdquo; or &ldquo;Schedule My Free Inspection.&rdquo; Specificity beats generality every time. Test it — you&apos;ll see.</span>,
+    secret: <span>The #1 A/B test that wins almost universally for <L href="/industries-we-offer-marketing-services-for">local business</L> websites: changing the CTA from &ldquo;Contact Us&rdquo; to something specific like &ldquo;Get a Free Quote&rdquo; or &ldquo;Schedule My Free Inspection.&rdquo; Specificity beats generality every time. Test it — you&apos;ll see.</span>,
   },
   {
     phase: "growth",
@@ -381,7 +381,7 @@ const lessons: Lesson[] = [
     phase: "growth",
     step: "Build Relationships with Local Media",
     issue: <span>Your competitors get mentioned in local news sites, neighborhood blogs, and community publications. You don&apos;t. Those mentions are backlinks that boost their rankings.</span>,
-    advice: <span>Pitch local journalists and bloggers with genuine stories: a community project you completed, advice for homeowners, or a trend in your <L href="/industries">industry</L>. Local publications are always looking for content from local experts. Be helpful, not promotional.</span>,
+    advice: <span>Pitch local journalists and bloggers with genuine stories: a community project you completed, advice for homeowners, or a trend in your <L href="/industries-we-offer-marketing-services-for">industry</L>. Local publications are always looking for content from local experts. Be helpful, not promotional.</span>,
     secret: <span>One link from a local .edu, .gov, or news site is worth 50+ directory links. A mention in Brooklyn Daily Eagle, Gothamist, or your local Patch.com creates permanent authority that compounds forever. These links can&apos;t be bought — they must be earned through genuine local engagement.</span>,
   },
   {
@@ -410,7 +410,7 @@ const lessons: Lesson[] = [
     step: "Build an Email Nurture Sequence",
     issue: <span>You have 500 email subscribers and send them nothing. Or you blast one generic newsletter quarterly that nobody reads. Your list is rotting.</span>,
     advice: <span>Create a 5-email welcome sequence for new subscribers: introduce your business, share your best content, showcase a case study, offer a seasonal tip, and present a soft CTA. Then send monthly value emails — tips, local updates, and one promotion per month maximum.</span>,
-    secret: <span>Segmented emails generate 760% more revenue than generic blasts. Segment by service interest, neighborhood, or customer type. A <L href="/areas/westchester-marketing-company">Westchester</L> homeowner gets different emails than a <L href="/areas/brooklyn-marketing-company">Brooklyn</L> renter. Relevance is the difference between 2% open rates and 35%.</span>,
+    secret: <span>Segmented emails generate 760% more revenue than generic blasts. Segment by service interest, neighborhood, or customer type. A <L href="/services-areas-we-offer-marketing-services-in/westchester-marketing-company">Westchester</L> homeowner gets different emails than a <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L> renter. Relevance is the difference between 2% open rates and 35%.</span>,
   },
   {
     phase: "growth",
@@ -423,29 +423,29 @@ const lessons: Lesson[] = [
     phase: "growth",
     step: "Diversify Your Lead Sources",
     issue: <span>100% of your leads come from Google. If Google changes its algorithm tomorrow and your rankings drop, your business stops overnight.</span>,
-    advice: <span>Build multiple lead channels: <L href="/nyc-marketing-company-services-list">organic SEO</L>, Google Maps, Yelp, referral program, email marketing, direct mail to <L href="/areas">target neighborhoods</L>, and community partnerships. No single channel should represent more than 40% of your leads.</span>,
+    advice: <span>Build multiple lead channels: <L href="/nyc-marketing-company-services-list">organic SEO</L>, Google Maps, Yelp, referral program, email marketing, direct mail to <L href="/services-areas-we-offer-marketing-services-in">target neighborhoods</L>, and community partnerships. No single channel should represent more than 40% of your leads.</span>,
     secret: <span>The most resilient businesses have 4–5 reliable lead sources. When one dips, others compensate. But here&apos;s the hierarchy: <L href="/nyc-marketing-company-services-list">SEO</L> first (lowest cost per lead long-term), referrals second (highest close rate), then everything else. Build the foundation before diversifying.</span>,
   },
   {
     phase: "growth",
     step: "Create Before-and-After Content",
     issue: <span>You tell people you do great work. They don&apos;t believe you because every business says that. You have no visual proof.</span>,
-    advice: <span>Document every transformation: before/after photos, problem/solution narratives, and measurable outcomes. A <L href="/industries/contractor-marketing">contractor&apos;s</L> before/after gallery is the most-visited page on their site. A <L href="/industries/dental-practice-marketing">dentist&apos;s</L> smile gallery converts higher than any testimonial.</span>,
-    secret: <span>Before/after content ranks exceptionally well in Google Image Search — an overlooked traffic source for <L href="/industries">local businesses</L>. Tag every image with descriptive alt text: &ldquo;Kitchen remodel before and after in <L href="/areas/park-slope-marketing-company">Park Slope</L> Brooklyn.&rdquo; Image search sends qualified traffic that converts at 2x the rate of regular search.</span>,
+    advice: <span>Document every transformation: before/after photos, problem/solution narratives, and measurable outcomes. A <L href="/industries-we-offer-marketing-services-for/contractor-marketing">contractor&apos;s</L> before/after gallery is the most-visited page on their site. A <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist&apos;s</L> smile gallery converts higher than any testimonial.</span>,
+    secret: <span>Before/after content ranks exceptionally well in Google Image Search — an overlooked traffic source for <L href="/industries-we-offer-marketing-services-for">local businesses</L>. Tag every image with descriptive alt text: &ldquo;Kitchen remodel before and after in <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L> Brooklyn.&rdquo; Image search sends qualified traffic that converts at 2x the rate of regular search.</span>,
   },
   {
     phase: "growth",
     step: "Implement Live Chat or AI Chat",
     issue: <span>It&apos;s 9 PM and a customer is on your website ready to book. Your office is closed. No one answers the phone. They go to the competitor who responds instantly.</span>,
-    advice: <span>Add <L href="/ai">AI-powered chat</L> to your website. It answers common questions, qualifies leads, and books appointments 24/7. For <L href="/industries/home-service-business-marketing">service businesses</L> that can&apos;t be by their phone all day, this captures leads that would otherwise be lost to competitors.</span>,
-    secret: <span>Websites with live chat or AI chat convert 45% more visitors into leads. The key is the first response — it must be instant (under 30 seconds) and helpful (not &ldquo;Please hold while we connect you&rdquo;). An <L href="/ai">AI agent</L> that immediately engages with the visitor&apos;s specific question wins the lead.</span>,
+    advice: <span>Add <L href="/artificial-intelligence-marketing-services-offered">AI-powered chat</L> to your website. It answers common questions, qualifies leads, and books appointments 24/7. For <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">service businesses</L> that can&apos;t be by their phone all day, this captures leads that would otherwise be lost to competitors.</span>,
+    secret: <span>Websites with live chat or AI chat convert 45% more visitors into leads. The key is the first response — it must be instant (under 30 seconds) and helpful (not &ldquo;Please hold while we connect you&rdquo;). An <L href="/artificial-intelligence-marketing-services-offered">AI agent</L> that immediately engages with the visitor&apos;s specific question wins the lead.</span>,
   },
   {
     phase: "growth",
     step: "Build Strategic Partnerships",
     issue: <span>You&apos;re competing for every customer individually. You have no referral network, no partnerships, no system for warm leads.</span>,
-    advice: <span>Partner with complementary businesses: a <L href="/industries/plumber-marketing">plumber</L> partners with electricians and GCs. A <L href="/industries/dental-practice-marketing">dentist</L> partners with orthodontists and oral surgeons. A <L href="/industries/real-estate-agent-marketing">real estate agent</L> partners with mortgage brokers and inspectors. Cross-refer customers and build a network that feeds everyone.</span>,
-    secret: <span>Formalize partnerships with a written referral agreement, not a handshake. Track referrals in both directions. The businesses that build structured referral networks with 3–5 complementary partners in their <L href="/areas">area</L> generate 30–50% of their leads from warm referrals at zero acquisition cost.</span>,
+    advice: <span>Partner with complementary businesses: a <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L> partners with electricians and GCs. A <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist</L> partners with orthodontists and oral surgeons. A <L href="/industries-we-offer-marketing-services-for/real-estate-agent-marketing">real estate agent</L> partners with mortgage brokers and inspectors. Cross-refer customers and build a network that feeds everyone.</span>,
+    secret: <span>Formalize partnerships with a written referral agreement, not a handshake. Track referrals in both directions. The businesses that build structured referral networks with 3–5 complementary partners in their <L href="/services-areas-we-offer-marketing-services-in">area</L> generate 30–50% of their leads from warm referrals at zero acquisition cost.</span>,
   },
 
   // ═══════════════════════════════════════════════════════════
@@ -462,22 +462,22 @@ const lessons: Lesson[] = [
     phase: "scale",
     step: "Build a Content Machine",
     issue: <span>You publish content sporadically. Some months 5 posts, some months zero. Inconsistency undermines your authority and confuses Google.</span>,
-    advice: <span>Systematize content production: 8 pieces/month minimum. 4 service/location pages, 2 blog posts, 2 GBP posts per week. Map every piece to a target keyword and <L href="/areas">area</L>. Batch produce content monthly so you&apos;re never scrambling for topics.</span>,
+    advice: <span>Systematize content production: 8 pieces/month minimum. 4 service/location pages, 2 blog posts, 2 GBP posts per week. Map every piece to a target keyword and <L href="/services-areas-we-offer-marketing-services-in">area</L>. Batch produce content monthly so you&apos;re never scrambling for topics.</span>,
     secret: <span>Content velocity — the rate at which you publish quality content — is a measurable ranking signal. Sites that publish consistently rank faster and higher than sites that publish in bursts. Google trusts active, growing sites. A steady 8 posts/month for 12 months (96 pieces) builds a moat no competitor can match overnight.</span>,
   },
   {
     phase: "scale",
     step: "Automate Everything That Doesn't Require You",
     issue: <span>You&apos;re still manually sending review requests, following up with leads, scheduling posts, and managing email campaigns. These hours could be spent on revenue-generating work.</span>,
-    advice: <span>Implement <L href="/ai">AI automation</L> for: lead follow-up (instant), review requests (automated), appointment reminders (scheduled), social media posting (batched), and email sequences (triggered). Free up 15–20 hours/week of manual work.</span>,
-    secret: <span>The businesses that scale past $500K aren&apos;t working harder — they&apos;re automating everything that doesn&apos;t require human judgment. <L href="/ai">AI automation</L> handles the 80% of tasks that are repetitive so you and your team can focus on the 20% that actually requires expertise and personal touch.</span>,
+    advice: <span>Implement <L href="/artificial-intelligence-marketing-services-offered">AI automation</L> for: lead follow-up (instant), review requests (automated), appointment reminders (scheduled), social media posting (batched), and email sequences (triggered). Free up 15–20 hours/week of manual work.</span>,
+    secret: <span>The businesses that scale past $500K aren&apos;t working harder — they&apos;re automating everything that doesn&apos;t require human judgment. <L href="/artificial-intelligence-marketing-services-offered">AI automation</L> handles the 80% of tasks that are repetitive so you and your team can focus on the 20% that actually requires expertise and personal touch.</span>,
   },
   {
     phase: "scale",
     step: "Expand to Adjacent Service Areas",
     issue: <span>You dominate your home neighborhood but haven&apos;t expanded. There are 10 surrounding areas with customers searching for your services and finding competitors instead.</span>,
-    advice: <span>Build landing pages for each new target <L href="/areas">area</L>, get listed in those areas&apos; local directories, and create locally-relevant content. Expand in concentric circles — neighboring areas first, then broader geography. Each new area is a new revenue stream.</span>,
-    secret: <span>When expanding to a new area, start with the neighborhoods that have the weakest competition, not the biggest population. A <L href="/areas/great-kills-marketing-company">Great Kills</L> page might rank in 2 weeks while a <L href="/areas/manhattan-marketing-company">Manhattan</L> page takes 6 months. Stack quick wins across multiple low-competition areas while the bigger plays build momentum.</span>,
+    advice: <span>Build landing pages for each new target <L href="/services-areas-we-offer-marketing-services-in">area</L>, get listed in those areas&apos; local directories, and create locally-relevant content. Expand in concentric circles — neighboring areas first, then broader geography. Each new area is a new revenue stream.</span>,
+    secret: <span>When expanding to a new area, start with the neighborhoods that have the weakest competition, not the biggest population. A <L href="/services-areas-we-offer-marketing-services-in/great-kills-marketing-company">Great Kills</L> page might rank in 2 weeks while a <L href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company">Manhattan</L> page takes 6 months. Stack quick wins across multiple low-competition areas while the bigger plays build momentum.</span>,
   },
   {
     phase: "scale",
@@ -491,13 +491,13 @@ const lessons: Lesson[] = [
     step: "Create a Customer Retention Program",
     issue: <span>You focus 100% on acquiring new customers. Meanwhile, past customers who already know and trust you are hiring your competitors for their next job because you never followed up.</span>,
     advice: <span>Build a retention system: seasonal maintenance reminders, annual check-up emails, loyalty discounts, and a quarterly newsletter with tips. Acquiring a new customer costs 5–7x more than retaining an existing one. Your past customers are your most profitable audience.</span>,
-    secret: <span>A simple &ldquo;It&apos;s been 12 months since your last service — time for a checkup?&rdquo; email generates a 15–25% response rate when automated with proper timing. For <L href="/industries/hvac-company-marketing">HVAC companies</L>, <L href="/industries/dental-practice-marketing">dentists</L>, and <L href="/industries/auto-repair-shop-marketing">auto shops</L>, this single automation can generate 20%+ of annual revenue from existing customers at near-zero cost.</span>,
+    secret: <span>A simple &ldquo;It&apos;s been 12 months since your last service — time for a checkup?&rdquo; email generates a 15–25% response rate when automated with proper timing. For <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC companies</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentists</L>, and <L href="/industries-we-offer-marketing-services-for/auto-repair-shop-marketing">auto shops</L>, this single automation can generate 20%+ of annual revenue from existing customers at near-zero cost.</span>,
   },
   {
     phase: "scale",
     step: "Dominate Long-Tail Keywords",
     issue: <span>You&apos;re fighting over head terms like &ldquo;plumber NYC&rdquo; against 500 competitors. The competition is fierce and you&apos;re stuck on page 2.</span>,
-    advice: <span>Target long-tail keywords: &ldquo;emergency gas leak repair <L href="/areas/park-slope-marketing-company">Park Slope</L> Brooklyn,&rdquo; &ldquo;tankless water heater installation <L href="/areas/astoria-marketing-company">Astoria</L> Queens.&rdquo; These have lower search volume but much higher conversion rates. A customer searching a 6-word phrase knows exactly what they want.</span>,
+    advice: <span>Target long-tail keywords: &ldquo;emergency gas leak repair <L href="/services-areas-we-offer-marketing-services-in/park-slope-marketing-company">Park Slope</L> Brooklyn,&rdquo; &ldquo;tankless water heater installation <L href="/services-areas-we-offer-marketing-services-in/astoria-marketing-company">Astoria</L> Queens.&rdquo; These have lower search volume but much higher conversion rates. A customer searching a 6-word phrase knows exactly what they want.</span>,
     secret: <span>Long-tail keywords collectively drive more traffic than head terms. A site with 200 pages ranking for 200 specific long-tail keywords will generate more leads than one page trying to rank for &ldquo;plumber NYC.&rdquo; This is the foundation of <L href="/nyc-marketing-company-services-list">programmatic SEO</L> — and it&apos;s how we build marketing systems that scale.</span>,
   },
   {
@@ -511,14 +511,14 @@ const lessons: Lesson[] = [
     phase: "scale",
     step: "Build a Sales Process for Inbound Leads",
     issue: <span>You generate 40 leads/month but only close 8. Your close rate is 20% because you don&apos;t have a follow-up process — leads go stale.</span>,
-    advice: <span>Create a defined process: respond within 5 minutes (or use <L href="/ai">AI automation</L>), qualify the lead (budget, timeline, location), follow up 3x if no response (day 1, day 3, day 7), and track everything in a CRM. A structured process can double your close rate without increasing lead volume.</span>,
+    advice: <span>Create a defined process: respond within 5 minutes (or use <L href="/artificial-intelligence-marketing-services-offered">AI automation</L>), qualify the lead (budget, timeline, location), follow up 3x if no response (day 1, day 3, day 7), and track everything in a CRM. A structured process can double your close rate without increasing lead volume.</span>,
     secret: <span>80% of sales happen between the 5th and 12th contact. Most businesses give up after 1–2 attempts. An automated follow-up sequence that persists politely over 2 weeks captures the 60% of leads that weren&apos;t ready on first contact. This single system can double revenue from the same traffic.</span>,
   },
   {
     phase: "scale",
     step: "Expand Into Adjacent Services",
     issue: <span>You&apos;ve maxed out your primary service. Growth requires either more geography or more services. You&apos;re ready to expand your offering.</span>,
-    advice: <span>Add services your existing customers already ask for. A plumber adds water heater installation. A <L href="/industries/landscaping-company-marketing">landscaper</L> adds hardscaping. A <L href="/industries/dental-practice-marketing">dentist</L> adds cosmetic services. Build dedicated pages, target keywords, and leverage your existing authority to rank faster.</span>,
+    advice: <span>Add services your existing customers already ask for. A plumber adds water heater installation. A <L href="/industries-we-offer-marketing-services-for/landscaping-company-marketing">landscaper</L> adds hardscaping. A <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist</L> adds cosmetic services. Build dedicated pages, target keywords, and leverage your existing authority to rank faster.</span>,
     secret: <span>Expanding services on an established domain with existing authority is 5x easier than starting from scratch. Google already trusts your site for your primary topic. Adding a related service page inherits that trust immediately. This is why established businesses can rank new service pages in weeks while new businesses take months.</span>,
   },
   {
@@ -532,8 +532,8 @@ const lessons: Lesson[] = [
     phase: "scale",
     step: "Test Paid Advertising Strategically",
     issue: <span>Your organic channels are strong, but you&apos;re leaving money on the table during peak seasons. You could accelerate growth with paid traffic but don&apos;t want to waste money.</span>,
-    advice: <span>Use paid ads to amplify what&apos;s already working organically. If &ldquo;emergency plumber Brooklyn&rdquo; is your top organic keyword, run ads on it too — dominate both paid and organic. Start with Google Local Service Ads for <L href="/industries/home-service-business-marketing">home services</L> — you only pay per qualified lead.</span>,
-    secret: <span>The best paid ad strategy for <L href="/industries">local businesses</L>: run ads only on keywords where you rank positions 4–10 organically. You already have organic credibility, and the ad gives you double visibility. This &ldquo;stacking&rdquo; strategy generates more clicks than either paid or organic alone, at a lower cost per click.</span>,
+    advice: <span>Use paid ads to amplify what&apos;s already working organically. If &ldquo;emergency plumber Brooklyn&rdquo; is your top organic keyword, run ads on it too — dominate both paid and organic. Start with Google Local Service Ads for <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home services</L> — you only pay per qualified lead.</span>,
+    secret: <span>The best paid ad strategy for <L href="/industries-we-offer-marketing-services-for">local businesses</L>: run ads only on keywords where you rank positions 4–10 organically. You already have organic credibility, and the ad gives you double visibility. This &ldquo;stacking&rdquo; strategy generates more clicks than either paid or organic alone, at a lower cost per click.</span>,
   },
   {
     phase: "scale",
@@ -546,8 +546,8 @@ const lessons: Lesson[] = [
     phase: "scale",
     step: "Create Industry-Specific Content Hubs",
     issue: <span>You serve 5 different customer types but your website treats them all the same. A homeowner and a property manager have completely different needs and search behaviors.</span>,
-    advice: <span>Build dedicated <L href="/industries">industry pages</L> for each customer segment: residential, commercial, property management, new construction. Each hub speaks directly to that audience&apos;s pain points, uses their language, and showcases relevant case studies.</span>,
-    secret: <span>Industry-specific pages rank for commercial-intent keywords that generic pages miss. &ldquo;Commercial HVAC maintenance contract <L href="/areas/manhattan-marketing-company">Manhattan</L>&rdquo; is a search that&apos;s worth $10,000+ per conversion. These pages attract high-value clients who aren&apos;t comparing your $150 service call against a competitor&apos;s $125 — they&apos;re evaluating capability and trust.</span>,
+    advice: <span>Build dedicated <L href="/industries-we-offer-marketing-services-for">industry pages</L> for each customer segment: residential, commercial, property management, new construction. Each hub speaks directly to that audience&apos;s pain points, uses their language, and showcases relevant case studies.</span>,
+    secret: <span>Industry-specific pages rank for commercial-intent keywords that generic pages miss. &ldquo;Commercial HVAC maintenance contract <L href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company">Manhattan</L>&rdquo; is a search that&apos;s worth $10,000+ per conversion. These pages attract high-value clients who aren&apos;t comparing your $150 service call against a competitor&apos;s $125 — they&apos;re evaluating capability and trust.</span>,
   },
   {
     phase: "scale",
@@ -566,8 +566,8 @@ const lessons: Lesson[] = [
   {
     phase: "scale",
     step: "Build a Referral Pipeline with Real Estate Agents",
-    issue: <span>New homeowners are the highest-value <L href="/industries/home-service-business-marketing">home service</L> customers — they need everything: plumbing, electrical, HVAC, painting, landscaping. But you have no pipeline to reach them at the moment they move in.</span>,
-    advice: <span>Partner with <L href="/industries/real-estate-agent-marketing">real estate agents</L> in your <L href="/areas">service area</L>. Offer their clients a new-homeowner discount. In exchange, the agent looks like a hero who connects their buyer with trusted local pros. Win-win-win.</span>,
+    issue: <span>New homeowners are the highest-value <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service</L> customers — they need everything: plumbing, electrical, HVAC, painting, landscaping. But you have no pipeline to reach them at the moment they move in.</span>,
+    advice: <span>Partner with <L href="/industries-we-offer-marketing-services-for/real-estate-agent-marketing">real estate agents</L> in your <L href="/services-areas-we-offer-marketing-services-in">service area</L>. Offer their clients a new-homeowner discount. In exchange, the agent looks like a hero who connects their buyer with trusted local pros. Win-win-win.</span>,
     secret: <span>A single productive real estate agent relationship can generate 5–10 referrals per year at zero acquisition cost. Build relationships with 5 agents across your service area and you have 25–50 warm leads annually — customers who already trust you because someone they trust recommended you.</span>,
   },
   {
@@ -585,7 +585,7 @@ const lessons: Lesson[] = [
     phase: "mastery",
     step: "Think in Systems, Not Tactics",
     issue: <span>You&apos;ve tried dozens of marketing tactics over the years. Some worked, some didn&apos;t. But nothing connects. Your marketing is a collection of experiments, not a machine.</span>,
-    advice: <span>Build a marketing system where every piece amplifies every other piece: <L href="/nyc-marketing-company-services-list">SEO</L> drives traffic → your website converts visitors → <L href="/ai">automation</L> follows up → reviews build authority → authority improves rankings → the cycle repeats. This is how you build a marketing machine that runs without you.</span>,
+    advice: <span>Build a marketing system where every piece amplifies every other piece: <L href="/nyc-marketing-company-services-list">SEO</L> drives traffic → your website converts visitors → <L href="/artificial-intelligence-marketing-services-offered">automation</L> follows up → reviews build authority → authority improves rankings → the cycle repeats. This is how you build a marketing machine that runs without you.</span>,
     secret: <span>The difference between businesses that grow 5% per year and businesses that grow 50% is systems thinking. Individual tactics plateau. Integrated systems compound. That&apos;s the <L href="/about-digital-marketing-agency-consortium-nyc">Consortium philosophy</L> — every service we offer is designed to amplify every other service.</span>,
   },
   {
@@ -606,7 +606,7 @@ const lessons: Lesson[] = [
     phase: "mastery",
     step: "Create Proprietary Data and Research",
     issue: <span>You share the same generic industry stats as everyone else. Nothing positions you as uniquely authoritative. Your content is interchangeable with any competitor&apos;s.</span>,
-    advice: <span>Conduct original research from your own data: &ldquo;We analyzed 500 plumbing calls in <L href="/areas/brooklyn-marketing-company">Brooklyn</L> — here&apos;s what homeowners actually need most.&rdquo; Proprietary data can&apos;t be replicated, earns backlinks naturally, and positions you as the definitive source.</span>,
+    advice: <span>Conduct original research from your own data: &ldquo;We analyzed 500 plumbing calls in <L href="/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company">Brooklyn</L> — here&apos;s what homeowners actually need most.&rdquo; Proprietary data can&apos;t be replicated, earns backlinks naturally, and positions you as the definitive source.</span>,
     secret: <span>Original data gets shared by journalists, bloggers, and industry publications because it&apos;s unique and citable. A single original data piece can earn 50+ high-authority backlinks that would cost $10,000+ to acquire through traditional link building. Your business data is a gold mine — mine it.</span>,
   },
   {
@@ -614,13 +614,13 @@ const lessons: Lesson[] = [
     step: "Build Multiple Revenue Streams from Content",
     issue: <span>Your content only serves one purpose: SEO rankings. But the same content can generate revenue in 5 different ways if you think bigger.</span>,
     advice: <span>Repurpose every piece of content: blog post → YouTube video → Instagram carousel → email newsletter → podcast episode → lead magnet. One piece of content, distributed across 6 channels, reaches 10x the audience at 10% the creation cost.</span>,
-    secret: <span>The highest-value content format for <L href="/industries">local businesses</L> in 2026 is short-form video repurposed from long-form content. A 10-minute YouTube tutorial becomes 15 Instagram Reels, 15 TikToks, and 15 YouTube Shorts. That&apos;s 45 pieces of content from one recording session. Distribution beats creation.</span>,
+    secret: <span>The highest-value content format for <L href="/industries-we-offer-marketing-services-for">local businesses</L> in 2026 is short-form video repurposed from long-form content. A 10-minute YouTube tutorial becomes 15 Instagram Reels, 15 TikToks, and 15 YouTube Shorts. That&apos;s 45 pieces of content from one recording session. Distribution beats creation.</span>,
   },
   {
     phase: "mastery",
     step: "Develop a Moat Your Competitors Can't Cross",
     issue: <span>Everything you do in marketing can be copied. Your competitor can build a similar website, target the same keywords, and match your pricing. Where&apos;s your moat?</span>,
-    advice: <span>Your moat is the compound effect of time + consistency: 500 reviews, 200 indexed pages, 100 backlinks, 5 years of content, and deep relationships across <L href="/areas">80+ neighborhoods</L>. These take years to build and can&apos;t be bought overnight. Start building today.</span>,
+    advice: <span>Your moat is the compound effect of time + consistency: 500 reviews, 200 indexed pages, 100 backlinks, 5 years of content, and deep relationships across <L href="/services-areas-we-offer-marketing-services-in">80+ neighborhoods</L>. These take years to build and can&apos;t be bought overnight. Start building today.</span>,
     secret: <span>The ultimate moat is brand recognition. When customers search for &ldquo;plumber Brooklyn&rdquo; and recognize YOUR name in the results, they click you even if you&apos;re not #1. Brand + SEO = the highest click-through rates possible. This is why <L href="/nyc-marketing-company-services-list">branding</L> and SEO are inseparable at the mastery level.</span>,
   },
   {
@@ -635,14 +635,14 @@ const lessons: Lesson[] = [
     step: "Build a Marketing Budget That Scales",
     issue: <span>You spend a flat dollar amount on marketing regardless of revenue. When revenue grows, marketing stays flat and growth stalls. When revenue dips, you cut marketing — making it worse.</span>,
     advice: <span>Allocate 5–10% of revenue to marketing as a baseline. In growth phases, push to 12–15%. Never cut to zero — that&apos;s pulling the engine out of a moving car. The businesses that grow consistently treat marketing as a percentage, not a fixed cost.</span>,
-    secret: <span>The most successful <L href="/industries">local businesses</L> we work with spend 8% of revenue on marketing in years 1–3, then 5% from year 4 on — because <L href="/nyc-marketing-company-services-list">SEO</L> compounds. By year 5, your cost per lead is a fraction of year 1. The investment decreases as a percentage while the return increases. That&apos;s the power of compound marketing.</span>,
+    secret: <span>The most successful <L href="/industries-we-offer-marketing-services-for">local businesses</L> we work with spend 8% of revenue on marketing in years 1–3, then 5% from year 4 on — because <L href="/nyc-marketing-company-services-list">SEO</L> compounds. By year 5, your cost per lead is a fraction of year 1. The investment decreases as a percentage while the return increases. That&apos;s the power of compound marketing.</span>,
   },
   {
     phase: "mastery",
     step: "Mentor and Give Back to Your Community",
     issue: <span>You&apos;ve built a successful business but you&apos;re not giving back. Community engagement feels like a distraction from running your business.</span>,
     advice: <span>Sponsor local events, mentor young entrepreneurs, host workshops, and share your expertise freely. Community engagement builds brand love, earns local press (and backlinks), and creates a network of advocates who refer business your way without being asked.</span>,
-    secret: <span>Local businesses that are actively involved in their <L href="/areas">community</L> get mentioned in local press 3x more often than those that aren&apos;t. Each mention is a backlink. Each backlink strengthens your SEO. Giving back isn&apos;t just good ethics — it&apos;s the most authentic link-building strategy that exists.</span>,
+    secret: <span>Local businesses that are actively involved in their <L href="/services-areas-we-offer-marketing-services-in">community</L> get mentioned in local press 3x more often than those that aren&apos;t. Each mention is a backlink. Each backlink strengthens your SEO. Giving back isn&apos;t just good ethics — it&apos;s the most authentic link-building strategy that exists.</span>,
   },
   {
     phase: "mastery",
@@ -656,7 +656,7 @@ const lessons: Lesson[] = [
     step: "Master the Balance of Art and Science",
     issue: <span>You&apos;ve become so data-driven that your marketing has lost its humanity. Everything is optimized for algorithms. Nothing feels genuine anymore.</span>,
     advice: <span>Data tells you where. Creativity tells you how. The best marketing combines rigorous analytics with authentic storytelling, genuine customer relationships, and a <L href="/nyc-marketing-company-services-list">brand</L> that people actually feel something about. Never let the spreadsheet kill the soul of your business.</span>,
-    secret: <span>The most successful businesses we&apos;ve worked with over 25 years share one trait: their marketing feels human. Real stories, real photos, real people picking up real phones. In an age of AI and automation, humanity is the ultimate differentiator. Use <L href="/ai">technology</L> to remove friction, not to remove yourself.</span>,
+    secret: <span>The most successful businesses we&apos;ve worked with over 25 years share one trait: their marketing feels human. Real stories, real photos, real people picking up real phones. In an age of AI and automation, humanity is the ultimate differentiator. Use <L href="/artificial-intelligence-marketing-services-offered">technology</L> to remove friction, not to remove yourself.</span>,
   },
   {
     phase: "mastery",
@@ -669,21 +669,21 @@ const lessons: Lesson[] = [
     phase: "mastery",
     step: "Invest in Relationships, Not Just Rankings",
     issue: <span>You&apos;ve spent years building rankings. But rankings change. Algorithms change. Platforms change. The only thing that doesn&apos;t change is human relationships.</span>,
-    advice: <span>Build real relationships with customers, partners, vendors, local media, and your <L href="/areas">community</L>. These relationships generate referrals, earn press coverage, create partnership opportunities, and build a brand reputation that survives any algorithm update.</span>,
+    advice: <span>Build real relationships with customers, partners, vendors, local media, and your <L href="/services-areas-we-offer-marketing-services-in">community</L>. These relationships generate referrals, earn press coverage, create partnership opportunities, and build a brand reputation that survives any algorithm update.</span>,
     secret: <span>After 25 years, the pattern is clear: businesses that invest in relationships outlast businesses that invest only in tactics. Your Google ranking might fluctuate. Your ad costs will rise. Platforms will come and go. But a customer who trusts you will recommend you for life, and that&apos;s marketing money can&apos;t buy.</span>,
   },
   {
     phase: "mastery",
     step: "Play the Long Game",
     issue: <span>Everyone wants results yesterday. You&apos;ve seen enough to know that the businesses that win aren&apos;t the ones that move fastest — they&apos;re the ones that never stop.</span>,
-    advice: <span>Marketing is a marathon, not a sprint. The businesses that dominate their <L href="/areas">local market</L> after 10+ years didn&apos;t find a silver bullet — they showed up consistently, invested steadily, and compounded small advantages into an insurmountable lead. Start today. <L href="/contact-nyc-marketing-company-consortium-nyc">Let&apos;s talk about your next move.</L></span>,
+    advice: <span>Marketing is a marathon, not a sprint. The businesses that dominate their <L href="/services-areas-we-offer-marketing-services-in">local market</L> after 10+ years didn&apos;t find a silver bullet — they showed up consistently, invested steadily, and compounded small advantages into an insurmountable lead. Start today. <L href="/contact-nyc-marketing-company-consortium-nyc">Let&apos;s talk about your next move.</L></span>,
     secret: <span>Here&apos;s the truth after 25 years: there is no secret. No hack, no shortcut, no trick that replaces doing the work. The businesses that win are the ones that build the right foundation, hire the right <L href="/about-digital-marketing-agency-consortium-nyc">partners</L>, stay consistent for years, and treat marketing as an investment — not an expense. That&apos;s the only lesson that matters. Everything else is details.</span>,
   },
   {
     phase: "mastery",
     step: "Start Now",
     issue: <span>You just read 100 lessons and feel overwhelmed. There&apos;s too much to do. You don&apos;t know where to begin. So you close this tab and do nothing.</span>,
-    advice: <span>Pick ONE lesson from this list that you haven&apos;t done yet. Do it today. Tomorrow, pick another. In 101 days, you&apos;ll have transformed your marketing. Or <L href="/contact-nyc-marketing-company-consortium-nyc">call us at (212) 202-9220</L> and we&apos;ll do it for you — starting with a free strategy session that covers everything on this list for your specific business, <L href="/industries">industry</L>, and <L href="/areas">market</L>.</span>,
+    advice: <span>Pick ONE lesson from this list that you haven&apos;t done yet. Do it today. Tomorrow, pick another. In 101 days, you&apos;ll have transformed your marketing. Or <L href="/contact-nyc-marketing-company-consortium-nyc">call us at (212) 202-9220</L> and we&apos;ll do it for you — starting with a free strategy session that covers everything on this list for your specific business, <L href="/industries-we-offer-marketing-services-for">industry</L>, and <L href="/services-areas-we-offer-marketing-services-in">market</L>.</span>,
     secret: <span>The real secret? You already know what to do. You&apos;ve known for a while. The only thing separating you from the <L href="/nyc-marketing-company-portfolio">businesses that are winning</L> is execution. Not knowledge. Not budget. Not luck. Execution. So close this tab and go execute. Or better yet — <L href="/contact-nyc-marketing-company-consortium-nyc">let&apos;s execute together</L>.</span>,
   },
 ];
@@ -724,7 +724,7 @@ export default function Marketing101Client() {
               The complete marketing playbook — from your first Google listing to building a machine that runs without you. 25 years of experience distilled into 101 actionable lessons. Each one gives you the step, the issue, the advice, and the secret tip.
             </p>
             <p className="text-slate-400 text-sm max-w-2xl mx-auto mb-8">
-              Covers <L href="/nyc-marketing-company-services-list">SEO</L>, <L href="/nyc-marketing-company-services-list">web design</L>, <L href="/nyc-marketing-company-services-list">branding</L>, <L href="/ai">AI automation</L>, <L href="/areas">local marketing</L>, <L href="/nyc-marketing-pricing-guide">pricing</L>, and everything in between for <L href="/industries">100+ industries</L> across <L href="/areas">NYC, Long Island &amp; Westchester</L>.
+              Covers <L href="/nyc-marketing-company-services-list">SEO</L>, <L href="/nyc-marketing-company-services-list">web design</L>, <L href="/nyc-marketing-company-services-list">branding</L>, <L href="/artificial-intelligence-marketing-services-offered">AI automation</L>, <L href="/services-areas-we-offer-marketing-services-in">local marketing</L>, <L href="/nyc-marketing-pricing-guide">pricing</L>, and everything in between for <L href="/industries-we-offer-marketing-services-for">100+ industries</L> across <L href="/services-areas-we-offer-marketing-services-in">NYC, Long Island &amp; Westchester</L>.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
@@ -911,7 +911,7 @@ export default function Marketing101Client() {
                   { label: "100 FAQs Answered", href: "/nyc-marketing-company-faqs" },
                   { label: "What's Working Now", href: "/whats-working-in-marketing" },
                   { label: "Portfolio & Results", href: "/nyc-marketing-company-portfolio" },
-                  { label: "Marketing Checklist", href: "/marketing-checklist-2026" },
+                  { label: "Marketing Checklist", href: "/master-marketing-checklist-last-updated-2026" },
                 ].map((link) => (
                   <Link key={link.href} href={link.href} className="block text-teal-400 text-sm font-medium hover:text-teal-300 transition-colors">
                     {link.label} &rarr;
@@ -923,10 +923,10 @@ export default function Marketing101Client() {
               <h3 className="text-lg font-bold text-white mb-4 font-heading">Explore</h3>
               <div className="space-y-2">
                 {[
-                  { label: "100+ Industries", href: "/industries" },
-                  { label: "80+ Service Areas", href: "/areas" },
+                  { label: "100+ Industries", href: "/industries-we-offer-marketing-services-for" },
+                  { label: "80+ Service Areas", href: "/services-areas-we-offer-marketing-services-in" },
                   { label: "About Consortium NYC", href: "/about-digital-marketing-agency-consortium-nyc" },
-                  { label: "Free SEO Audit", href: "/free-seo-audit" },
+                  { label: "Free SEO Audit", href: "/the-free-human+ai-seo-marketing-review" },
                   { label: "Contact Us", href: "/contact-nyc-marketing-company-consortium-nyc" },
                 ].map((link) => (
                   <Link key={link.href} href={link.href} className="block text-teal-400 text-sm font-medium hover:text-teal-300 transition-colors">
@@ -953,7 +953,7 @@ export default function Marketing101Client() {
               <span className="text-teal-600">One Phone Call to Start.</span>
             </h2>
             <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
-              Whether you&apos;re on lesson 1 or lesson 101, we meet you where you are. <L href="/contact-nyc-marketing-company-consortium-nyc">Schedule a free strategy session</L> and we&apos;ll tell you exactly which lessons your business needs to focus on right now — for your <L href="/industries">industry</L>, your <L href="/areas">market</L>, and your budget.
+              Whether you&apos;re on lesson 1 or lesson 101, we meet you where you are. <L href="/contact-nyc-marketing-company-consortium-nyc">Schedule a free strategy session</L> and we&apos;ll tell you exactly which lessons your business needs to focus on right now — for your <L href="/industries-we-offer-marketing-services-for">industry</L>, your <L href="/services-areas-we-offer-marketing-services-in">market</L>, and your budget.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link

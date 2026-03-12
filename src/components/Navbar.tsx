@@ -17,14 +17,14 @@ const navLinks = [
 ];
 
 const moreLinks = [
-  { label: "Industries", href: "/industries" },
-  { label: "Service Areas", href: "/areas" },
-  { label: "Free SEO Audit", href: "/free-seo-audit" },
-  { label: "Marketing Checklist", href: "/marketing-checklist-2026" },
-  { label: "ROI Calculator", href: "/roi-calculator" },
+  { label: "Industries", href: "/industries-we-offer-marketing-services-for" },
+  { label: "Service Areas", href: "/services-areas-we-offer-marketing-services-in" },
+  { label: "Free SEO Audit", href: "/the-free-human+ai-seo-marketing-review" },
+  { label: "Marketing Checklist", href: "/master-marketing-checklist-last-updated-2026" },
+  { label: "ROI Calculator", href: "/annual-marketing-spend-roi-calculator" },
   { label: "FAQ", href: "/nyc-marketing-company-faqs" },
   { label: "Marketing 101", href: "/nyc-marketing-101-guide" },
-  { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/the-marketing-blog" },
 ];
 
 export default function Navbar() {
@@ -213,7 +213,7 @@ export default function Navbar() {
 
           {/* AI — highlighted */}
           <Link
-            href="/ai"
+            href="/artificial-intelligence-marketing-services-offered"
             className="text-[15px] font-extrabold tracking-wide text-teal-200 transition-colors hover:text-white font-cta whitespace-nowrap"
           >
             AI
@@ -332,7 +332,7 @@ export default function Navbar() {
                 {/* AI — highlighted in mobile */}
                 <div className="my-2 h-px bg-slate-200" />
                 <Link
-                  href="/ai"
+                  href="/artificial-intelligence-marketing-services-offered"
                   onClick={() => setMobileOpen(false)}
                   className="rounded-lg px-4 py-3 text-base font-bold text-teal-600 transition-colors hover:bg-teal-50 font-cta"
                 >

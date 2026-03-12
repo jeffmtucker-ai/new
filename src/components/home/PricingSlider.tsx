@@ -65,8 +65,8 @@ const tiers = [
     description: "Custom strategy for high-growth businesses",
     services: [
       { label: "Everything in Scale+", href: null },
-      { label: "AI Automation", href: "/ai" },
-      { label: "AI Chatbots", href: "/ai" },
+      { label: "AI Automation", href: "/artificial-intelligence-marketing-services-offered" },
+      { label: "AI Chatbots", href: "/artificial-intelligence-marketing-services-offered" },
       { label: "Multi-Location SEO", href: "/nyc-marketing-company-services-list" },
       { label: "Micro-Site Design", href: "/nyc-marketing-company-services-list" },
       { label: "Influencer Marketing", href: "/nyc-marketing-company-services-list" },
@@ -80,8 +80,8 @@ const tiers = [
     description: "The full Consortium — everything we offer, fully custom",
     services: [
       { label: "Everything in Enterprise", href: null },
-      { label: "AI Agents", href: "/ai" },
-      { label: "Custom AI Solutions", href: "/ai" },
+      { label: "AI Agents", href: "/artificial-intelligence-marketing-services-offered" },
+      { label: "Custom AI Solutions", href: "/artificial-intelligence-marketing-services-offered" },
       { label: "Naming & Rebranding", href: "/nyc-marketing-company-services-list" },
       { label: "Custom Website Design", href: "/nyc-marketing-company-services-list" },
       { label: "Social Media Strategy", href: "/nyc-marketing-company-services-list" },

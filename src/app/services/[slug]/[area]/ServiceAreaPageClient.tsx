@@ -68,7 +68,7 @@ export default function ServiceAreaPageClient({
               <span>/</span>
               <Link href={`/services/${service.slug}`} className="hover:text-white/60">{service.name}</Link>
               <span>/</span>
-              <Link href={`/areas/${area.slug}`} className="hover:text-white/60">{area.name}</Link>
+              <Link href={`/services-areas-we-offer-marketing-services-in/${area.slug}`} className="hover:text-white/60">{area.name}</Link>
             </div>
 
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase text-teal-300 bg-teal-900/40 rounded-full mb-6 font-cta">
@@ -127,16 +127,16 @@ export default function ServiceAreaPageClient({
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  {area.name} is a competitive market. Whether you&apos;re a <L href="/industries/plumber-marketing">plumber</L>, <L href="/industries/dental-practice-marketing">dentist</L>, <L href="/industries/restaurant-food-service-marketing">restaurant</L>, or <L href="/industries/law-firm-marketing">law firm</L> — your customers in {area.name} are searching online before they pick up the phone. If your business doesn&apos;t show up first, your competitor gets the call. {service.name} is how you make sure that doesn&apos;t happen.
+                  {area.name} is a competitive market. Whether you&apos;re a <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist</L>, <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurant</L>, or <L href="/industries-we-offer-marketing-services-for/law-firm-marketing">law firm</L> — your customers in {area.name} are searching online before they pick up the phone. If your business doesn&apos;t show up first, your competitor gets the call. {service.name} is how you make sure that doesn&apos;t happen.
                 </p>
                 <p>
                   Our <L href="/nyc-marketing-company-services-list">{service.name} strategies</L> are built from the ground up for {area.name}. We research what people in this {area.type.toLowerCase()} actually search for, analyze your local competitors, and build a plan that targets the exact keywords and search patterns unique to the {regionLabel} market. No generic templates. No one-size-fits-all approaches.
                 </p>
                 <p>
-                  The {area.name} market has nuances that generic agencies miss. Search behavior here is different from <L href="/areas/manhattan-marketing-company">Manhattan</L> and different from <L href="/areas/long-island-marketing-company">Long Island</L>. Customer expectations, competition density, and buying patterns all vary by neighborhood. We account for every one of these factors in your <L href="/nyc-marketing-pricing-guide">$950/month strategy</L>.
+                  The {area.name} market has nuances that generic agencies miss. Search behavior here is different from <L href="/services-areas-we-offer-marketing-services-in/manhattan-marketing-company">Manhattan</L> and different from <L href="/services-areas-we-offer-marketing-services-in/long-island-marketing-company">Long Island</L>. Customer expectations, competition density, and buying patterns all vary by neighborhood. We account for every one of these factors in your <L href="/nyc-marketing-pricing-guide">$950/month strategy</L>.
                 </p>
                 <p>
-                  {service.name} doesn&apos;t work in isolation. It connects to your <L href="/nyc-marketing-company-services-list">website</L>, your <L href="/nyc-marketing-company-services-list">Google Business Profile</L>, your <L href="/nyc-marketing-company-services-list">brand identity</L>, and your <L href="/ai">automation systems</L>. When all of these work together, the compounding effect on leads and revenue is massive. That&apos;s the <L href="/about-digital-marketing-agency-consortium-nyc">Consortium difference</L> — integrated systems, not disconnected tactics. See our <L href="/nyc-marketing-company-portfolio">real results</L>.
+                  {service.name} doesn&apos;t work in isolation. It connects to your <L href="/nyc-marketing-company-services-list">website</L>, your <L href="/nyc-marketing-company-services-list">Google Business Profile</L>, your <L href="/nyc-marketing-company-services-list">brand identity</L>, and your <L href="/artificial-intelligence-marketing-services-offered">automation systems</L>. When all of these work together, the compounding effect on leads and revenue is massive. That&apos;s the <L href="/about-digital-marketing-agency-consortium-nyc">Consortium difference</L> — integrated systems, not disconnected tactics. See our <L href="/nyc-marketing-company-portfolio">real results</L>.
                 </p>
               </div>
               <Link
@@ -257,11 +257,11 @@ export default function ServiceAreaPageClient({
             className="text-center mb-12"
           >
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4 font-heading">
-              {service.name} for <L href="/industries">Every Industry</L> in{" "}
+              {service.name} for <L href="/industries-we-offer-marketing-services-for">Every Industry</L> in{" "}
               <span className="text-teal-600">{area.name}</span>
             </h2>
             <p className="text-slate-600 max-w-2xl mx-auto">
-              We&apos;ve delivered {service.name.toLowerCase()} for <L href="/industries">100+ industries</L> across <L href="/areas">80+ neighborhoods</L>. Here are some of the businesses we serve in {area.name}.
+              We&apos;ve delivered {service.name.toLowerCase()} for <L href="/industries-we-offer-marketing-services-for">100+ industries</L> across <L href="/services-areas-we-offer-marketing-services-in">80+ neighborhoods</L>. Here are some of the businesses we serve in {area.name}.
             </p>
           </motion.div>
 
@@ -275,7 +275,7 @@ export default function ServiceAreaPageClient({
                 transition={{ duration: 0.3, delay: (i % 8) * 0.04 }}
               >
                 <Link
-                  href={`/industries/${ind.slug}`}
+                  href={`/industries-we-offer-marketing-services-for/${ind.slug}`}
                   className="block rounded-xl border border-slate-200 bg-white hover:border-teal-400 hover:shadow-sm transition-all p-4 group"
                 >
                   <p className="text-sm font-semibold text-slate-900 group-hover:text-teal-600 transition-colors font-heading">
@@ -343,7 +343,7 @@ export default function ServiceAreaPageClient({
                 ))}
               </div>
               <div className="mt-6">
-                <Link href="/areas" className="text-teal-400 text-sm font-bold font-cta hover:underline">
+                <Link href="/services-areas-we-offer-marketing-services-in" className="text-teal-400 text-sm font-bold font-cta hover:underline">
                   See All 80+ Service Areas &rarr;
                 </Link>
               </div>
@@ -457,9 +457,9 @@ export default function ServiceAreaPageClient({
               <h3 className="text-lg font-bold text-white mb-4 font-heading">Explore</h3>
               <div className="space-y-2">
                 {[
-                  { label: `More About ${area.name}`, href: `/areas/${area.slug}` },
-                  { label: "100+ Industries", href: "/industries" },
-                  { label: "80+ Service Areas", href: "/areas" },
+                  { label: `More About ${area.name}`, href: `/services-areas-we-offer-marketing-services-in/${area.slug}` },
+                  { label: "100+ Industries", href: "/industries-we-offer-marketing-services-for" },
+                  { label: "80+ Service Areas", href: "/services-areas-we-offer-marketing-services-in" },
                   { label: "About Consortium NYC", href: "/about-digital-marketing-agency-consortium-nyc" },
                   { label: "Contact Us", href: "/contact-nyc-marketing-company-consortium-nyc" },
                 ].map((link) => (

@@ -3,6 +3,17 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // ── URL restructure 2026-03-08 ──
+      { source: "/industries", destination: "/industries-we-offer-marketing-services-for", permanent: true },
+      { source: "/areas", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
+      { source: "/free-seo-audit", destination: "/the-free-human%2Bai-seo-marketing-review", permanent: true },
+      { source: "/marketing-checklist-2026", destination: "/master-marketing-checklist-last-updated-2026", permanent: true },
+      { source: "/roi-calculator", destination: "/annual-marketing-spend-roi-calculator", permanent: true },
+      { source: "/blog", destination: "/the-marketing-blog", permanent: true },
+      { source: "/ai", destination: "/artificial-intelligence-marketing-services-offered", permanent: true },
+      { source: "/blog/:path*", destination: "/the-marketing-blog/:path*", permanent: true },
+      { source: "/industries/:path*", destination: "/industries-we-offer-marketing-services-for/:path*", permanent: true },
+
       // ── Old category/breadcrumb routes ──
       { source: "/Web Design", destination: "/services/web-design-nyc", permanent: true },
       { source: "/Web%20Design", destination: "/services/web-design-nyc", permanent: true },
@@ -14,8 +25,8 @@ const nextConfig: NextConfig = {
       { source: "/Content%20Marketing", destination: "/services/content-marketing-in-nyc", permanent: true },
       { source: "/Content Marketing", destination: "/services/content-marketing-in-nyc", permanent: true },
       { source: "/More", destination: "/", permanent: true },
-      { source: "/More/Service%20Areas", destination: "/areas", permanent: true },
-      { source: "/More/Service Areas", destination: "/areas", permanent: true },
+      { source: "/More/Service%20Areas", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
+      { source: "/More/Service Areas", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
 
       // ── Old service sub-pages → new service slugs ──
       { source: "/services/web-design", destination: "/services/web-design-nyc", permanent: true },
@@ -80,14 +91,14 @@ const nextConfig: NextConfig = {
       { source: "/services/influencer-marketing", destination: "/services/influencer-marketing-in-nyc", permanent: true },
 
       // ── Old area routes ──
-      { source: "/nyc-marketing-company-service-areas", destination: "/areas", permanent: true },
-      { source: "/areas/bronx", destination: "/areas/bronx-marketing-company", permanent: true },
-      { source: "/areas/brooklyn", destination: "/areas/brooklyn-marketing-company", permanent: true },
-      { source: "/areas/queens", destination: "/areas/queens-marketing-company", permanent: true },
-      { source: "/areas/manhattan", destination: "/areas/manhattan-marketing-company", permanent: true },
-      { source: "/areas/staten-island", destination: "/areas/staten-island-marketing-company", permanent: true },
-      { source: "/areas/long-island", destination: "/areas/long-island-marketing-company", permanent: true },
-      { source: "/areas/westchester", destination: "/areas/westchester-marketing-company", permanent: true },
+      { source: "/nyc-marketing-company-service-areas", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
+      { source: "/areas/bronx", destination: "/services-areas-we-offer-marketing-services-in/bronx-marketing-company", permanent: true },
+      { source: "/areas/brooklyn", destination: "/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company", permanent: true },
+      { source: "/areas/queens", destination: "/services-areas-we-offer-marketing-services-in/queens-marketing-company", permanent: true },
+      { source: "/areas/manhattan", destination: "/services-areas-we-offer-marketing-services-in/manhattan-marketing-company", permanent: true },
+      { source: "/areas/staten-island", destination: "/services-areas-we-offer-marketing-services-in/staten-island-marketing-company", permanent: true },
+      { source: "/areas/long-island", destination: "/services-areas-we-offer-marketing-services-in/long-island-marketing-company", permanent: true },
+      { source: "/areas/westchester", destination: "/services-areas-we-offer-marketing-services-in/westchester-marketing-company", permanent: true },
 
       // ── Old misc pages ──
       { source: "/nyc-digital-marketing-agency", destination: "/", permanent: true },

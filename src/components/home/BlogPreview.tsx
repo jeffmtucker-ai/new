@@ -72,7 +72,7 @@ export default function BlogPreview() {
                 {article.excerpt}
               </p>
               <Link
-                href={`/blog/${article.slug}`}
+                href={`/the-marketing-blog/${article.slug}`}
                 className="inline-flex items-center gap-2 text-teal-600 text-sm font-semibold hover:underline font-cta"
               >
                 Read More
@@ -103,7 +103,7 @@ export default function BlogPreview() {
           className="text-center mt-12"
         >
           <Link
-            href="/blog"
+            href="/the-marketing-blog"
             className="inline-flex items-center gap-2 text-teal-600 font-semibold hover:underline transition-all font-cta"
           >
             View All Articles
