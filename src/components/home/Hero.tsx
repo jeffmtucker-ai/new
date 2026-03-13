@@ -12,7 +12,7 @@ const slides = [
     line1: "NYC Marketing",
     line2: "For the Businesses That Run This City",
     sub: "The most competitive market in the country. We make sure you win it.",
-    image: "/consortium-nyc-digital-marketing-agency-nyc.png",
+    image: "/consortium-nyc-digital-marketing-agency-nyc.webp",
     href: "/service-areas/nyc-digital-marketing-agency",
   },
   {
@@ -21,7 +21,7 @@ const slides = [
     line1: "Queens Marketing",
     line2: "For the Borough That Works Harder Than Anyone",
     sub: "The most diverse borough deserves marketing that actually gets it.",
-    image: "/consortium-nyc-digital-marketing-agency-queens.png",
+    image: "/consortium-nyc-digital-marketing-agency-queens.webp",
     href: "/service-areas/queens-digital-marketing-agency",
   },
   {
@@ -30,7 +30,7 @@ const slides = [
     line1: "Brooklyn Marketing",
     line2: "For the Brands That Built This Borough",
     sub: "Brands as bold as the borough. Sites that rank and convert.",
-    image: "/consortium-nyc-digital-marketing-agency-brooklyn.png",
+    image: "/consortium-nyc-digital-marketing-agency-brooklyn.webp",
     href: "/service-areas/brooklyn-digital-marketing-agency",
   },
   {
@@ -39,7 +39,7 @@ const slides = [
     line1: "Long Island Marketing",
     line2: "For the Businesses Your Neighbors Trust",
     sub: "Local businesses that show up first win first. We get you there.",
-    image: "/consortium-nyc-digital-marketing-agency-long-island.png",
+    image: "/consortium-nyc-digital-marketing-agency-long-island.webp",
     href: "/service-areas/long-island-digital-marketing-agency",
   },
   {
@@ -48,7 +48,7 @@ const slides = [
     line1: "Hoboken Marketing",
     line2: "For the Mile Square City's Best Businesses",
     sub: "Small city reach with big city results. Right across the river.",
-    image: "/consortium-nyc-digital-marketing-agency-hoboken.png",
+    image: "/consortium-nyc-digital-marketing-agency-hoboken.webp",
     href: "/service-areas/hoboken-digital-marketing-agency",
   },
 ];

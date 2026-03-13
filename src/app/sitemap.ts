@@ -21,6 +21,9 @@ export default async function sitemap(props: { id: number }): Promise<MetadataRo
   // Next.js 16 passes params as Promise — id is actually Promise<number>
   const id = Number(await (props.id as unknown as Promise<number>));
   const now = new Date().toISOString();
+  // Fixed date for programmatic pages — prevents crawlers from re-crawling 127K pages
+  // Update this date only when you actually change the page template
+  const programmaticDate = "2026-03-12T00:00:00.000Z";
 
   if (id === 0) {
     const staticPages: MetadataRoute.Sitemap = [
@@ -98,8 +101,8 @@ export default async function sitemap(props: { id: number }): Promise<MetadataRo
     serviceCategories.flatMap((s) =>
       areas.map((a) => ({
         url: `${BASE}/industries-we-offer-marketing-services-for/${i.slug}/${s.slug}/${a.slug}`,
-        lastModified: now,
-        changeFrequency: "monthly" as const,
+        lastModified: programmaticDate,
+        changeFrequency: "yearly" as const,
         priority: 0.5,
       }))
     )

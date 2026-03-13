@@ -10,6 +10,8 @@ import {
 } from "@/lib/schema";
 import ServiceAreaPageClient from "./ServiceAreaPageClient";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   const params: { slug: string; area: string }[] = [];
   for (const service of services) {

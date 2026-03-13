@@ -14,6 +14,9 @@ const PHONE = "212.202.9220";
 
 // All 127K+ combinations render on-demand (ISR) to stay under Vercel deploy limits.
 // generateStaticParams returns empty — pages are built on first request and cached.
+// revalidate = false → once cached, never regenerate (saves ISR writes).
+export const revalidate = false;
+
 export function generateStaticParams() {
   return [];
 }

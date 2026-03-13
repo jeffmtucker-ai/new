@@ -11,7 +11,7 @@ const neighborhoods = [
     tagline: "The Heart of NYC Business",
     description:
       "From Wall Street to Midtown, we help Manhattan businesses dominate search and stand out in the most competitive market in the world.",
-    image: "/consortium-nyc-digital-marketing-agency-nyc.png",
+    image: "/consortium-nyc-digital-marketing-agency-nyc.webp",
     href: "/service-areas/nyc-digital-marketing-agency",
   },
   {
@@ -19,7 +19,7 @@ const neighborhoods = [
     tagline: "NYC's Most Diverse Borough",
     description:
       "Over 800,000 small businesses call Queens home. We help them get found online and convert local customers every single day.",
-    image: "/consortium-nyc-digital-marketing-agency-queens.png",
+    image: "/consortium-nyc-digital-marketing-agency-queens.webp",
     href: "/service-areas/queens-digital-marketing-agency",
   },
   {
@@ -27,7 +27,7 @@ const neighborhoods = [
     tagline: "Where Culture Meets Commerce",
     description:
       "Brooklyn's small business scene is booming. We build brands and digital strategies that match the energy of this borough.",
-    image: "/consortium-nyc-digital-marketing-agency-brooklyn.png",
+    image: "/consortium-nyc-digital-marketing-agency-brooklyn.webp",
     href: "/service-areas/brooklyn-digital-marketing-agency",
   },
   {
@@ -35,7 +35,7 @@ const neighborhoods = [
     tagline: "Suburban Growth, Digital Edge",
     description:
       "Long Island businesses need local visibility that drives foot traffic and phone calls. We deliver SEO and web design that works.",
-    image: "/consortium-nyc-digital-marketing-agency-long-island.png",
+    image: "/consortium-nyc-digital-marketing-agency-long-island.webp",
     href: "/service-areas/long-island-digital-marketing-agency",
   },
   {
@@ -43,7 +43,7 @@ const neighborhoods = [
     tagline: "Small City, Big Opportunity",
     description:
       "Hoboken's tight-knit business community thrives on local reputation. We help you own the search results in Hudson County.",
-    image: "/consortium-nyc-digital-marketing-agency-hoboken.png",
+    image: "/consortium-nyc-digital-marketing-agency-hoboken.webp",
     href: "/service-areas/hoboken-digital-marketing-agency",
   },
 ];

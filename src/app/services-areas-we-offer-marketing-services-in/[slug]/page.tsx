@@ -10,6 +10,8 @@ import {
 } from "@/lib/schema";
 import AreaPageClient from "./AreaPageClient";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   return areas.map((area) => ({ slug: area.slug }));
 }

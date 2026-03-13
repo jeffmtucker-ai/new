@@ -15,6 +15,8 @@ const PHONE = "212.202.9220";
 
 type Props = { params: Promise<{ slug: string }> };
 
+export const revalidate = false;
+
 export async function generateStaticParams() {
   return industries.map((ind) => ({ slug: ind.slug }));
 }

@@ -15,6 +15,8 @@ import {
 } from "@/lib/schema";
 import ServicePageClient from "./ServicePageClient";
 
+export const revalidate = false;
+
 export function generateStaticParams() {
   return getAllServiceSlugs().map((slug) => ({ slug }));
 }
