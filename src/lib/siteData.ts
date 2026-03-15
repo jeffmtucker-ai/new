@@ -996,6 +996,9 @@ export const industries = [
   { name: "Medical Device Marketing", slug: "medical-device-marketing", badge: "Med Devices", desc: "Reach healthcare providers and procurement teams searching for medical equipment and device solutions." },
   { name: "Dispensary & Cannabis Marketing", slug: "dispensary-cannabis-marketing", badge: "Cannabis", desc: "Compliant marketing for dispensaries and cannabis brands. SEO that works within advertising restrictions." },
   { name: "Supplement & Nutrition Marketing", slug: "supplement-nutrition-marketing", badge: "Supplements", desc: "E-commerce SEO for supplement brands, nutrition companies, and health product retailers." },
+  { name: "Law Firm Marketing", slug: "law-firm-marketing", badge: "Law Firms", desc: "Full-service marketing for law firms of every size and specialty. SEO, web design, and lead generation that fills your case pipeline." },
+  { name: "Personal Trainer Marketing", slug: "personal-trainer-marketing", badge: "Personal Trainers", desc: "Get more clients searching for personal training near them. Local SEO and brand building for independent trainers and studios." },
+  { name: "Retail Store Marketing", slug: "retail-store-marketing", badge: "Retail", desc: "Drive foot traffic and online sales for brick-and-mortar retailers. Local SEO, Google Business, and e-commerce optimization." },
 ];
 
 export const testimonials = [

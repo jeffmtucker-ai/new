@@ -185,7 +185,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "web",
     question: "Can you add online booking or appointment scheduling to my website?",
-    answer: <span>Yes. We integrate booking systems directly into your <L href="/nyc-marketing-company-services-list">website</L> — whether it&apos;s Calendly, Acuity, or a custom solution. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, <L href="/industries-we-offer-marketing-services-for/personal-trainer-marketing">personal trainers</L>, <L href="/industries-we-offer-marketing-services-for/salon-marketing">salons</L>, and <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, online booking reduces friction and captures leads 24/7.</span>,
+    answer: <span>Yes. We integrate booking systems directly into your <L href="/nyc-marketing-company-services-list">website</L> — whether it&apos;s Calendly, Acuity, or a custom solution. For <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, <L href="/industries-we-offer-marketing-services-for/personal-trainer-marketing">personal trainers</L>, <L href="/industries-we-offer-marketing-services-for/salon-spa-marketing">salons</L>, and <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, online booking reduces friction and captures leads 24/7.</span>,
   },
   {
     category: "web",
@@ -311,7 +311,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "industries",
     question: "How should a law firm in NYC approach digital marketing?",
-    answer: <span><L href="/industries-we-offer-marketing-services-for/law-firm-marketing">Law firm marketing</L> requires EEAT-focused content (Experience, Expertise, Authoritativeness, Trustworthiness), practice area landing pages, attorney bio optimization, and local SEO for each <L href="/services-areas-we-offer-marketing-services-in">borough</L> you serve. <L href="/industries-we-offer-marketing-services-for/personal-injury-law-firm-marketing">Personal injury</L>, <L href="/industries-we-offer-marketing-services-for/criminal-defense-law-firm-marketing">criminal defense</L>, and <L href="/industries-we-offer-marketing-services-for/family-law-firm-marketing">family law</L> are the most competitive — and where we specialize.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/law-firm-marketing">Law firm marketing</L> requires EEAT-focused content (Experience, Expertise, Authoritativeness, Trustworthiness), practice area landing pages, attorney bio optimization, and local SEO for each <L href="/services-areas-we-offer-marketing-services-in">borough</L> you serve. <L href="/industries-we-offer-marketing-services-for/personal-injury-law-firm-marketing">Personal injury</L>, <L href="/industries-we-offer-marketing-services-for/criminal-defense-lawyer-marketing">criminal defense</L>, and <L href="/industries-we-offer-marketing-services-for/family-law-attorney-marketing">family law</L> are the most competitive — and where we specialize.</span>,
   },
   {
     category: "industries",
@@ -331,12 +331,12 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "industries",
     question: "How should a gym or fitness studio market itself in NYC?",
-    answer: <span><L href="/industries-we-offer-marketing-services-for/gym-fitness-studio-marketing">Gym and fitness marketing</L> targets hyper-local searches since people won&apos;t commute far to work out. We optimize for &ldquo;gym near me <L href="/services-areas-we-offer-marketing-services-in/chelsea-marketing-company">Chelsea</L>,&rdquo; &ldquo;CrossFit <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and class-specific terms. Review management, Instagram integration, class schedule schema markup, and <L href="/nyc-marketing-company-services-list">local SEO</L> drive consistent new memberships.</span>,
+    answer: <span><L href="/industries-we-offer-marketing-services-for/gym-fitness-marketing">Gym and fitness marketing</L> targets hyper-local searches since people won&apos;t commute far to work out. We optimize for &ldquo;gym near me <L href="/services-areas-we-offer-marketing-services-in/chelsea-marketing-company">Chelsea</L>,&rdquo; &ldquo;CrossFit <L href="/services-areas-we-offer-marketing-services-in/williamsburg-marketing-company">Williamsburg</L>,&rdquo; and class-specific terms. Review management, Instagram integration, class schedule schema markup, and <L href="/nyc-marketing-company-services-list">local SEO</L> drive consistent new memberships.</span>,
   },
   {
     category: "industries",
     question: "Do you work with medical practices and healthcare providers?",
-    answer: <span>Yes. We serve <L href="/industries-we-offer-marketing-services-for/medical-practice-marketing">medical practices</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental offices</L>, <L href="/industries-we-offer-marketing-services-for/physical-therapy-practice-marketing">physical therapy clinics</L>, <L href="/industries-we-offer-marketing-services-for/mental-health-practice-marketing">mental health practices</L>, <L href="/industries-we-offer-marketing-services-for/veterinary-practice-marketing">veterinary clinics</L>, and other healthcare providers. Medical SEO requires EEAT compliance, HIPAA-aware content strategies, and patient review management — we know the nuances.</span>,
+    answer: <span>Yes. We serve <L href="/industries-we-offer-marketing-services-for/medical-practice-marketing">medical practices</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental offices</L>, <L href="/industries-we-offer-marketing-services-for/physical-therapy-marketing">physical therapy clinics</L>, <L href="/industries-we-offer-marketing-services-for/mental-health-practice-marketing">mental health practices</L>, <L href="/industries-we-offer-marketing-services-for/veterinarian-marketing">veterinary clinics</L>, and other healthcare providers. Medical SEO requires EEAT compliance, HIPAA-aware content strategies, and patient review management — we know the nuances.</span>,
   },
   {
     category: "industries",
@@ -553,7 +553,7 @@ const faqs: { category: string; question: string; answer: ReactNode }[] = [
   {
     category: "general",
     question: "Is social media marketing important for NYC local businesses?",
-    answer: <span>It depends on your <L href="/industries-we-offer-marketing-services-for">industry</L>. <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">Restaurants</L> and <L href="/industries-we-offer-marketing-services-for/salon-marketing">salons</L> get significant business from Instagram. <L href="/industries-we-offer-marketing-services-for/plumber-marketing">Plumbers</L> and <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC companies</L> don&apos;t. We recommend investing in channels with the highest ROI first — usually <L href="/nyc-marketing-company-services-list">SEO</L> and <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. Social media is a supplement, not a foundation.</span>,
+    answer: <span>It depends on your <L href="/industries-we-offer-marketing-services-for">industry</L>. <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">Restaurants</L> and <L href="/industries-we-offer-marketing-services-for/salon-spa-marketing">salons</L> get significant business from Instagram. <L href="/industries-we-offer-marketing-services-for/plumber-marketing">Plumbers</L> and <L href="/industries-we-offer-marketing-services-for/hvac-company-marketing">HVAC companies</L> don&apos;t. We recommend investing in channels with the highest ROI first — usually <L href="/nyc-marketing-company-services-list">SEO</L> and <L href="/nyc-marketing-company-services-list">Google Business Profile</L>. Social media is a supplement, not a foundation.</span>,
   },
   {
     category: "general",
