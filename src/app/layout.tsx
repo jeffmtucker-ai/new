@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora, DM_Sans, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { JsonLd, organizationSchema, websiteSchema } from "@/lib/schema";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -116,6 +117,7 @@ export default function RootLayout({
         <JsonLd data={websiteSchema} />
       </head>
       <body className="font-body antialiased">
+        <GoogleAnalytics gaId="G-QN1ZPCL4NS" />
         <Navbar />
         <main>{children}</main>
         <Footer />

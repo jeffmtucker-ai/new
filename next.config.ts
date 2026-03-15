@@ -100,6 +100,14 @@ const nextConfig: NextConfig = {
       { source: "/areas/long-island", destination: "/services-areas-we-offer-marketing-services-in/long-island-marketing-company", permanent: true },
       { source: "/areas/westchester", destination: "/services-areas-we-offer-marketing-services-in/westchester-marketing-company", permanent: true },
 
+      // ── Old /service-areas/ links (pre-rebrand) ──
+      { source: "/service-areas/nyc-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/manhattan-marketing-company", permanent: true },
+      { source: "/service-areas/queens-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/queens-marketing-company", permanent: true },
+      { source: "/service-areas/brooklyn-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/brooklyn-marketing-company", permanent: true },
+      { source: "/service-areas/long-island-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/long-island-marketing-company", permanent: true },
+      { source: "/service-areas/hoboken-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/hoboken-marketing-company", permanent: true },
+      { source: "/service-areas/:path*", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
+
       // ── Old misc pages ──
       { source: "/nyc-digital-marketing-agency", destination: "/", permanent: true },
       { source: "/nyc-digital-marketing-agency/:path*", destination: "/", permanent: true },
