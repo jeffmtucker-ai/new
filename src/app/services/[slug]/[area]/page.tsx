@@ -32,7 +32,7 @@ export async function generateMetadata({
   const area = areas.find((a) => a.slug === areaSlug);
   if (!service || !area) return {};
 
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
 
   return {
     title: `${service.name} in ${area.name} | ${regionLabel} Marketing Company | Consortium NYC`,
@@ -66,7 +66,7 @@ export default async function ServiceAreaPage({
   const category = serviceCategories.find((c) => c.slug === slug);
   const pageFaqs = getServiceAreaFaqs(service.name, area.name, area.region);
   const pageUrl = `https://www.consortiumnyc.com/services/${service.slug}/${area.slug}`;
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
 
   const breadcrumbs = [
     { name: "Home", url: "https://www.consortiumnyc.com" },

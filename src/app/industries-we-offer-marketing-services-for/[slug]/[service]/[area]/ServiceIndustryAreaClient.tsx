@@ -69,7 +69,7 @@ export default function ServiceIndustryAreaClient({
               {h1}
             </h1>
             <p className="text-white/70 text-lg sm:text-xl max-w-3xl mb-4">
-              Data-driven {sn} strategies built specifically for {lb} companies in {area.name}, {regionLabel}. We know your market, your competition, and exactly what it takes to rank.
+              Data-driven {sn} strategies built specifically for {lb} companies in {area.name}{area.region !== area.name ? `, ${regionLabel}` : ""}. We know your market, your competition, and exactly what it takes to rank.
             </p>
             <p className="text-white/50 text-sm mb-8">
               Local SEO from <span className="text-teal-400 font-bold">$950/mo</span> &middot; Custom websites from <span className="text-teal-400 font-bold">$4,600</span> &middot; No contracts &middot; <span className="text-teal-400 font-bold">$15.2M+</span> revenue generated

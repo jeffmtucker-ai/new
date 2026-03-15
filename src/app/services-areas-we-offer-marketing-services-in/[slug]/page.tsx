@@ -21,11 +21,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const area = areas.find((a) => a.slug === slug);
   if (!area) return {};
 
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
 
   return {
     title: `${area.name} Marketing Company | SEO, Web Design & Branding | Consortium NYC`,
-    description: `Marketing company serving ${area.name}, ${regionLabel}. Local SEO starting at $950/month, custom websites from $4,600, branding, AI automation, and Google Business Profile optimization for ${area.name} businesses. Call/text (212) 202-9220.`,
+    description: `Marketing company serving ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. Local SEO starting at $950/month, custom websites from $4,600, branding, AI automation, and Google Business Profile optimization for ${area.name} businesses. Call/text (212) 202-9220.`,
     alternates: { canonical: `https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in/${area.slug}` },
     openGraph: {
       title: `${area.name} Marketing Company | Consortium NYC`,

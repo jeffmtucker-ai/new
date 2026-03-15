@@ -52,7 +52,7 @@ export default function AreaPageClient({
   serviceCategories: ServiceCategory[];
 }) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
 
   return (
     <>
@@ -70,7 +70,7 @@ export default function AreaPageClient({
             className="text-center"
           >
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase text-teal-300 bg-teal-900/40 rounded-full mb-6 font-cta">
-              {area.type} &middot; {regionLabel}
+              {area.region === area.name ? area.type : `${area.type} · ${area.region}`}
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 font-heading leading-tight">
               {area.name}{" "}

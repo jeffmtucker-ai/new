@@ -72,14 +72,14 @@ export default function ServiceAreaPageClient({
             </div>
 
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-[0.2em] uppercase text-teal-300 bg-teal-900/40 rounded-full mb-6 font-cta">
-              {service.name} &middot; {area.name}, {regionLabel}
+              {service.name} &middot; {area.region === area.name ? area.name : `${area.name}, ${area.region}`}
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 font-heading leading-tight">
               {service.name} in{" "}
               <span className="text-teal-400">{area.name}</span>
             </h1>
             <p className="text-slate-300 text-lg sm:text-xl max-w-3xl mx-auto mb-4">
-              {service.description} Tailored specifically for businesses in {area.name} and the {regionLabel} market.
+              {service.description} Tailored specifically for businesses in {area.name}{area.region !== area.name ? ` and the ${area.region} market` : ""}.
             </p>
             <p className="text-slate-400 text-sm max-w-2xl mx-auto mb-8">
               <L href="/nyc-marketing-pricing-guide">$950/month SEO</L> &middot; <L href="/nyc-marketing-pricing-guide">$4,600 custom websites</L> &middot; No contracts &middot; 25+ years experience

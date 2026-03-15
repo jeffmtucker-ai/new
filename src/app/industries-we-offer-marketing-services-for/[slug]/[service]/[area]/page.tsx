@@ -32,14 +32,14 @@ export async function generateMetadata({
   const area = areas.find((a) => a.slug === areaSlug);
   if (!ind || !svc || !area) return {};
 
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
   const label = h1Label(ind.badge);
   const h1 = `${svc.name} for ${label} Businesses in ${area.name}`;
   const canonical = `https://www.consortiumnyc.com/industries-we-offer-marketing-services-for/${ind.slug}/${svc.slug}/${area.slug}`;
 
   return {
     title: `${h1} | ${regionLabel} Marketing Company`,
-    description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}, ${regionLabel}. Local SEO from $950/mo, custom websites from $4,600. Data-driven ${svc.name.toLowerCase()} strategies for ${label.toLowerCase()} companies. No contracts. Call ${PHONE}.`,
+    description: `${svc.name} for ${label.toLowerCase()} businesses in ${area.name}${area.region !== area.name ? `, ${area.region}` : ""}. Local SEO from $950/mo, custom websites from $4,600. Data-driven ${svc.name.toLowerCase()} strategies for ${label.toLowerCase()} companies. No contracts. Call ${PHONE}.`,
     alternates: { canonical },
     keywords: [
       `${svc.name.toLowerCase()} ${label.toLowerCase()} ${area.name}`,
@@ -89,7 +89,7 @@ export default async function ServiceIndustryAreaPage({
   if (!ind || !svc || !area) notFound();
 
   const category = serviceCategories.find((c) => c.slug === svcSlug);
-  const regionLabel = area.region === area.name ? area.type : area.region;
+  const regionLabel = area.region === area.name ? area.name : area.region;
   const label = h1Label(ind.badge);
   const h1 = `${svc.name} for ${label} Businesses in ${area.name}`;
   const pageFaqs = getFaqs(svc.name, label, area.name, area.region);
