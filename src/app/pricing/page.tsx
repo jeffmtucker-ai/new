@@ -6,15 +6,36 @@ import TipBlurb from "@/components/TipBlurb";
 /* ------------------------------------------------------------------ */
 /*  Metadata                                                           */
 /* ------------------------------------------------------------------ */
+const pTitle = "Transparent Pricing | Consortium NYC";
+const pDescription = "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text (212) 202-9220.";
+const pUrl = "https://www.consortiumnyc.com/pricing";
+
 export const metadata: Metadata = {
-  title: "Transparent Pricing | Consortium NYC",
-  description:
-    "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text (212) 202-9220.",
+  title: pTitle,
+  description: pDescription,
+  alternates: { canonical: pUrl },
+  keywords: [
+    "marketing pricing nyc",
+    "seo pricing new york",
+    "web design cost nyc",
+    "transparent marketing pricing",
+    "affordable seo nyc",
+    "website design pricing new york",
+    "no contract marketing agency nyc",
+  ],
   openGraph: {
-    title: "Transparent Pricing | Consortium NYC",
-    description:
-      "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Call/text (212) 202-9220.",
-    url: "https://www.consortiumnyc.com/pricing",
+    title: pTitle,
+    description: pDescription,
+    url: pUrl,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC Pricing" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: pTitle,
+    description: pDescription,
+    images: ["/og-image.jpg"],
   },
 };
 

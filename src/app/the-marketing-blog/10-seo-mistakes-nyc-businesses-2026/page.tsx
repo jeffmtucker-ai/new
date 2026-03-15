@@ -4,16 +4,62 @@ import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
+import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "10 SEO Mistakes NYC Businesses Make in 2026 | Consortium NYC";
+const description =
+  "The most common SEO mistakes we see NYC businesses making — and exactly how to fix them. From local citations to Core Web Vitals, stop leaving money on the table. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/the-marketing-blog/10-seo-mistakes-nyc-businesses-2026";
 
 export const metadata: Metadata = {
-  title: "10 SEO Mistakes NYC Businesses Make in 2026 | Consortium NYC",
-  description:
-    "The most common SEO mistakes we see NYC businesses making — and exactly how to fix them. From local citations to Core Web Vitals, stop leaving money on the table. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "SEO mistakes NYC",
+    "NYC business SEO",
+    "local SEO mistakes",
+    "SEO tips 2026",
+    "NYC SEO audit",
+    "Google Business Profile optimization",
+    "Core Web Vitals",
+    "NYC digital marketing",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "article",
+    images: [{ url: "https://www.consortiumnyc.com/og-image.jpg", width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["https://www.consortiumnyc.com/og-image.jpg"],
+  },
 };
 
 export default function Post() {
   return (
     <>
+      <JsonLd
+        data={articleSchema(
+          "10 SEO Mistakes NYC Businesses Make in 2026",
+          description,
+          url,
+          "2025-01-15",
+          "2026-03-15"
+        )}
+      />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Blog", url: "https://www.consortiumnyc.com/the-marketing-blog" },
+          { name: "10 SEO Mistakes NYC Businesses Make in 2026", url },
+        ])}
+      />
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/the-marketing-blog" className="text-teal-400 text-sm font-semibold hover:underline font-cta">

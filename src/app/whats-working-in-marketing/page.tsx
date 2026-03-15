@@ -2,12 +2,45 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
+import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "What's Working in Marketing Right Now | Consortium NYC";
+const description =
+  "Real-time notes, updates, and observations from the team at Consortium NYC. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/whats-working-in-marketing";
 
 export const metadata: Metadata = {
-  title: "What's Working in Marketing Right Now | Consortium NYC",
-  description:
-    "Real-time notes, updates, and observations from the team at Consortium NYC. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "what works in marketing 2026",
+    "SEO strategies NYC",
+    "marketing updates",
+    "digital marketing trends",
+    "NYC marketing insights",
+    "SEO tips NYC businesses",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.jpg"],
+  },
 };
+
+const breadcrumbs = [
+  { name: "Home", url: "https://www.consortiumnyc.com" },
+  { name: "What's Working in Marketing", url },
+];
 
 const updates = [
   {
@@ -252,6 +285,8 @@ const updates = [
 export default function WhatsWorking() {
   return (
     <>
+      <JsonLd data={webPageSchema(title, description, url, breadcrumbs)} />
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       {/* Hero */}
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

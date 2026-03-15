@@ -1,12 +1,46 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
+import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | Consortium NYC";
+const description =
+  "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/nyc-marketing-company-portfolio";
 
 export const metadata: Metadata = {
-  title: "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | Consortium NYC",
-  description:
-    "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "NYC marketing portfolio",
+    "SEO case studies NYC",
+    "marketing results NYC",
+    "SEO results proof",
+    "NYC business growth",
+    "marketing company portfolio",
+    "real SEO results",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.jpg"],
+  },
 };
+
+const breadcrumbs = [
+  { name: "Home", url: "https://www.consortiumnyc.com" },
+  { name: "Portfolio", url },
+];
 
 const clients = [
   {
@@ -102,6 +136,8 @@ const clients = [
 export default function PortfolioPage() {
   return (
     <>
+      <JsonLd data={webPageSchema(title, description, url, breadcrumbs)} />
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       {/* Hero */}
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

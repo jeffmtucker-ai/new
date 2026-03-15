@@ -3,15 +3,36 @@ import Link from "next/link";
 import { JsonLd, webPageSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import TipBlurb from "@/components/TipBlurb";
 
+const wdTitle = "NYC Web Design Pricing | Custom Websites from $4,600 | Consortium NYC";
+const wdDescription = "Transparent web design pricing for NYC businesses. Custom websites from $4,600, monthly SEO from $950/mo. No hidden fees, no contracts. Mobile-first, SEO-optimized sites that convert. Call/text (212) 202-9220.";
+const wdUrl = "https://www.consortiumnyc.com/nyc-web-design-pricing";
+
 export const metadata: Metadata = {
-  title: "Transparent Pricing | Consortium NYC",
-  description:
-    "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Custom websites from $4,600. Monthly SEO from $950/mo. Call/text (212) 202-9220.",
+  title: wdTitle,
+  description: wdDescription,
+  alternates: { canonical: wdUrl },
+  keywords: [
+    "web design pricing nyc",
+    "website cost new york",
+    "affordable web design nyc",
+    "custom website pricing",
+    "nyc website design cost",
+    "small business website nyc",
+    "web design packages new york",
+  ],
   openGraph: {
-    title: "Transparent Pricing | Consortium NYC",
-    description:
-      "Simple, transparent pricing for web design and SEO services. No hidden fees, no surprise invoices, no long-term contracts. Call/text (212) 202-9220.",
-    url: "https://www.consortiumnyc.com/nyc-web-design-pricing",
+    title: wdTitle,
+    description: wdDescription,
+    url: wdUrl,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC Web Design Pricing" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: wdTitle,
+    description: wdDescription,
+    images: ["/og-image.jpg"],
   },
 };
 

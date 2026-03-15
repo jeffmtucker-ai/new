@@ -4,16 +4,62 @@ import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
+import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "How to Choose a Marketing Company (Without Getting Burned) | Consortium NYC";
+const description =
+  "The exact questions to ask, red flags to watch for, and benchmarks to demand before hiring a marketing company. 25 years of industry insight — no sugarcoating. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/the-marketing-blog/how-to-choose-digital-marketing-agency";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Marketing Company (Without Getting Burned) | Consortium NYC",
-  description:
-    "The exact questions to ask, red flags to watch for, and benchmarks to demand before hiring a marketing company. 25 years of industry insight — no sugarcoating. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "how to choose marketing company",
+    "hiring a marketing agency",
+    "marketing company red flags",
+    "NYC marketing agency",
+    "digital marketing company questions",
+    "marketing agency accountability",
+    "choose digital marketing partner",
+    "NYC business marketing",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "article",
+    images: [{ url: "https://www.consortiumnyc.com/og-image.jpg", width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["https://www.consortiumnyc.com/og-image.jpg"],
+  },
 };
 
 export default function Post() {
   return (
     <>
+      <JsonLd
+        data={articleSchema(
+          "How to Choose a Marketing Company (Without Getting Burned)",
+          description,
+          url,
+          "2025-01-15",
+          "2026-03-15"
+        )}
+      />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Blog", url: "https://www.consortiumnyc.com/the-marketing-blog" },
+          { name: "How to Choose a Marketing Company", url },
+        ])}
+      />
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/the-marketing-blog" className="text-teal-400 text-sm font-semibold hover:underline font-cta">

@@ -2,11 +2,41 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
+import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "NYC Marketing Blog | SEO, Web Design & Growth Strategies | Consortium NYC";
+const description =
+  "Actionable digital marketing strategies, SEO tips, and growth tactics for NYC, Long Island, and Westchester businesses. No fluff — just what works. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/the-marketing-blog";
 
 export const metadata: Metadata = {
-  title: "NYC Marketing Blog | SEO, Web Design & Growth Strategies | Consortium NYC",
-  description:
-    "Actionable digital marketing strategies, SEO tips, and growth tactics for NYC, Long Island, and Westchester businesses. No fluff — just what works. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "NYC marketing blog",
+    "SEO tips NYC",
+    "digital marketing strategies",
+    "NYC business growth",
+    "local SEO blog",
+    "web design tips",
+    "NYC marketing company blog",
+    "marketing insights New York",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "https://www.consortiumnyc.com/og-image.jpg", width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["https://www.consortiumnyc.com/og-image.jpg"],
+  },
 };
 
 const posts = [
@@ -33,9 +63,16 @@ const posts = [
   },
 ];
 
+const breadcrumbs = [
+  { name: "Home", url: "https://www.consortiumnyc.com" },
+  { name: "Blog", url },
+];
+
 export default function BlogPage() {
   return (
     <>
+      <JsonLd data={webPageSchema(title, description, url, breadcrumbs)} />
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       {/* Hero */}
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

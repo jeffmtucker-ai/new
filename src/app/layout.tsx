@@ -97,9 +97,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.consortiumnyc.com",
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
+  // verification: { google: "ADD_REAL_CODE_FROM_SEARCH_CONSOLE" },
 };
 
 export default function RootLayout({

@@ -1,11 +1,40 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
+import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "NYC Marketing Company Pricing Guide | Honest Costs, No Hidden Fees | Consortium NYC";
+const description = "How much does a marketing company in NYC actually cost? Real pricing for SEO, web design, branding, and AI automation. Plus the mistakes 85% of business owners make that cost them thousands. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/nyc-marketing-pricing-guide";
 
 export const metadata: Metadata = {
-  title: "NYC Marketing Company Pricing Guide | Honest Costs, No Hidden Fees | Consortium NYC",
-  description:
-    "How much does a marketing company in NYC actually cost? Real pricing for SEO, web design, branding, and AI automation. Plus the mistakes 85% of business owners make that cost them thousands. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "nyc marketing pricing",
+    "marketing company cost nyc",
+    "seo pricing new york",
+    "web design cost nyc",
+    "marketing agency pricing guide",
+    "affordable marketing nyc",
+    "seo cost per month nyc",
+    "branding agency pricing new york",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC Pricing Guide" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.jpg"],
+  },
 };
 
 /* ------------------------------------------------------------------ */
@@ -95,8 +124,15 @@ const mistakes = [
 ];
 
 export default function PricingGuidePage() {
+  const breadcrumbs = [
+    { name: "Home", url: "https://www.consortiumnyc.com" },
+    { name: "Pricing Guide", url },
+  ];
+
   return (
     <>
+      <JsonLd data={webPageSchema(title, description, url, breadcrumbs)} />
+      <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       {/* Hero */}
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

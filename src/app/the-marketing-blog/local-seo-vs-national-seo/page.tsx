@@ -4,16 +4,62 @@ import TipBlurb from "@/components/TipBlurb";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import BlogNav from "@/components/blog/BlogNav";
 import ListenButton from "@/components/blog/ListenButton";
+import { JsonLd, articleSchema, breadcrumbSchema } from "@/lib/schema";
+
+const title = "Local SEO vs National SEO: What Your NYC Business Actually Needs | Consortium NYC";
+const description =
+  "Local SEO and national SEO require completely different strategies. Learn which approach drives the most revenue for your NYC business — or if you need both. Call/text (212) 202-9220.";
+const url = "https://www.consortiumnyc.com/the-marketing-blog/local-seo-vs-national-seo";
 
 export const metadata: Metadata = {
-  title: "Local SEO vs National SEO: What Your NYC Business Actually Needs | Consortium NYC",
-  description:
-    "Local SEO and national SEO require completely different strategies. Learn which approach drives the most revenue for your NYC business — or if you need both. Call/text (212) 202-9220.",
+  title,
+  description,
+  alternates: { canonical: url },
+  keywords: [
+    "local SEO vs national SEO",
+    "NYC local SEO",
+    "national SEO strategy",
+    "local search optimization",
+    "NYC business SEO",
+    "Google Map Pack",
+    "local SEO ROI",
+    "NYC marketing company",
+  ],
+  openGraph: {
+    title,
+    description,
+    url,
+    siteName: "Consortium NYC",
+    type: "article",
+    images: [{ url: "https://www.consortiumnyc.com/og-image.jpg", width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["https://www.consortiumnyc.com/og-image.jpg"],
+  },
 };
 
 export default function Post() {
   return (
     <>
+      <JsonLd
+        data={articleSchema(
+          "Local SEO vs National SEO: What Your NYC Business Actually Needs",
+          description,
+          url,
+          "2025-01-15",
+          "2026-03-15"
+        )}
+      />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: "https://www.consortiumnyc.com" },
+          { name: "Blog", url: "https://www.consortiumnyc.com/the-marketing-blog" },
+          { name: "Local SEO vs National SEO", url },
+        ])}
+      />
       <section className="pt-32 pb-12 bg-slate-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/the-marketing-blog" className="text-teal-400 text-sm font-semibold hover:underline font-cta">
