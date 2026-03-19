@@ -12,11 +12,13 @@ import ServiceAreaPageClient from "./ServiceAreaPageClient";
 
 export const revalidate = false;
 
+export const dynamicParams = true;
+
 export function generateStaticParams() {
   const params: { slug: string; area: string }[] = [];
-  for (const slug of getAllServiceSlugs()) {
+  for (const service of services) {
     for (const a of areas) {
-      params.push({ slug, area: a.slug });
+      params.push({ slug: service.slug, area: a.slug });
     }
   }
   return params;
