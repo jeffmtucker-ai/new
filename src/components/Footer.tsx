@@ -167,16 +167,6 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <div className="mt-3 text-center">
-            <a
-              href="https://thenycseo.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[11px] text-slate-500 transition-colors hover:text-teal-400"
-            >
-              SEO by TheNYCSEO.com
-            </a>
-          </div>
         </div>
       </div>
     </footer>
