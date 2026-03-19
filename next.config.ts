@@ -99,6 +99,7 @@ const nextConfig: NextConfig = {
       { source: "/areas/staten-island", destination: "/services-areas-we-offer-marketing-services-in/staten-island-marketing-company", permanent: true },
       { source: "/areas/long-island", destination: "/services-areas-we-offer-marketing-services-in/long-island-marketing-company", permanent: true },
       { source: "/areas/westchester", destination: "/services-areas-we-offer-marketing-services-in/westchester-marketing-company", permanent: true },
+      { source: "/areas/:path*", destination: "/services-areas-we-offer-marketing-services-in/:path*", permanent: true },
 
       // ── Old /service-areas/ links (pre-rebrand) ──
       { source: "/service-areas/nyc-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/manhattan-marketing-company", permanent: true },
@@ -107,6 +108,11 @@ const nextConfig: NextConfig = {
       { source: "/service-areas/long-island-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/long-island-marketing-company", permanent: true },
       { source: "/service-areas/hoboken-digital-marketing-agency", destination: "/services-areas-we-offer-marketing-services-in/hoboken-marketing-company", permanent: true },
       { source: "/service-areas/:path*", destination: "/services-areas-we-offer-marketing-services-in", permanent: true },
+
+      // ── Missing redirects ──
+      { source: "/services", destination: "/nyc-marketing-company-services-list", permanent: true },
+      { source: "/marketing-101", destination: "/nyc-marketing-101-guide", permanent: true },
+      { source: "/nyc-digital-marketing-agency-services-offered-by-consortium-nyc", destination: "/nyc-marketing-company-services-list", permanent: true },
 
       // ── Old misc pages ──
       { source: "/nyc-digital-marketing-agency", destination: "/", permanent: true },

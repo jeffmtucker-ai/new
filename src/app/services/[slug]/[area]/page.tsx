@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { services, areas, serviceCategories } from "@/lib/siteData";
+import { services, areas, serviceCategories, getAllServiceSlugs, findServiceBySlug } from "@/lib/siteData";
 import {
   JsonLd,
   serviceSchema,
@@ -14,9 +14,9 @@ export const revalidate = false;
 
 export function generateStaticParams() {
   const params: { slug: string; area: string }[] = [];
-  for (const service of services) {
+  for (const slug of getAllServiceSlugs()) {
     for (const a of areas) {
-      params.push({ slug: service.slug, area: a.slug });
+      params.push({ slug, area: a.slug });
     }
   }
   return params;
@@ -28,17 +28,18 @@ export async function generateMetadata({
   params: Promise<{ slug: string; area: string }>;
 }) {
   const { slug, area: areaSlug } = await params;
-  const service = services.find((s) => s.slug === slug);
+  const found = findServiceBySlug(slug);
   const area = areas.find((a) => a.slug === areaSlug);
-  if (!service || !area) return {};
+  if (!found || !area) return {};
 
+  const serviceName = found.subService ? found.subService.name : found.category.name;
   const regionLabel = area.region === area.name ? area.name : area.region;
 
   return {
-    title: `${service.name} in ${area.name} | ${regionLabel} Marketing Company | Consortium NYC`,
-    description: `${service.name} for ${area.name} businesses. Local SEO from $950/month, custom websites from $4,600. Data-driven ${service.name.toLowerCase()} strategies tailored to the ${area.name} market. No contracts. Call/text (212) 202-9220.`,
+    title: `${serviceName} in ${area.name} | ${regionLabel} Marketing Company | Consortium NYC`,
+    description: `${serviceName} for ${area.name} businesses. Local SEO from $950/month, custom websites from $4,600. Data-driven ${serviceName.toLowerCase()} strategies tailored to the ${area.name} market. No contracts. Call/text (212) 202-9220.`,
     alternates: {
-      canonical: `https://www.consortiumnyc.com/services/${service.slug}/${area.slug}`,
+      canonical: `https://www.consortiumnyc.com/services/${slug}/${area.slug}`,
     },
   };
 }
@@ -59,30 +60,36 @@ export default async function ServiceAreaPage({
   params: Promise<{ slug: string; area: string }>;
 }) {
   const { slug, area: areaSlug } = await params;
-  const service = services.find((s) => s.slug === slug);
   const area = areas.find((a) => a.slug === areaSlug);
-  if (!service || !area) notFound();
+  const found = findServiceBySlug(slug);
+  if (!found || !area) notFound();
 
-  const category = serviceCategories.find((c) => c.slug === slug);
-  const pageFaqs = getServiceAreaFaqs(service.name, area.name, area.region);
-  const pageUrl = `https://www.consortiumnyc.com/services/${service.slug}/${area.slug}`;
+  const { category, subService } = found;
+  const serviceName = subService ? subService.name : category.name;
+  const serviceSlug = subService ? subService.slug : category.slug;
+  const serviceDesc = subService ? subService.shortDesc : category.description;
+  const service = { name: serviceName, slug: serviceSlug, description: serviceDesc, tagline: category.tagline, shortDesc: subService ? subService.shortDesc : category.shortDesc, icon: category.icon, features: category.features };
+
+  const pageFaqs = getServiceAreaFaqs(serviceName, area.name, area.region);
+  const pageUrl = `https://www.consortiumnyc.com/services/${serviceSlug}/${area.slug}`;
   const regionLabel = area.region === area.name ? area.name : area.region;
 
   const breadcrumbs = [
     { name: "Home", url: "https://www.consortiumnyc.com" },
     { name: "Services", url: "https://www.consortiumnyc.com/nyc-marketing-company-services-list" },
-    { name: service.name, url: `https://www.consortiumnyc.com/services/${service.slug}` },
+    { name: category.name, url: `https://www.consortiumnyc.com/services/${category.slug}` },
+    ...(subService ? [{ name: subService.name, url: `https://www.consortiumnyc.com/services/${subService.slug}` }] : []),
     { name: area.name, url: pageUrl },
   ];
 
   const siblingAreas = areas.filter((a) => a.region === area.region && a.slug !== area.slug);
-  const otherServices = services.filter((s) => s.slug !== service.slug);
+  const otherServices = services.filter((s) => s.slug !== serviceSlug);
 
   return (
     <>
-      <JsonLd data={serviceSchema(service.name, service.slug, service.description, area.name)} />
+      <JsonLd data={serviceSchema(serviceName, serviceSlug, serviceDesc, area.name)} />
       <JsonLd data={localBusinessSchema(area.name, area.type)} />
-      <JsonLd data={webPageSchema(`${service.name} in ${area.name} | Consortium NYC`, `${service.name} for ${area.name} businesses.`, pageUrl, breadcrumbs)} />
+      <JsonLd data={webPageSchema(`${serviceName} in ${area.name} | Consortium NYC`, `${serviceName} for ${area.name} businesses.`, pageUrl, breadcrumbs)} />
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={faqSchema(pageFaqs)} />
       <ServiceAreaPageClient
@@ -92,7 +99,7 @@ export default async function ServiceAreaPage({
         pageFaqs={pageFaqs}
         siblingAreas={siblingAreas}
         otherServices={otherServices}
-        subServices={category?.subServices || []}
+        subServices={category.subServices}
       />
     </>
   );

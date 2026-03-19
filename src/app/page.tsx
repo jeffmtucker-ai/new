@@ -16,7 +16,6 @@ export const metadata: Metadata = {
 };
 
 // Home page sections
-import StickyBar from "@/components/home/StickyBar";
 import Hero from "@/components/home/Hero";
 import Welcome from "@/components/home/Welcome";
 import TrustBar from "@/components/home/TrustBar";
@@ -71,8 +70,6 @@ export default function Home() {
       <JsonLd data={aggregateRatingSchema()} />
       <JsonLd data={faqSchema(faqs.homepageAll)} />
 
-      {/* Sticky bottom CTA bar */}
-      <StickyBar />
 
       {/* 1. Hero */}
       <Hero />
