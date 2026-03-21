@@ -14,14 +14,10 @@ export const revalidate = false;
 
 export const dynamicParams = true;
 
+// Return empty — pages build on first visit and cache forever (revalidate = false).
+// Saves ~6,200 ISR writes per deploy.
 export function generateStaticParams() {
-  const params: { slug: string; area: string }[] = [];
-  for (const service of services) {
-    for (const a of areas) {
-      params.push({ slug: service.slug, area: a.slug });
-    }
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({
