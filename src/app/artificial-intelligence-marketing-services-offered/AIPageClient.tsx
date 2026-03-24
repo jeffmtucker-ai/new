@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import TipBlurb from "@/components/TipBlurb";
@@ -156,67 +157,37 @@ export default function AIPageClient({ faqs }: { faqs: { question: string; answe
       {/* ── MEET SELENA ── */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.5 }}>
-              <span className="text-teal-600 text-sm font-semibold tracking-[0.2em] uppercase mb-4 block font-cta">Meet Selena</span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 font-heading">
-                Your AI Customer Service Agent
-              </h2>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                Selena is our flagship AI text bot — built in-house on <strong>Claude AI</strong>, <strong>Telnyx SMS</strong>, and <strong>Supabase</strong>. She handles lead qualification, appointment booking, customer questions, <L href="/services/review-request-automation-in-nyc">review requests</L>, and follow-up — all via text message.
-              </p>
-              <p className="text-slate-600 leading-relaxed mb-6">
-                She&apos;s not a generic chatbot. She&apos;s trained on your business, your services, your pricing, and your industry. When a customer texts your number, Selena responds like a real team member who knows everything about your business.
-              </p>
-              <p className="text-slate-600 leading-relaxed mb-8">
-                Selena was built for our own <L href="/services/custom-crm-development-in-nyc">FullLoop CRM</L> and has been handling real customer conversations for real businesses. Every feature has been battle-tested.
-              </p>
-              <Link href="/contact-nyc-marketing-company-consortium-nyc" className="inline-block px-6 py-3 text-sm font-bold text-white rounded-lg bg-teal-600 hover:bg-teal-700 transition-colors font-cta">
-                See Selena in Action
-              </Link>
-            </motion.div>
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.5 }} className="text-center mb-10">
+            <span className="text-teal-600 text-sm font-semibold tracking-[0.2em] uppercase mb-4 block font-cta">Meet Selena</span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6 font-heading">
+              Your AI Customer Service Agent
+            </h2>
+            <p className="text-slate-600 leading-relaxed mb-4 max-w-2xl mx-auto">
+              Selena is our flagship AI text bot — built in-house on <strong>Claude AI</strong>, <strong>Telnyx SMS</strong>, and <strong>Supabase</strong>. She handles lead qualification, appointment booking, customer questions, <L href="/services/review-request-automation-in-nyc">review requests</L>, and follow-up — all via text message.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-4 max-w-2xl mx-auto">
+              She&apos;s not a generic chatbot. She&apos;s trained on your business, your services, your pricing, and your industry. When a customer texts your number, Selena responds like a real team member who knows everything about your business.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-8 max-w-2xl mx-auto">
+              Selena was built for our own <L href="/services/custom-crm-development-in-nyc">FullLoop CRM</L> and has been handling real customer conversations for real businesses. Every feature has been battle-tested.
+            </p>
+          </motion.div>
 
-            {/* Simulated conversation */}
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.5, delay: 0.15 }}>
-              <div className="rounded-2xl bg-slate-900 border border-slate-700 p-6 shadow-2xl">
-                <div className="flex items-center gap-2 mb-6">
-                  <div className="w-3 h-3 rounded-full bg-teal-400 animate-pulse" />
-                  <span className="text-white/60 text-xs font-mono">Selena AI — Active</span>
-                </div>
-                <div className="space-y-4">
-                  {[
-                    { from: "customer", text: "Hi, I need a plumber ASAP. My kitchen sink is leaking bad." },
-                    { from: "selena", text: "Hi! I'm sorry about the leak. I can help get a plumber to you quickly. Can I get your address and the best time for someone to come out?" },
-                    { from: "customer", text: "123 Main St, Brooklyn. Anytime today if possible" },
-                    { from: "selena", text: "Got it! I have an opening today between 2-4pm. Should I book that for you? The service call fee is $89 and will be applied to any repair work." },
-                    { from: "customer", text: "Yes book it" },
-                    { from: "selena", text: "Done! You're booked for today 2-4pm. You'll receive a confirmation text with your technician's name 30 min before arrival. Anything else I can help with?" },
-                  ].map((msg, i) => (
-                    <motion.div
-                      key={i}
-                      initial={{ opacity: 0, y: 10 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.3, delay: 0.3 + i * 0.15 }}
-                      className={`flex ${msg.from === "customer" ? "justify-end" : "justify-start"}`}
-                    >
-                      <div className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm ${
-                        msg.from === "customer"
-                          ? "bg-teal-600 text-white rounded-br-sm"
-                          : "bg-white/10 text-white/90 rounded-bl-sm"
-                      }`}>
-                        {msg.from === "selena" && <span className="text-teal-400 text-[10px] font-bold block mb-1 font-cta">SELENA AI</span>}
-                        {msg.text}
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
-                <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
-                  <span className="text-white/30 text-xs font-mono">Lead qualified + appointment booked in 47 seconds</span>
-                  <span className="text-teal-400 text-xs font-bold font-cta">Automated</span>
-                </div>
-              </div>
-            </motion.div>
+          {/* Featured screenshot */}
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.5, delay: 0.15 }} className="flex justify-center mb-10">
+            <Image
+              src="/images/selena-ai-chat-bot.png"
+              alt="Selena AI booking concierge live on The NYC Maid — built by Full Loop CRM in partnership with Consortium NYC"
+              width={900}
+              height={506}
+              className="rounded-2xl shadow-2xl border border-slate-200"
+            />
+          </motion.div>
+
+          <div className="text-center">
+            <Link href="/contact-nyc-marketing-company-consortium-nyc" className="inline-block px-6 py-3 text-sm font-bold text-white rounded-lg bg-teal-600 hover:bg-teal-700 transition-colors font-cta">
+              See Selena in Action
+            </Link>
           </div>
         </div>
       </section>
