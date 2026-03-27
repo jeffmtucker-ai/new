@@ -168,6 +168,20 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
+        <div className="mt-3 text-center">
+          <p className="text-[11px] text-slate-500">
+            Built and managed by{" "}
+            <a
+              href="https://www.fullloopcrm.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white"
+            >
+              Full Loop CRM
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
