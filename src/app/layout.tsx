@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora, DM_Sans, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { JsonLd, organizationSchema, websiteSchema } from "@/lib/schema";
 import Navbar from "@/components/Navbar";
@@ -119,6 +120,17 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <Script id="tawk-to" strategy="afterInteractive">{`
+          var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+          (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/6823effa7c5b09190cd447fe/1ir662r4n';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+          })();
+        `}</Script>
       </body>
     </html>
   );
