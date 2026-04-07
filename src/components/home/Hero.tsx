@@ -9,7 +9,7 @@ const slides = [
   {
     name: "NYC",
     pre: "Your Local NYC Marketing Company",
-    line1: "NYC Marketing",
+    line1: "NYC Marketing Company",
     line2: "For the Businesses That Run This City",
     sub: "The most competitive market in the country. We make sure you win it.",
     image: "/consortium-nyc-digital-marketing-agency-nyc.webp",
@@ -18,7 +18,7 @@ const slides = [
   {
     name: "Queens",
     pre: "Your Local Queens Marketing Company",
-    line1: "Queens Marketing",
+    line1: "Queens Marketing Company",
     line2: "For the Borough That Works Harder Than Anyone",
     sub: "The most diverse borough deserves marketing that actually gets it.",
     image: "/consortium-nyc-digital-marketing-agency-queens.webp",
@@ -27,7 +27,7 @@ const slides = [
   {
     name: "Brooklyn",
     pre: "Your Local Brooklyn Marketing Company",
-    line1: "Brooklyn Marketing",
+    line1: "Brooklyn Marketing Company",
     line2: "For the Brands That Built This Borough",
     sub: "Brands as bold as the borough. Sites that rank and convert.",
     image: "/consortium-nyc-digital-marketing-agency-brooklyn.webp",
@@ -36,7 +36,7 @@ const slides = [
   {
     name: "Long Island",
     pre: "Your Local Long Island Marketing Company",
-    line1: "Long Island Marketing",
+    line1: "Long Island Marketing Company",
     line2: "For the Businesses Your Neighbors Trust",
     sub: "Local businesses that show up first win first. We get you there.",
     image: "/consortium-nyc-digital-marketing-agency-long-island.webp",
@@ -45,7 +45,7 @@ const slides = [
   {
     name: "Hoboken",
     pre: "Your Local Hoboken Marketing Company",
-    line1: "Hoboken Marketing",
+    line1: "Hoboken Marketing Company",
     line2: "For the Mile Square City's Best Businesses",
     sub: "Small city reach with big city results. Right across the river.",
     image: "/consortium-nyc-digital-marketing-agency-hoboken.webp",
