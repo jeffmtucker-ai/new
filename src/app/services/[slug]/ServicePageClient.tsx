@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion, useMotionValue, useTransform, animate, useInView } from "framer-motion";
 import type { ServiceCategory, SubService } from "@/lib/siteData";
 import TipBlurb from "@/components/TipBlurb";
+import { serviceDeepContent } from "@/lib/serviceContent";
 
 /* ── Animated number counter ─────────────────────────────────── */
 function CountUp({ value, prefix, suffix, inView }: { value: number; prefix?: string; suffix?: string; inView: boolean }) {
@@ -57,57 +58,7 @@ const L = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link href={href} className="text-teal-600 underline underline-offset-2 hover:text-teal-700">{children}</Link>
 );
 
-/* ── Service-specific deep dive content ─────────────────────── */
-const deepContent: Record<string, { headline: string; paragraphs: React.ReactNode[] }> = {
-  "search-engine-optimization-seo-nyc": {
-    headline: "SEO That Brings Local Customers to Your Door",
-    paragraphs: [
-      <span key="1">When someone in your neighborhood searches for a <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumber</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentist</L>, or <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurant</L> — you need to be the first name they see. Our <L href="/nyc-marketing-company-services-list">SEO strategies</L> are built from the ground up around one question: how do we get your business found by customers who are ready to buy? We start with aggressive competitive analysis to find the gaps your competitors are leaving wide open, then exploit them with technical optimization, conversion-focused content, and authority-building backlinks.</span>,
-      <span key="2">For local businesses in <L href="/services-areas-we-offer-marketing-services-in">NYC, Long Island, and Westchester</L>, local SEO is a battleground. You&apos;re competing against hundreds of businesses for the same &quot;near me&quot; searches. We&apos;ve put <L href="/industries-we-offer-marketing-services-for/plumber-marketing">plumbers on page one in Brooklyn</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dentists at the top of Queens searches</L>, and <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants dominating their neighborhood results</L> — and kept them there. Our local SEO playbook includes <L href="/services/google-business-profile-services-in-nyc">Google Business Profile domination</L>, hyper-local content strategies, and citation building. All for <L href="/nyc-marketing-pricing-guide">$950/month</L>.</span>,
-      <span key="3">SEO doesn&apos;t work in a vacuum. Every ranking we earn feeds your <L href="/services/web-design-nyc">website conversion rates</L>, strengthens your reputation, and fills your phone with calls. That&apos;s the Consortium difference — SEO as part of an integrated system that turns searches into revenue. See our <L href="/nyc-marketing-company-portfolio">real results</L> or <L href="/contact-nyc-marketing-company-consortium-nyc">schedule a free strategy session</L>.</span>,
-    ],
-  },
-  "web-design-nyc": {
-    headline: "Websites That Turn Visitors Into Customers",
-    paragraphs: [
-      <span key="1">A beautiful website that doesn&apos;t generate leads is an expensive digital brochure. We build websites for <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, <L href="/industries-we-offer-marketing-services-for/law-firm-marketing">law firms</L>, and <L href="/industries-we-offer-marketing-services-for">100+ industries</L> — engineered for conversion from the first wireframe. Every layout decision, every call-to-action placement, every page flow is informed by data. Custom websites starting at <L href="/nyc-marketing-pricing-guide">$4,600</L>.</span>,
-      <span key="2">Speed matters. Our sites load in under 2 seconds, score 90+ on Core Web Vitals, and are built with <L href="/services/search-engine-optimization-seo-nyc">SEO architecture</L> baked into every page. For businesses competing in <L href="/services-areas-we-offer-marketing-services-in">NYC, Long Island, and Westchester</L>, your website is often the first impression. We make sure that impression converts. Mobile-first design isn&apos;t optional — over 70% of local searches happen on phones.</span>,
-      <span key="3">Your website connects directly to your <L href="/services/search-engine-optimization-seo-nyc">SEO rankings</L> and integrates with your booking and lead capture systems. From lead capture forms to click-to-call buttons to online booking, every element works together. See <L href="/nyc-marketing-company-portfolio">websites we&apos;ve built</L>.</span>,
-    ],
-  },
-  "ai-automation-services-in-nyc": {
-    headline: "AI That Works While You Sleep",
-    paragraphs: [
-      <span key="1">Your competitors are answering leads at 2am while you sleep. Our <L href="/services/ai-text-bot-development-in-nyc">AI text bots</L> handle lead qualification, appointment booking, and customer service — all via SMS. Built on Telnyx, Supabase, and Claude AI. Not a chatbot widget. Not a plugin. Real AI infrastructure that you own.</span>,
-      <span key="2">When a potential customer fills out your contact form at midnight, automation kicks in immediately — qualifying the lead, answering their questions, and booking an appointment. For busy <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">service business owners</L> who can&apos;t be glued to their phone all day, this is a game-changer. We built Selena — the first AI customer service bot that handles <L href="/industries-we-offer-marketing-services-for">100+ industries</L>.</span>,
-      <span key="3">AI automation starts at <L href="/nyc-marketing-pricing-guide">$1,000/month after a $25K setup</L>. That covers custom bot development, <L href="/services/custom-crm-development-in-nyc">CRM integration</L>, workflow design, and ongoing improvements. The setup pays for itself within months through leads you&apos;d otherwise lose to slow follow-up. See <L href="/whats-working-in-marketing">what&apos;s working right now</L>.</span>,
-    ],
-  },
-  "programmatic-seo-services-in-nyc": {
-    headline: "Hundreds of Ranking Pages — Deployed at Scale",
-    paragraphs: [
-      <span key="1">This is how we took <L href="/nyc-marketing-company-portfolio">Moodap&trade;</L> from zero to 25,000 pages and 2,000 page 1 rankings in 2 months. Programmatic SEO builds systems that generate hundreds or thousands of unique, keyword-targeted pages — each optimized for a specific search query. Not AI-generated filler. Not duplicate content with swapped city names. Real pages built to rank.</span>,
-      <span key="2"><L href="/services/micro-site-emd-strategy-in-nyc">Micro site EMD strategies</L> are finding page 1 in 7 days. <L href="/services/location-page-generation-in-nyc">Location pages</L> dominate every neighborhood you serve. <L href="/services/service-page-generation-in-nyc">Service pages</L> capture long-tail searches your competitors don&apos;t even know exist. This is the most powerful SEO strategy available — and nobody else is doing it at this level.</span>,
-      <span key="3">Programmatic SEO starts at <L href="/nyc-marketing-pricing-guide">$5,000</L> for the initial build. Ongoing optimization is included in monthly <L href="/services/search-engine-optimization-seo-nyc">SEO retainers</L>. Check out our <L href="/whats-working-in-marketing">proof screenshots from Google Search Console</L>.</span>,
-    ],
-  },
-  "custom-crm-development-in-nyc": {
-    headline: "Your Business, Your Platform, Your Data",
-    paragraphs: [
-      <span key="1">Stop paying $300/month for a CRM you use 10% of. We build custom CRM platforms tailored to your exact workflow — lead tracking, automated follow-up, <L href="/services/ai-automation-services-in-nyc">AI text bots</L>, appointment scheduling, review management, and reporting. Built on Next.js, Supabase, Resend, and Telnyx. You own the code. You own the data.</span>,
-      <span key="2">We built <L href="/whats-working-in-marketing">FullLoop CRM</L> — our own customer management platform with integrated <L href="/services/ai-text-bot-development-in-nyc">AI text bot (Selena)</L>, automated <L href="/services/review-request-automation-in-nyc">review requests</L>, lead pipeline management, and real-time analytics. Every feature we build for clients, we test on ourselves first.</span>,
-      <span key="3">Custom CRM development starts at <L href="/nyc-marketing-pricing-guide">$25,000</L>. After launch, hosting is minimal — typically under $50/month because you own the infrastructure. No monthly SaaS fees. No vendor lock-in. See our <L href="/nyc-marketing-pricing-guide">transparent pricing</L>.</span>,
-    ],
-  },
-  "google-business-profile-services-in-nyc": {
-    headline: "Your Most Important Listing — Done Right",
-    paragraphs: [
-      <span key="1">Your Google Business Profile is often the first thing customers see. We handle everything — creation, verification submission, full optimization of every field, photo uploads, weekly posts, review response management, and ongoing monitoring. For <L href="/industries-we-offer-marketing-services-for/home-service-business-marketing">home service businesses</L>, <L href="/industries-we-offer-marketing-services-for/dental-practice-marketing">dental practices</L>, and <L href="/industries-we-offer-marketing-services-for/restaurant-food-service-marketing">restaurants</L>, this is your most important digital asset.</span>,
-      <span key="2">GBP setup and verification submission is <L href="/nyc-marketing-pricing-guide">$500</L>. We cannot guarantee approval — Google controls the verification process — but we optimize everything to maximize your chances. Ongoing management (weekly posts, review responses, Q&amp;A monitoring) is included in our monthly <L href="/services/search-engine-optimization-seo-nyc">SEO retainers</L>.</span>,
-      <span key="3">A fully optimized GBP feeds directly into your <L href="/services/search-engine-optimization-seo-nyc">local SEO rankings</L>. Reviews, posts, photos, and Q&amp;A all signal relevance to Google. When combined with our <L href="/services/local-seo-in-nyc">local SEO</L> strategy, you dominate the map pack and organic results. See <L href="/nyc-marketing-company-portfolio">real results</L>.</span>,
-    ],
-  },
-};
+/* deepContent is now imported from @/lib/serviceContent */
 
 /* ── Portfolio stats for the proof section ──────────────────── */
 const proofStats = [
@@ -141,7 +92,7 @@ export default function ServicePageClient({
   const description = isSubService ? subService.shortDesc : category.description;
   const tagline = category.tagline;
   const features = category.features;
-  const deepDive = deepContent[category.slug];
+  const deepDive = serviceDeepContent[category.slug];
 
   const statsRef = useRef<HTMLDivElement>(null);
   const statsInView = useInView(statsRef, { once: true, margin: "-100px" });
@@ -387,11 +338,32 @@ export default function ServicePageClient({
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-8 font-heading">
                 {deepDive.headline}
               </h2>
-              <div className="space-y-5">
-                {deepDive.paragraphs.map((p, i) => (
+              {/* Intro paragraphs */}
+              <div className="space-y-5 mb-14">
+                {deepDive.intro.map((p, i) => (
                   <p key={i} className="text-slate-600 text-base sm:text-lg leading-relaxed">{p}</p>
                 ))}
               </div>
+              {/* H3 sections */}
+              {deepDive.sections.map((section, si) => (
+                <motion.div
+                  key={si}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: si * 0.03 }}
+                  className="mb-12"
+                >
+                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-5 font-heading border-l-4 border-teal-500 pl-4">
+                    {section.title}
+                  </h3>
+                  <div className="space-y-4">
+                    {section.content.map((p, pi) => (
+                      <p key={pi} className="text-slate-600 text-base sm:text-lg leading-relaxed">{p}</p>
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
             </motion.div>
           </div>
         </section>

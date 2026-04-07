@@ -33,17 +33,21 @@ export async function generateMetadata({
   const { category, subService } = result;
   const name = subService ? subService.name : category.name;
   const desc = subService ? subService.shortDesc : category.description;
-  const metaDesc = `${desc} Call/text (212) 202-9220.`;
+  const fallbackDesc = `${desc} Consortium NYC. Call/text (212) 202-9220.`;
+  const fallbackTitle = `NYC ${name} | Consortium NYC`;
+
+  const title = subService ? fallbackTitle : (category.metaTitle ?? fallbackTitle);
+  const description = subService ? fallbackDesc : (category.metaDescription ?? fallbackDesc);
 
   return {
-    title: `NYC ${name} | Consortium NYC`,
-    description: metaDesc,
+    title,
+    description,
     alternates: {
       canonical: `https://www.consortiumnyc.com/services/${slug}`,
     },
     openGraph: {
-      title: `NYC ${name} | Consortium NYC`,
-      description: metaDesc,
+      title,
+      description,
       url: `https://www.consortiumnyc.com/services/${slug}`,
     },
   };
