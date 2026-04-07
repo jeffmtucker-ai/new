@@ -51,7 +51,6 @@ import ExpandedFAQ from "@/components/home/ExpandedFAQ";
 import BlogPreview from "@/components/home/BlogPreview";
 import FinalCTA from "@/components/home/FinalCTA";
 import ExitIntent from "@/components/home/ExitIntent";
-import WhatsNew from "@/components/home/WhatsNew";
 
 const breadcrumbs = [{ name: "Home", url: "https://www.consortiumnyc.com" }];
 
@@ -74,9 +73,6 @@ export default function Home() {
 
       {/* 1. Hero */}
       <Hero />
-
-      {/* 1a. What's New — Selena announcement */}
-      <WhatsNew />
 
       {/* 1b. Quick marketing tips */}
       <QuickTips />
