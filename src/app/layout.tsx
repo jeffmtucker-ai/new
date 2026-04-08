@@ -117,6 +117,16 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased">
         <GoogleAnalytics gaId="G-QN1ZPCL4NS" />
+        {/* Rebrand announcement banner */}
+        <div className="relative z-50 bg-teal-600 text-white text-center py-3 px-4 text-sm sm:text-base font-medium font-cta tracking-wide">
+          Consortium NYC is now <strong>The NYC Marketing Company</strong>.{" "}
+          <a
+            href="https://www.thenycmarketingcompany.com"
+            className="underline underline-offset-2 hover:text-teal-100 transition-colors"
+          >
+            Visit our new site &rarr;
+          </a>
+        </div>
         <Navbar />
         <main>{children}</main>
         <Footer />
