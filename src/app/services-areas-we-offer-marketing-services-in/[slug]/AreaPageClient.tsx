@@ -509,7 +509,7 @@ export default function AreaPageClient({
                 {[
                   { label: "100+ Industries", href: "/industries-we-offer-marketing-services-for" },
                   { label: "80+ Service Areas", href: "/services-areas-we-offer-marketing-services-in" },
-                  { label: "About Consortium NYC", href: "/about-digital-marketing-agency-consortium-nyc" },
+                  { label: "About The NYC Marketing Company", href: "/about-digital-marketing-agency-consortium-nyc" },
                   { label: "Free SEO Audit", href: "/the-free-human+ai-seo-marketing-review" },
                   { label: "Contact Us", href: "/contact-nyc-marketing-company-consortium-nyc" },
                 ].map((link) => (

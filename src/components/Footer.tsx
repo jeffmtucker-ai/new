@@ -40,11 +40,8 @@ export default function Footer() {
           {/* Column 1: Company Info */}
           <div>
             <Link href="/" className="inline-flex items-center gap-0.5">
-              <span className="text-xl font-bold tracking-widest text-white">
-                CONSORTIUM
-              </span>
-              <span className="text-xl font-bold tracking-widest text-teal-400">
-                NYC
+              <span className="text-xl font-bold tracking-widest text-white leading-tight">
+                THE NYC<br />MARKETING CO
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-300">
@@ -144,7 +141,7 @@ export default function Footer() {
         <div className="mt-14 rounded-lg bg-slate-800 px-6 py-4">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-slate-400">
-              &copy; {year} Consortium NYC. All rights reserved.
+              &copy; {year} The NYC Marketing Company. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <Link

@@ -24,7 +24,7 @@ export default function FinalCTA() {
           </h2>
 
           <p className="text-white/80 text-lg sm:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
-            Over 10,000 businesses across New York City, Brooklyn, Queens, Long Island, and Westchester have trusted Consortium NYC to grow their revenue through organic marketing. You&apos;re next.
+            Over 10,000 businesses across New York City, Brooklyn, Queens, Long Island, and Westchester have trusted The NYC Marketing Company to grow their revenue through organic marketing. You&apos;re next.
           </p>
 
           {/* Primary CTA */}

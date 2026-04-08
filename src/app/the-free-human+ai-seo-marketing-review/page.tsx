@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import FreeSEOAudit from "./FreeReviewClient";
 
-const title = "Free Human+AI SEO & Marketing Review | Consortium NYC";
+const title = "Free Human+AI SEO & Marketing Review | The NYC Marketing Company";
 const description =
   "Get a free SEO and marketing review powered by human expertise and AI analysis. We audit your website, Google Business Profile, competitors, and local rankings — then deliver a custom action plan. Call/text (212) 202-9220.";
 const url = "https://www.consortiumnyc.com/the-free-human+ai-seo-marketing-review";
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: "Consortium NYC",
+    siteName: "The NYC Marketing Company",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "The NYC Marketing Company" }],
   },
   twitter: {
     card: "summary_large_image",

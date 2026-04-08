@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const FROM = "Consortium NYC <notifications@consortiumnyc.com>";
+const FROM = "The NYC Marketing Company <notifications@consortiumnyc.com>";
 const TO = "consortiummarketinggroupnyc@gmail.com";
 
 /**

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | Consortium NYC";
+const title = "NYC Marketing Company Portfolio | Real SEO Results & Case Studies | The NYC Marketing Company";
 const description =
   "See real SEO results, traffic growth, and revenue numbers from NYC businesses we've grown from zero. Visit their websites, Google them — every result is verifiable. No stock photos, no fake case studies. Call/text (212) 202-9220.";
 const url = "https://www.consortiumnyc.com/nyc-marketing-company-portfolio";
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: "Consortium NYC",
+    siteName: "The NYC Marketing Company",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "The NYC Marketing Company" }],
   },
   twitter: {
     card: "summary_large_image",

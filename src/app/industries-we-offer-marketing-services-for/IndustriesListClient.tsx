@@ -405,7 +405,7 @@ export default function IndustriesListClient() {
             className="text-center mb-14"
           >
             <p className="text-teal-600 text-sm font-semibold tracking-[0.2em] uppercase mb-4 font-cta">
-              Why Consortium NYC
+              Why The NYC Marketing Company
             </p>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4 font-heading">
               Why We Work Across{" "}

@@ -38,7 +38,7 @@ export default function Testimonials() {
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4 font-heading">
             What NYC &amp; Long Island Businesses{" "}
-            <span className="text-teal-400">Say About Consortium</span>
+            <span className="text-teal-400">Say About The NYC Marketing Company</span>
           </h2>
 
           {/* Overall rating summary */}

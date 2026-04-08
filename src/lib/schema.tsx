@@ -4,7 +4,7 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://www.consortiumnyc.com/#organization",
-  name: "Consortium NYC",
+  name: "The NYC Marketing Company",
   url: "https://www.consortiumnyc.com",
   logo: {
     "@type": "ImageObject",
@@ -14,7 +14,7 @@ export const organizationSchema = {
   },
   image: "https://www.consortiumnyc.com/og-image.jpg",
   description:
-    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
+    "The NYC Marketing Company is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for businesses across NYC, Long Island, and Westchester.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "New York",
@@ -75,7 +75,7 @@ export const websiteSchema = {
   "@type": "WebSite",
   "@id": "https://www.consortiumnyc.com/#website",
   url: "https://www.consortiumnyc.com",
-  name: "Consortium NYC",
+  name: "The NYC Marketing Company",
   description: "NYC Marketing Company | SEO, Branding, Web Design & Automation",
   publisher: {
     "@id": "https://www.consortiumnyc.com/#organization",
@@ -95,7 +95,7 @@ export function localBusinessSchema(area: string, areaType: string = "City") {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "@id": `https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}/#localbusiness`,
-    name: `Consortium NYC - ${area} Digital Marketing`,
+    name: `The NYC Marketing Company - ${area} Digital Marketing`,
     image: "https://www.consortiumnyc.com/og-image.jpg",
     url: `https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in/${area.toLowerCase().replace(/\s+/g, "-")}`,
     telephone: "+1-212-202-9220",
@@ -248,7 +248,7 @@ export function aggregateRatingSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Consortium NYC",
+    name: "The NYC Marketing Company",
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",

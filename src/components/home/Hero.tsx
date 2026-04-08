@@ -120,7 +120,7 @@ export default function Hero() {
         </div>
 
         {/* Main headline — crossfade */}
-        <div className="relative h-[200px] sm:h-[220px] md:h-[260px] lg:h-[320px] flex items-center justify-center mb-4">
+        <div className="relative h-[240px] sm:h-[260px] md:h-[300px] lg:h-[350px] flex items-center justify-center mb-4">
           <AnimatePresence>
             <motion.h1
               key={`h1-${current}`}
@@ -130,8 +130,8 @@ export default function Hero() {
               transition={{ duration: 0.8 }}
               className="absolute w-full font-extrabold text-white leading-[1.1] font-heading"
             >
-              <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl">{slide.line1}</span>
-              <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-teal-400 mt-4">{slide.line2}</span>
+              <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">{slide.line1}</span>
+              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl text-teal-400 mt-4">{slide.line2}</span>
             </motion.h1>
           </AnimatePresence>
         </div>

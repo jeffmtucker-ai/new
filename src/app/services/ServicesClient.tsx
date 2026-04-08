@@ -56,7 +56,7 @@ export default function ServicesPage() {
       {/* Schema Markup */}
       <JsonLd
         data={webPageSchema(
-          "Our Services | Consortium NYC",
+          "Our Services | The NYC Marketing Company",
           "Explore our full suite of digital marketing services including SEO, web design, branding, digital strategy, business development, and automation for NYC businesses.",
           "https://www.consortiumnyc.com/services"
         )}

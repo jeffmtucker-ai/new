@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import TipBlurb from "@/components/TipBlurb";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 
-const title = "What's Working in Marketing Right Now | Consortium NYC";
+const title = "What's Working in Marketing Right Now | The NYC Marketing Company";
 const description =
-  "Real-time notes, updates, and observations from the team at Consortium NYC. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.";
+  "Real-time notes, updates, and observations from the team at The NYC Marketing Company. What's actually working in SEO, web design, and digital marketing — no fluff, no theory. Call/text (212) 202-9220.";
 const url = "https://www.consortiumnyc.com/whats-working-in-marketing";
 
 export const metadata: Metadata = {
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: "Consortium NYC",
+    siteName: "The NYC Marketing Company",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "The NYC Marketing Company" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -183,7 +183,7 @@ const updates = [
     content: (
       <>
         <p>
-          As of this week, Consortium NYC has fully abandoned WordPress, Webflow, Squarespace, and every other CMS platform. Every client site — including this one — now runs on our custom stack:
+          As of this week, The NYC Marketing Company has fully abandoned WordPress, Webflow, Squarespace, and every other CMS platform. Every client site — including this one — now runs on our custom stack:
         </p>
         <ul>
           <li><strong>Next.js</strong> — React framework for server-rendered, SEO-optimized pages</li>

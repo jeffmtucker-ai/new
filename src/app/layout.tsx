@@ -34,11 +34,11 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.consortiumnyc.com"),
   title: {
-    default: "NYC Marketing Company | Consortium NYC",
-    template: "%s | Consortium NYC",
+    default: "NYC Marketing Company | The NYC Marketing Company",
+    template: "%s | The NYC Marketing Company",
   },
   description:
-    "Consortium NYC is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester. Call/text (212) 202-9220.",
+    "The NYC Marketing Company is a full-service NYC marketing company specializing in SEO, branding, web design, business development, and automation for local businesses in NYC, Long Island, and Westchester. Call/text (212) 202-9220.",
   keywords: [
     "nyc marketing company",
     "seo agency new york",
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     "digital marketing long island",
     "web design westchester",
   ],
-  authors: [{ name: "Consortium NYC" }],
-  creator: "Consortium NYC",
-  publisher: "Consortium NYC",
+  authors: [{ name: "The NYC Marketing Company" }],
+  creator: "The NYC Marketing Company",
+  publisher: "The NYC Marketing Company",
   formatDetection: {
     email: false,
     address: false,
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.consortiumnyc.com",
-    siteName: "Consortium NYC",
-    title: "NYC Marketing Company | Consortium NYC",
+    siteName: "The NYC Marketing Company",
+    title: "NYC Marketing Company | The NYC Marketing Company",
     description:
       "Full-service NYC marketing company for local businesses in NYC, Long Island, and Westchester. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
     images: [
@@ -72,13 +72,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Consortium NYC - NYC Marketing Company",
+        alt: "The NYC Marketing Company - NYC Marketing Company",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "NYC Marketing Company | Consortium NYC",
+    title: "NYC Marketing Company | The NYC Marketing Company",
     description:
       "Full-service NYC marketing company for local businesses. SEO, web design, branding, and automation. Call/text (212) 202-9220.",
     images: ["/og-image.jpg"],

@@ -111,11 +111,8 @@ export default function Navbar() {
       <div className="grid grid-cols-[auto_1fr_auto] items-center px-3 sm:px-4 py-4">
         {/* Logo — left */}
         <Link href="/" className="flex items-center gap-0.5 shrink-0">
-          <span className="text-xl font-bold tracking-widest text-white font-heading">
-            CONSORTIUM
-          </span>
-          <span className="text-xl font-bold tracking-widest text-teal-200 font-heading">
-            NYC
+          <span className="text-lg font-bold tracking-widest text-white font-heading leading-tight">
+            THE NYC<br />MARKETING CO
           </span>
         </Link>
 

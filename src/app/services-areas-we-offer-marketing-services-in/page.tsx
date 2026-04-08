@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { JsonLd, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import ServiceAreasClient from "./ServiceAreasClient";
 
-const title = "Service Areas | NYC, Long Island, Westchester & NJ Marketing Company | Consortium NYC";
+const title = "Service Areas | NYC, Long Island, Westchester & NJ Marketing Company | The NYC Marketing Company";
 const description =
   "Marketing services across 80+ neighborhoods in NYC, Long Island, Westchester, and New Jersey. SEO, web design, branding, AI automation, and more for local businesses in the tri-state area. Call/text (212) 202-9220.";
 const url = "https://www.consortiumnyc.com/services-areas-we-offer-marketing-services-in";
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: "Consortium NYC",
+    siteName: "The NYC Marketing Company",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Consortium NYC" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "The NYC Marketing Company" }],
   },
   twitter: {
     card: "summary_large_image",

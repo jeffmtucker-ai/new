@@ -77,7 +77,7 @@ const tiers = [
   {
     rate: 250,
     name: "Enterprise+",
-    description: "The full Consortium — everything we offer, fully custom",
+    description: "The full NYC Marketing Company experience — everything we offer, fully custom",
     services: [
       { label: "Everything in Enterprise", href: null },
       { label: "AI Agents", href: "/artificial-intelligence-marketing-services-offered" },

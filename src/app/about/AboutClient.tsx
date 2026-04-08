@@ -91,8 +91,8 @@ export default function AboutPage() {
       {/* Schema Markup */}
       <JsonLd
         data={webPageSchema(
-          "About Consortium NYC",
-          "Learn about Consortium NYC, a data-driven NYC marketing company. We help businesses across NYC, Long Island, and Westchester grow with SEO, branding, web design, and automation.",
+          "About The NYC Marketing Company",
+          "Learn about The NYC Marketing Company, a data-driven NYC marketing company. We help businesses across NYC, Long Island, and Westchester grow with SEO, branding, web design, and automation.",
           "https://www.consortiumnyc.com/about"
         )}
       />
@@ -163,7 +163,7 @@ export default function AboutPage() {
             className="space-y-6 text-warm-gray text-lg leading-relaxed"
           >
             <p>
-              Consortium NYC was founded with a simple belief: digital marketing
+              The NYC Marketing Company was founded with a simple belief: digital marketing
               should be measurable, transparent, and relentlessly focused on
               results. Too many agencies hide behind jargon and vanity metrics.
               We built something different -- an agency where every strategy is

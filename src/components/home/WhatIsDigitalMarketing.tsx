@@ -223,7 +223,7 @@ export default function WhatIsDigitalMarketing() {
               submissions.
             </p>
             <p>
-              That&apos;s exactly what Consortium NYC does. We&apos;ve been doing it for
+              That&apos;s exactly what The NYC Marketing Company does. We&apos;ve been doing it for
               over a decade, exclusively for businesses in the New York metro
               area. We know this market because we live in it, work in it, and
               dominate it — every day.
